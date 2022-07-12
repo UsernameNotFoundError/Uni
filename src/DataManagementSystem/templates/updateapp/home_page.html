@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+    {% block body_block%}
+    <div class="jumbotron">
+      <h2>Hello Sir {{user.username}}!</h2>
+      <h3>It's {% now "jS F Y H:i" %}</h3>
+      <h3>This is the update page:</h3>
+      <hr>
+      <form class=""  method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label class="custom-file-label" for="files_list">Choose a folder to update</label>
+        <input type="file" class="custom-folder-input form-control" name="files_list" id="files_list" webkitdirectory directory multiple/>*
+        <ul></ul>
+        <button type="button" class="btn btn-danger form-control" data-toggle="modal" data-target="#doublecheck">Upload</button>
+        <!-- Double check window -->
+        <div class="modal fade" id="doublecheck" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title custom_align" id="Heading">Procceed?</h4>
+              </div><!-- modal-header -->
+
+              <div class="modal-body">
+                Updating new files might take a while. Do you want to proceed?
+                  <hr>
+
+              </div>
+
+              <div class="modal-footer ">
+                <button type="submit" class="btn btn-warning">Yes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+              </div>
+
+            </div>  <!-- /.modal-content -->
+          </div>  <!-- /.modal-dialog -->
+        </div>
+      </form>
+
+    </div>   
+
+    {% endblock %}

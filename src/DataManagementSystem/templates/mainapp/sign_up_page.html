@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+{% block body_block%}
+	<div class=" col-md-2 col-sm-0 col-xs-0">
+
+	</div>
+	<div class="jumbotron col-md-8 col-sm-12 col-xs-12 center-block">
+    {% if registered %}
+      <h1> Thank you for registering! :D</h1>
+    {% else %}
+      <h2> Registration form </h1>
+				<hr>
+      <form action="{% url 'sign_up' %}"  method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ user_form.as_p }}
+        <input type="submit" class="btn btn-primary form-control" value="Sign up">
+      </form>
+    {% endif %}
+  </div>
+{% endblock %}

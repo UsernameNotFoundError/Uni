@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+    {% block body_block%}
+    <div class="jumbotron">
+      <h3>Updating in progress:</h1>
+      <hr>
+      Updating Species table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating Assembly table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating Genomic Annotation table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating Proteins tables
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 9%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating Feature Annotations table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating BlastDB table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Updating DiamondDB table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <button type="button" class="btn btn-warning pull-right">Cancel</button>
+    </div>
+    
+
+    {% endblock %}

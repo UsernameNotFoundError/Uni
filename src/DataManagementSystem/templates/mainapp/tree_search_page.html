@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+    {% block body_block%}
+    <script type="text/javascript" src="/static/javascript/search_page.js"> </script>
+
+    <div class="alert alert-warning" role="alert">
+    <strong>Hello {{user.username}}!</strong>
+    <hr>This Page is still under devolepment please use the normal search method using *[taxa] in your querry
+    Please feel free to send me suggestions!
+    </div>
+    <div class="jumbotron">
+      <!--https://bootsnipp.com/snippets/2q81r
+          https://bootsnipp.com/snippets/2P90
+          https://codepen.io/bseth99/pen/fboKH?editors=1010-->
+      <div class="container ">
+      	<div class="row">
+      		<div class="col-md-12">
+            <div class="input-group rounded" id="adv-search">
+              <form class=""  method="POST">
+                {% csrf_token %}
+                <div class="input-group-btn">
+                  <input type="search" class="form-control rounded" name="search_querry" id="search_querry" placeholder="keyword to search" />
+                    <button type="submit" class="btn btn-info" method="POST">
+                      <span class="glyphicon glyphicon-search " aria-hidden="true"></span>
+                    </button>
+                    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                      <span class="glyphicon glyphicon-cog"></span><span> </span> <span class="caret"></span>
+                    </button>
+
+                    <ul id="mylist" class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                      <li class="form-check dropdown-item">
+                        <a ><input class="form-check-input allChecked" type="checkbox" value="all_checked" id="checkall" name="all_checked" checked>
+                        <label class="form-check-label " for="all">
+                        All
+                        </label>
+                        </a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li class="form-check dropdown-item">
+                        <a>
+                        <input class="form-check-input checkthis" type="checkbox" value="0" id="fna" name="what_is_checked" checked>
+                        <label class="form-check-label" for="fna">
+                          Genome (fna)
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item">
+                        <a ><input class="form-check-input checkthis" type="checkbox" value="1" name="what_is_checked" id="gff"  checked>
+                        <label class="form-check-label" for="gff">
+                        Gene Features (gff)
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item">
+                        <a>
+                        <input class="form-check-input checkthis" type="checkbox" value="2" id="fa" name="what_is_checked" checked>
+                        <label class="form-check-label" for="fa">
+                          Longest Proteins (fa)
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item">
+                        <a>
+                        <input class="form-check-input checkthis" type="checkbox" value="3" id="faa" name="what_is_checked" checked>
+                        <label class="form-check-label" for="faa">
+                          All Proteins (faa)
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item" ><a >
+                        <input class="form-check-input checkthis" type="checkbox" value="4" id="json" name="what_is_checked" checked>
+                        <label class="form-check-label" for="jason">
+                          Feature Annotation (json)
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item">
+                        <a>
+                        <input class="form-check-input checkthis" type="checkbox" value="5" id="blastdb" name="what_is_checked" checked>
+                        <label class="form-check-label" for="blastdb">
+                          BlastDB
+                        </label>
+                        </a>
+                      </li>
+                      <li class="form-check dropdown-item">
+                        <a>
+                        <input class="form-check-input checkthis" type="checkbox" value="6" id="diamonddb" name="what_is_checked" checked>
+                        <label class="form-check-label" for="diamonddb">
+                          DiamondDB
+                        </label>
+                        </a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a>
+                          <div class="input-group-btn">
+                            <button type="submit" class="btn btn-danger form-control "><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
+                          </div>
+                          </a>
+                      </li>
+                    </ul>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <!-- cellular organisms; Eukaryota; Opisthokonta; Metazoa; Eumetazoa; Bilateria; Deuterostomia; Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi; Sarcopterygii; Dipnotetrapodomorpha; Tetrapoda; Amniota; Mammalia; Theria; Eutheria; Boreoeutheria; Laurasiatheria; Carnivora; Caniformia; Odobenidae; Odobenus; Odobenus rosmarus -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            cellular organisms
+          </button>
+          <div class="dropdown-menu">
+
+            <li class="dropdown-item"> <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Archea
+            </button>
+            <div class="dropdown-menu">
+             test
+            </div>
+            </li>
+
+            <li class="dropdown-item"> <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Bacteria
+            </button>
+            <div class="dropdown-menu">
+             test
+            </div>
+            </li>
+            
+            <li class="dropdown-item"><button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Eukaryota
+            </button>
+            <div class="dropdown-menu">
+             test
+            </div>
+          </li>
+          </div>
+        </div>
+      	</div>
+      </div>
+    </div>
+
+
+    {% endblock %}

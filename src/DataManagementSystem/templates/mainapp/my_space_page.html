@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+  {% block body_block%}
+  <script type="text/javascript" src="/static/javascript/my_space_page.js"> </script>
+  <div class=" jumbotron">
+  <div class="row">
+  <div class="col-md-3 table-wrapper-scroll-y my-custom-scrollbar table-hover">
+    <h2> My searches: </h2>
+    <hr>
+    <div class="row">
+      <div class="col-4">
+        <hr>
+        <div class="table-responsive table-striped">
+          <form class="" method="POST">
+            {% csrf_token %}
+            <table id="mytable" class="table table-bordred table-striped table-hover table-sm">
+              <thead class="thead-dark">
+                <!-- table collum names -->
+                 <th><input class="form-check-input allChecked form-control " type="checkbox" value="all_checked" id="checkall" name="all_checked" /></th>
+                 {% for cl in my_search_collumns %}
+                   <th class="th-sm">{{ cl }}</th>
+                 {% endfor %}
+                 <th class="text-center" style="width:10%">View</th>
+                 <th class="text-center" style="width:5%">Delete</th>
+               </thead>
+              <tbody>
+                {% for object in my_searchs %}
+                  <tr>
+                  <td><input type="checkbox" class="form-check-input form-control checkthis" value={{object.search_id}} name="what_is_checked"/></td>
+                  <td>{{object.date_of_the_experiment}}</td>
+                  <td>{{object.querry_used}}</td>
+                  <td> <a href="?target={{object.search_id}}"> <span class="glyphicon glyphicon-search  form-control" aria-hidden="true"></span> </a></td>
+                  <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#deletewindow" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </form>
+        </div> <!-- table reponsive -->
+      </div>
+    </div>
+  </div> <!-- End First table block-->
+  <div class="vr"></div>
+  <div class="col-md-9"><!-- Start second table block-->
+     <div class="row">
+        <div class="col-md-12">
+          <h3>Search results</h3>
+          <hr>
+          <div class="table-responsive">
+            <table id="mytable" class="table table-bordred table-striped table-hover">
+              <thead>
+                 <th><input type="checkbox" id="checkall" /></th>
+                 {% for cl in my_results_collumns %}
+                   <th>{{ cl }}</th>
+                 {% endfor %}
+                 <th>Remove</th>
+               </thead>
+               <tbody>
+                 {% for object in my_results_object %}
+                   <tr>
+                   <td><input type="checkbox" class="form-check-input form-control checkthis" value={{object.search_id}} name="what_is_checked"/></td>
+                   <td>{{object.file_type}}</td>
+                   <td>{{object.assembly_id}}</td>
+                   <td>{{object.assembly_version}}</td>
+                   <td>{{object.ncbi_id}}</td>
+                   <td>{{object.species_name}}</td>
+                   <td>{{object.alias}}</td>
+                   <td>{{object.assembly_source}}</td>
+                   <td>{{object.file_location}}</td>
+                   <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#deletewindow" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                   </tr>
+                 {% endfor %}
+               </tbody>
+            </table>
+          </div> <!-- table reponsive -->
+        </div> <!-- col-md-12 -->
+     </div> <!-- row -->
+    <hr>
+    <div class="container">
+      <ul class="pagination pull-right">
+        {% if my_results_object.has_previous %}
+          <li><a href="?target={{object_target}}&page=1"><span class="glyphicon glyphicon-step-backward"></span>First</a></li>
+          <li><a href="?target={{object_target}}&page={{ my_results_object.previous_page_number }}"><span class="glyphicon glyphicon-chevron-left"></span></a></li>
+        {% endif %}
+        {% for page_num in page_pagination_bar %}
+          {% if page_num == my_results_object.number %}
+            <li class="active"><a href="?target={{object_target}}"> {{my_results_object.number}}</a></li> 
+          {% else %}
+            <li><a href="?target={{object_target}}&page={{page_num}}">{{page_num}}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% if my_results_object.has_next %}
+          <li><a href="?target={{object_target}}&page={{ my_results_object.next_page_number }}"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
+          <li><a href="?target={{object_target}}&page={{ my_results_object.paginator.num_pages }}"> Last <span class="glyphicon glyphicon-step-forward"></span></a></li>
+        {% endif %}
+      </ul>
+      Page {{ my_results_object.number }} of {{ my_results_object.paginator.num_pages }}
+      <br>
+      <br>
+      <hr>
+    </div>
+
+    <div class="container">
+      <h2>Filter</h2>
+      <button type="button" class="btn btn-primary btn-lg pull-right" data-title="Save shortcuts" data-toggle="modal" data-target="#downloadwindow">Download</button>
+      <button type="button" class="btn btn-secondary btn-lg pull-right" disabled>Discard</button>
+      <button type="button" class="btn btn-success btn-lg " disabled>Kmer</button>
+      <button type="button" class="btn btn-warning btn-lg " disabled>Busco</button>
+    </div>
+
+  </div> <!-- second table block -->
+    </div><!-- class="row"-->
+    <!-- Download button -->
+    <div class="modal fade" id="downloadwindow" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    <form class="" method="POST">
+      {% csrf_token %}
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+        <h4 class="modal-title custom_align" id="Heading">Save location</h4>
+      </div><!-- modal-header -->
+      <div class="modal-body">
+          <div class="alert alert-info">  <h4> <span> </span> <span class="glyphicon glyphicon-download-alt"></span>These are the links to your desired files: </h4> <br>
+            <div >
+              {% for object in my_results_object %}
+                <p>{{object.file_location}}</p>
+              {% endfor %}
+            </div>
+          </div>
+          <hr>
+      </div>
+      <div class="modal-footer ">
+        <button onclick=copyThis()  class="btn btn-warning">Copy</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Close</button>
+      </div>
+    </form>
+    </div>  <!-- /.modal-content -->
+  </div>  <!-- /.modal-dialog -->
+  </div>
+  </div> <!-- jambootron -->
+<div id="text_to_copy" hidden data-dismiss="modal">{% for object in my_results_object %}{{object.file_location}}
+{% endfor %}</div>
+  {% endblock %}

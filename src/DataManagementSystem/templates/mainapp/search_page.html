@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+    {% block body_block%}
+    <script type="text/javascript" src="/static/javascript/search_page.js"> </script>
+    <div class="container ">
+    <div class="jumbotron">
+      <!--https://bootsnipp.com/snippets/2q81r
+          https://bootsnipp.com/snippets/2P90
+          https://codepen.io/bseth99/pen/fboKH?editors=1010-->
+              <form class=""  method="POST">
+                {% csrf_token %}
+                  <input type="search" class="form-control rounded" name="search_querry" id="search_querry" placeholder="Look for: Specie's Name/NCBI ID/GCF accession/Taxonomy" />
+  <hr>
+        <input class="btn-check allChecked" type="checkbox" value="all_checked" id="checkall" name="all_checked" checked autocomplete="off"> 
+        <label class="btn btn-outline-secondary form-control" for="checkall">
+        All
+        </label>
+        <br>
+        <input class="btn-check checkthis" type="checkbox" value="0" id="fna" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="fna">
+          Genome (fna)
+        </label>
+        <br>
+        <input class="btn-check checkthis " type="checkbox" value="1" name="what_is_checked" id="gff"  checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="gff">
+        Gene Features (gff)
+        </label>
+        <br>
+        <input class="btn-check checkthis" type="checkbox" value="2" id="fa" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="fa">
+          Longest Proteins (fa)
+        </label>
+        <br>
+        <input class="btn-check checkthis" type="checkbox" value="3" id="faa" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="faa">
+          All Proteins (faa)
+        </label>
+        <br>
+        <input class="btn-check checkthis" type="checkbox" value="4" id="json" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="json">
+          Feature Annotation (json)
+        </label>
+        <br>
+        <input class="btn-check checkthis" type="checkbox" value="5" id="blastdb" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="blastdb">
+          BlastDB
+        </label>
+        <br>
+        <div class="">
+        <input class="btn-check checkthis" type="checkbox" value="6" id="diamonddb" name="what_is_checked" checked autocomplete="off">
+        <label class="btn btn-outline-secondary form-control" for="diamonddb">
+          DiamondDB
+        </label>
+        </div>
+        <br>
+        <div class="list-group-item">
+          <button type="submit" class="btn btn-danger form-control "><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
+        </div>
+            </form>
+      	</div>
+      </div>
+    </div>
+
+
+    {% endblock %}
