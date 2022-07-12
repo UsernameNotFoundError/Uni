@@ -8,7 +8,8 @@ import pandas as pd
 from pathlib import Path
 import os
 from mainapp.models import Assembly, Species, Genomicannotation, Proteinset
-#from Uni.settings import BASE_DIR
+from mysql.connector import connect  # in case model doe not work
+from Uni.settings import DATABASES
 #import sys
 #sys.path.insert(0, "path")
 #import models
@@ -19,7 +20,7 @@ class SuperUpdate():
     This module updates the database
 
     """
-    _version = 0.5
+    _version = 0.6
     BASE_DIR = Path(__file__).resolve().parent.parent
     UPDATE_FILES_DIR = os.path.join(BASE_DIR,'updateapp/myupdatefiles')
     def __init__(self):
@@ -70,7 +71,6 @@ class SuperUpdate():
                 # GFF FNA FAA files
                 file_names = ["genomic.gff.gz", "genomic.fna.gz", "protein.faa.gz"]
                 for file_name in file_names:
-                    continue  # Del me later
                     file_url = (row['ftp_path']
                                         + '/'
                                         + row['assembly_accession']
@@ -102,21 +102,22 @@ class SuperUpdate():
                                         file_location=target_directory+'/genomic.fna',
                                         )
                 # gff file mySQL
-                print("checkpoint2")
-                """
-                Genomicannotation.objects.create(assembly=search_target_id[4:],
-                                                assembly_version=search_target_version,
-                                                file_location=target_directory+'/genomic.gff',
-                                                )
-                """
+                print("checkpoint2")                                                   
                 assembly_instance = Assembly.objects.get(assembly_id=search_target_id[4:],
                                                                                 assembly_version=search_target_version
-                                                                                )
-                Genomicannotation.objects.create(assembly=assembly_instance,
-                                                assembly_version=assembly_instance,
+                                                                                )     
+                """
+                # this does not work alternative solution is used 
+                Genomicannotation.objects.create(defaults={'assembly':assembly_instance,
+                                                            'assembly_version':assembly_instance,
+                                                            },
                                                 file_location=target_directory+'/genomic.gff'
                                                 )
-                
+                """
+                self.excute_sql_line(
+                        """INSERT INTO GenomicAnnotation(Assembly_ID, Assembly_Version, File_Location) 
+                            VALUES ({0}, {1},"{2}");
+                        """, [assembly_instance.assembly_id, assembly_instance.assembly_version, target_directory+'/genomic.gff'])
                 # faa file mySQL
                 print("checkpoint3")
                 Proteinset.objects.create(annotation=Genomicannotation.objects.get(assembly=search_target_id[4:],
@@ -177,7 +178,7 @@ class SuperUpdate():
             refseq_url (str, optional): Link to the ftp REFSEQ. Defaults to "https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt".
             local_path (regexp, optional): Saving location. Defaults to "C:\Users\Amine\Documents\GoetheUni\MASTERARBEIT\test".
         """
-        #wget.download(refseq_url, local_path)
+        wget.download(refseq_url, local_path)
         self.downloaded_assembly_summary_path = os.path.join(local_path, 'assembly_summary_refseq.txt')
         if Path(self.downloaded_assembly_summary_path).is_file:
             print("Assembly downloaded successfully!")
@@ -185,6 +186,23 @@ class SuperUpdate():
             print("Assembly downloaded failed!")
             raise ("Could not download file.")
 
+
+    def excute_sql_line(self, mysql_line, mysql_values = []):  
+        """
+
+        """
+        try:
+            self.conn = connect(user=DATABASES['default']['USER'],
+                                password=DATABASES['default']['PASSWORD'],
+                                host=DATABASES['default']['HOST'],
+                                database=DATABASES['default']['NAME'],
+                                autocommit=True
+                                   )
+            self.my_cursor = self.conn.cursor(buffered=True)
+            self.my_cursor.execute("Use "+ DATABASES['default']['NAME'] + ";")
+            self.my_cursor.execute(mysql_line.format(*mysql_values))   
+        except:
+            print("error 123")
 
     def unzip_gz_file(self,
             source_path,
