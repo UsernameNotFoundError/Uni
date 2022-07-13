@@ -167,3 +167,9 @@ LOGIN_URL = '/user_login'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#CELERY_BROKER_URL = 'redis://h:p1f32b9a309b588283093e94d3a85d08e7263b9bb79572b25bd9ffcd6cec2f980@ec2-50-16-55-44.compute-1.amazonaws.com:23589'
+
+#CELERY_ACCEPT_CONTENT = ['json']
+#CELERY_TASK_SERIALIZER = 'json'
+#CELERY_RESULT_BACKEND = 'django-db'

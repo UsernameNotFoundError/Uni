@@ -20,3 +20,5 @@ wincertstore==0.2
 python-dotenv
 wget
 pandas
+celery
+django-celery-results

@@ -52,7 +52,7 @@ class SuperUpdate():
                     fetched_object_from_database_species = Species.objects.get(ncbi_id=row['taxid'])
                     print('\nSpecies exists\n', index, "got this thing (species", fetched_object_from_database_species)
                 except Species.DoesNotExist:
-                    print("Inside exception")
+                    print("Species.DoesNotExist")
                     pass  # Create new specie
                     Species.objects.create(species_name=row['organism_name'],
                                             ncbi_id=row['taxid'],
@@ -61,11 +61,12 @@ class SuperUpdate():
                 #////////////////////
                 # Make directory
                 target_directory = os.path.join(
-                                                '/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/raw_dir/',
+                                                '/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/',
                                                 row['assembly_accession'][4:7],
                                                 row['assembly_accession'][7:10],
                                                 row['assembly_accession'][10:13],
-                                                row['assembly_accession']
+                                                row['assembly_accession'],
+                                                'raw_dir'
                                                 )
                 os.system('mkdir -p ' + target_directory)
                 # GFF FNA FAA files
@@ -128,21 +129,31 @@ class SuperUpdate():
                                             file_location=target_directory+'/protein.faa'
                                             )
                 # json File NEED USE fdog
+                fdog_target_directory = os.path.join(
+                                                '/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/',
+                                                row['assembly_accession'][4:7],
+                                                row['assembly_accession'][7:10],
+                                                row['assembly_accession'][10:13],
+                                                row['assembly_accession'],
+                                                'fdog'
+                                                )
+                os.system('mkdir -p ' + fdog_target_directory)
                 """
                 # Use on system
                 os.system('fdog.addTaxon -f '
                             + file_save_loc[:-3] 
                             + ' -o  '
-                            + '~/fdog/data'
+                            + fdog_target_directory
                             + ' --replace -i '
                             + row['taxid'] 
                             + ' -c'
                             )
                 """
+                # test/${NAME:0:3}/${NAME:3:3}/${NAME:6:3}/GCF_$NAME
                 # Use with SEED 
                 # prepare a table
                 print("path is: ", os.path.join(self.UPDATE_FILES_DIR, "fdog_seed.csv"))
-                with open(os.path.join(self.UPDATE_FILES_DIR, "fdog_seed.csv"), "w+") as fdog_file:
+                with open(os.path.join(self.UPDATE_FILES_DIR, "fdog_seed.csv"), "a") as fdog_file:
                     fdog_file.write(
                                     ",".join([search_target_id, row['taxid'], search_target_version])
                                     + "\n"
@@ -163,7 +174,7 @@ class SuperUpdate():
                 print("THIS WORKED !!!! ", search_target_version)
             except Exception as e:
                 print("ERROR 2:", e)
-            if i==4:
+            if i==100:
                 break
         print(self.assembly_df.head())
 
@@ -251,6 +262,11 @@ class SuperUpdate():
                 ],
                 inplace=True,
                 axis=1
+                )
+        self.assembly_df.drop(
+                self.assembly_df[self.assembly_df['refseq_category']=='na'].index,
+                inplace=True,
+                axis=0
                 )
         self.assembly_df.rename(columns={ self.assembly_df.columns[0]: "assembly_accession" }, inplace = True)
 
