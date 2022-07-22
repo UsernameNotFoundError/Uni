@@ -27,7 +27,13 @@ def home_page(request):
     return render(request, "updateapp/home_page.html")
 
 
-def test_page(request):
-    HttpResponse("Work in progress!")
-    Tt = SuperUpdate()
-    return HttpResponse("This is a testing page please take a look at the terminal!")
+def celary_test_page(request):
+    if request.user.is_superuser:
+        HttpResponse("Work in progress!")
+        Tt = SuperUpdate()
+    else: 
+        return HttpResponse("Unauthorised access !")
+    
+    return HttpResponse("This is a celary testing page please take a look at the terminal!")
+
+
