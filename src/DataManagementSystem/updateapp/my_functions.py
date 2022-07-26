@@ -27,6 +27,7 @@ class Test():
             #_thread.start_new_thread(self.oo, (i,))
             sleep(2)
         #sleep(1)
+        self._stop_me = True
         self.refresh = 9999999
         return
 
