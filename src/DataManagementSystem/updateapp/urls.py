@@ -1,6 +1,9 @@
 from django.urls import path
 from updateapp import views
 
+
+app_name = 'updateapp'
+
 urlpatterns = [
     path('db/', views.first_page, name="update_page"),
     path('', views.home_page,name="home_page"),

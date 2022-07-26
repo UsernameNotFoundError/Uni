@@ -51,6 +51,9 @@
             </li>
 
             <li><a href="{% url 'my_space'%}">My Space</a></li>
+            {% if user.is_superuser %}
+            <li><a href="{% url 'updateapp:home_page' %}">Update</a></li>
+            {% endif %}
             <li><a href="#">About</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

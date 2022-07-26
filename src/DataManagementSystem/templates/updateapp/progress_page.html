@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 {% extends "mainapp/base.html" %}
+{% load static %}
     {% block body_block%}
+    <meta http-equiv="refresh" content="{{ stop }}" />
     <div class="jumbotron">
       <h3>Updating in progress:</h1>
       <hr>
       Updating Species table
       <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: {{ step_indicator }}0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
       Updating Assembly table
       <div class="progress">
@@ -32,7 +34,11 @@
       <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-      <button type="button" class="btn btn-warning pull-right">Cancel</button>
+      <form action="" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-warning pull-right" name="stop_me" >Cancel</button>
+        <input type="submit" class="btn btn-warning pull-right" value="Pause" name="stop_me"/>
+      </form>
     </div>
     
 

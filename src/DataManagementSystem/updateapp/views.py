@@ -1,16 +1,24 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
 from updateapp.DataBaseGenerator import SuperUpdate
 from updateapp.my_functions import Test
 import _thread
+from django.contrib.admin.views.decorators import staff_member_required
 
 
+@staff_member_required
 def first_page(request):
     """
     first page
     """
+    if not request.user.is_superuser:
+        print("ping")
+        return render(request, "mainapp/home_page.html")
     return render(request, "updateapp/progress_page.html")
 
+
+@staff_member_required
 def home_page(request):
     """
     other page
@@ -30,6 +38,7 @@ def home_page(request):
     return render(request, "updateapp/home_page.html")
 
 
+@staff_member_required
 def test_page(request):
     if request.user.is_superuser:
         HttpResponse("Work in progress!")
@@ -40,14 +49,27 @@ def test_page(request):
     return HttpResponse("This is a celary testing page please take a look at the terminal!")
 
 
+@staff_member_required
 def a_dance_the_devil(request):
     """
     A funtions that intiliases an instance at the first run 
     and use 
     """
+    print(request.GET, request.POST)
+    if request.method == "POST":
+        print("wow")
+        my_global_instance._stop_me = True
+        my_global_instance.refresh = False
     try:
         step_indicator = my_global_instance.magic_counter
-        return render(request, "updateapp/abc.html", {"step_indicator": step_indicator, "stop":my_global_instance.refresh})
+        if step_indicator == "10":  # Stop refresh
+            print("COla")
+            exec("del(globals()['my_global_instance'])")
+            refresh_page = False
+        else:
+            refresh_page = True
+        #return render(request, "updateapp/progress_page.html", {"step_indicator":step_indicator , "stop": refresh_page})
+        return render(request, "updateapp/update_page.html", {"step_indicator": step_indicator, "stop":refresh_page})
     except NameError:
         # exec is used to avoid: "variable referenced before assignment" 
         """exec("global my_global_instance", globals())
@@ -63,7 +85,9 @@ def a_dance_the_devil(request):
         """.replace('  ', ''), globals())
         
         step_indicator = my_global_instance.magic_counter
-        return render(request, "updateapp/abc.html", {"step_indicator":step_indicator , "stop":my_global_instance.refresh})
-    except:
-        print("Fatal error")
+        refresh_page = True
+        #return render(request, "updateapp/progress_page.html", {"step_indicator":step_indicator , "stop":my_global_instance.refresh})
+        return render(request, "updateapp/update_page.html", {"step_indicator":step_indicator , "stop":refresh_page})
+    except Exception as e:
+        print("Fatal error", e)
         return HttpResponse("Fatal Error while updating!")

@@ -10,20 +10,25 @@ from django.template import Template
 class Test():
 
     def __init__(self):
-        self.magic_counter = "nöooooo"
-        self.refresh = 5
+        self.magic_counter = "0"
+        self.refresh = 2
+        self._stop_me = False
 
 
     def test(self):
         print("inside test")
         
-        for i in range(10):
+        for i in range(11):
+            if self._stop_me:
+                print("KAbooom")
+                break
             print(i)
             self.magic_counter=str(i)
             #_thread.start_new_thread(self.oo, (i,))
-            sleep(5)
+            sleep(2)
+        #sleep(1)
         self.refresh = 9999999
-
+        return
 
     def oo(self, i):
         print("thread", i)

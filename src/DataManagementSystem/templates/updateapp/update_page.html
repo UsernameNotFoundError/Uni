@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+{% load static %}
+    {% block body_block%}
+    {% if stop %}
+        <meta http-equiv="refresh" content=2 />
+        wow
+    {% endif %}
+    
+    <div class="jumbotron">
+      <h2>Updating in progress:</h2>
+      <hr>
+      {{ step_indicator }}
+      <h4>Updating...</h4>
+        {% if stop %}
+        ahahha
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}0%" aria-valuenow="{{ step_indicator }}0" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}0%</div>
+        </div>
+        {% else %}
+        hihihi
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: {{ step_indicator }}0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        {% endif %}
+      Updating Assembly table
+      <div class="progress">
+        <div class="progress-bar" role="progressbar bg-success" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <form action="" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger pull-right" name="stop_me" >Cancel</button>
+        &nbsp;
+        <input type="submit" class="btn btn-warning pull-right" value="Pause" name="stop_me"/>
+      </form>
+    </div>
+    
+
+    {% endblock %}
