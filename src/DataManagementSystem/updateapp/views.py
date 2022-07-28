@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseRedirect
-from django.urls import reverse
+from django.http import HttpResponse
 from updateapp.DataBaseGenerator import SuperUpdate
 from updateapp.my_functions import Test
 import _thread
@@ -50,44 +49,42 @@ def test_page(request):
 
 
 @staff_member_required
-def a_dance_the_devil(request):
+def update_view(request):
     """
     A funtions that intiliases an instance at the first run 
     and use 
     """
-    print(request.GET, request.POST)
     if request.method == "POST":
-        print("wow")
+        print("stop open request")
         my_global_instance._stop_me = True
-        my_global_instance.refresh = False
     try:
-        step_indicator = my_global_instance.magic_counter
-        if step_indicator == "10":  # Stop refresh
+        step_indicator = my_global_instance.updating_status
+        html_print = my_global_instance.html_print
+        if step_indicator >= 100 or my_global_instance._stop_me :  # Stop refresh
             print("COla")
             exec("del(globals()['my_global_instance'])")
             refresh_page = False
         else:
-            refresh_page = True
-        #return render(request, "updateapp/progress_page.html", {"step_indicator":step_indicator , "stop": refresh_page})
-        return render(request, "updateapp/update_page.html", {"step_indicator": step_indicator, "stop":refresh_page})
+            refresh_page = not my_global_instance._stop_me
+        return render(request, "updateapp/update_page.html", {
+                                                            "step_indicator": step_indicator, 
+                                                            "stop":refresh_page,
+                                                            "updating_status": html_print})
     except NameError:
         # exec is used to avoid: "variable referenced before assignment" 
-        """exec("global my_global_instance", globals())
-        exec("my_global_instance = Test()", globals())
-        exec("_thread.start_new_thread(my_global_instance.test, ())", globals())
-
-        """
         exec(
         """
             global my_global_instance
-            my_global_instance = Test()
-            _thread.start_new_thread(my_global_instance.test, ())
+            my_global_instance = SuperUpdate()
+            _thread.start_new_thread(my_global_instance._start_update, ())
         """.replace('  ', ''), globals())
         
-        step_indicator = my_global_instance.magic_counter
-        refresh_page = True
-        #return render(request, "updateapp/progress_page.html", {"step_indicator":step_indicator , "stop":my_global_instance.refresh})
-        return render(request, "updateapp/update_page.html", {"step_indicator":step_indicator , "stop":refresh_page})
+        step_indicator = my_global_instance.updating_status
+        refresh_page = not my_global_instance._stop_me
+        return render(request, "updateapp/update_page.html", {
+                                                            "step_indicator": step_indicator, 
+                                                            "stop":refresh_page,
+                                                            "updating_status": my_global_instance.html_print})
     except Exception as e:
         print("Fatal error", e)
         return HttpResponse("Fatal Error while updating!")

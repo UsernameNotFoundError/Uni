@@ -3,25 +3,30 @@
     {% block body_block%}
     <div class="jumbotron">
       <h2>Hello Sir {{user.username}}!</h2>
-      <h3>It's {% now "jS F Y H:i" %}</h3>
-      <h3>This is the update page:</h3>
+      <p style="text-align:center;"><h3>It's {% now "jS F Y H:i" %}</h3></p>
+      <hr>
+      <h3>Last update was made on 21.07.2022</h3>
       <hr>
       <form class=""  method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        <label class="custom-file-label" for="files_list">Choose a folder to update</label>
-        <input type="file" class="custom-folder-input form-control" name="files_list" id="files_list" webkitdirectory directory multiple/>*
-        <ul></ul>
-        <button type="button" class="btn btn-danger form-control" data-toggle="modal" data-target="#doublecheck">Upload</button>
+        <label class="custom-file-label" for="files_list">Start new update</label>
+        <div class="form-check form-check-inline form-control" >
+          <input class="btn-check-input" type="checkbox" value="0" id="fna" name="bacteria_checked" checked>
+          <label class="btn-check-label " for="ignore_bac">
+            Ignore Bacteria
+          </label>
+        </div>
+        <p></p>
+        <button type="button" class="btn btn-danger form-control" data-toggle="modal" data-target="#doublecheck">Start update</button>
         <!-- Double check window -->
         <div class="modal fade" id="doublecheck" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title custom_align" id="Heading">Procceed?</h4>
+                <h4 class="modal-title custom_align" id="Heading">Procceed with update?</h4>
               </div><!-- modal-header -->
-
               <div class="modal-body">
-                Updating new files might take a while. Do you want to proceed?
+                Updating the database might take a while. Do you want to proceed?
                   <hr>
 
               </div>

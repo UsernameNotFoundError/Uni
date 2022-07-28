@@ -22,16 +22,30 @@ class SuperUpdate():
     This module updates the database
 
     """
-    _version = 0.9
+    _version = 1.0
     BASE_DIR = Path(__file__).resolve().parent.parent
     UPDATE_FILES_DIR = os.path.join(BASE_DIR,'updateapp/myupdatefiles')
-    def __init__(self):
-        print('wow')
-        # 1st Step: get the lastest NCBI
+    UPDATE_LOCATION = "/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/" # Change me
+
+    def __init__(self) -> None:
+        self.updating_status = 0
+        self._stop_me = False
+        self.html_print = ""
+        self.ignore_bacteria = True
+
+
+    def _start_update(self):
+        """
+        Called with an other thread to ensure simultaneous execution 
+        """
+        print('Initiating update!')
+        # 1st Step: get the lastest NCBI assembly summary
         self.download_refseq()
+        # 2nd Step: Filter unnecassary data
         self.readdata()
+        # 3rd Check data base add and download lastest
         self.check_database()
-        #self.download_gz_file()
+        self._stop_me = False
 
     
     def check_database(self):
@@ -43,15 +57,19 @@ class SuperUpdate():
             gzip
             mysql.connector.connect
         """
-        i=0
+        self.html_print += "Now checking Database...\n"
+        i=0  # del me
         for index, row in self.assembly_df.iterrows():
-            i+=1
+            if self._stop_me:
+                break
+            i+=1  # del me
             search_target_id, search_target_version = row['assembly_accession'].split('.')
             #search_target = row['assembly_accession'][4:]
             try:
                 fetched_object_from_database = Assembly.objects.get(assembly_id=search_target_id[4:], assembly_version=search_target_version)
                 print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
             except Assembly.DoesNotExist:
+                self.html_print += "Adding new assembly " + search_target_id + "\n"
                 print("checkpoint: Assembly.DoesNotExist")
                 #HERE CODE
                 try:
@@ -61,7 +79,8 @@ class SuperUpdate():
                     print("Species.DoesNotExist")
                     taxa_string= self.tax_string_extractor(row['taxid'])
                     print("taxa is:", taxa_string)
-                    if taxa_string.split(';')[1] == ' Bacteria':  # add not bacteria
+                    if self.ignore_bacteria and taxa_string.split(';')[1] == ' Bacteria':  # add not bacteria
+                        print('ignored bac')
                         continue
                     # Create new specie
                     Species.objects.create(species_name=row['organism_name'],
@@ -72,7 +91,7 @@ class SuperUpdate():
                 #////////////////////
                 # Make directory
                 target_directory = os.path.join(
-                                                '/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/',
+                                                self.UPDATE_LOCATION,
                                                 row['assembly_accession'][4:7],
                                                 row['assembly_accession'][7:10],
                                                 row['assembly_accession'][10:13],
@@ -80,6 +99,7 @@ class SuperUpdate():
                                                 'raw_dir'
                                                 )
                 os.system('mkdir -p ' + target_directory)
+                self.updating_status = self._get_update_progress(index)
                 # GFF FNA FAA files
                 try: 
                     file_names = ["genomic.gff.gz", "genomic.fna.gz", "protein.faa.gz"]
@@ -157,7 +177,7 @@ class SuperUpdate():
                                     )
                     # json File NEED USE fdog
                     fdog_target_directory = os.path.join(
-                                                    '/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/',
+                                                    self.UPDATE_LOCATION,
                                                     row['assembly_accession'][4:7],
                                                     row['assembly_accession'][7:10],
                                                     row['assembly_accession'][10:13],
@@ -205,13 +225,16 @@ class SuperUpdate():
                 # Blast
                 #////////////////////
                 print("THIS WORKED !!!! ", search_target_version)
-                if i>10:
-                    break
+                if i>100:  # del me
+                    print("out")
+                    break   # del me
             except Exception as e:
                 print("ERROR 2:", e)
-                if i>10:
-                    break
-              
+                if i>100:  # del me
+                    print("out")
+                    break  # del me
+        self._stop_me = True  # endfor
+        print("stopped",self._stop_me)     
 
     
     def download_refseq(self,
@@ -224,6 +247,7 @@ class SuperUpdate():
             refseq_url (str, optional): Link to the ftp REFSEQ. Defaults to "https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt".
             local_path (regexp, optional): Saving location. Defaults to "C:\Users\Amine\Documents\GoetheUni\MASTERARBEIT\test".
         """
+        self.html_print += "Downloading the lastest NCBI assembly summary...\n"
         #wget.download(refseq_url, local_path)
         self.downloaded_assembly_summary_path = os.path.join(local_path, 'assembly_summary_refseq.txt')
         if Path(self.downloaded_assembly_summary_path).is_file:
@@ -251,6 +275,16 @@ class SuperUpdate():
             print("MySQL command error! ")
 
 
+    def _get_update_progress(self, my_index) -> int:
+        if my_index>self.data_volume:
+            print("Update progress Error!")
+            return -1
+        if self.data_volume == 0:
+            return 100
+        print ("current prog",  my_index, int(my_index/self.data_volume*100))
+        return int(my_index/self.data_volume*100)
+
+
     def readdata(self):
         """
         Reads "assembly_summary_refseq.txt" filters out non needed data
@@ -261,12 +295,14 @@ class SuperUpdate():
                 self.downloaded_assembly_summary_path -> string
         _______________
         output: self.assembly_df
+                self.data_volume : len of the df
         _______________
         Returns: None
         _______________
         Imports:
             pandas
         """        
+        self.html_print += "Filtering the assembly summary...\n"
         self.assembly_df = pd.read_csv(
                                     self.downloaded_assembly_summary_path,
                                     delimiter="\t",
@@ -293,6 +329,7 @@ class SuperUpdate():
                 axis=0
                 )
         self.assembly_df.rename(columns={ self.assembly_df.columns[0]: "assembly_accession" }, inplace = True)
+        self.data_volume = len(self.assembly_df)
 
 
     def tax_string_extractor(self, specie_taxid, my_email="change_me_if_you_want@mail.py"):

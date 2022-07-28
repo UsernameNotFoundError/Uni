@@ -4,8 +4,7 @@
 {% load bootstrap5 %}
     {% block body_block%}
     {% if stop %}
-        <meta http-equiv="refresh" content=2 />
-        wow
+        <meta http-equiv="refresh" content=5 />
     {% endif %}
 
     <div class="jumbotron">
@@ -16,39 +15,26 @@
         {% if stop %}
         in progress
         <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}0%" aria-valuenow="{{ step_indicator }}0" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}0%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}0%</div>
         </div>
         {% else %}
         Finished
         <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width: {{ step_indicator }}0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Done!</div>
+            <div class="progress-bar progress-bar-success" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">Done!</div>
         </div>
         {% endif %}
-      Updating Assembly table
-      <div class="progress">
-        <div class="progress-bar" role="progressbar bg-success" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
+        <h2>Status:</h2>
+        <hr>
+        <div class="overflow-auto">{{ updating_status }}</div>
+
       <form action="" method="post">
         {% csrf_token %}
         <button type="submit" class="btn btn-danger pull-right" name="stop_me" >Cancel</button>
         &nbsp;
         <input type="submit" class="btn btn-warning pull-right" value="Pause" name="stop_me"/>
       </form>
+      
     </div>
-    <button type="button" class="btn btn-secondary bd-toggle-animated-progress" data-toggle="button" aria-pressed="True" autocomplete="off">
-        Toggle animation
-      </button>
+
 
     {% endblock %}
