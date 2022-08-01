@@ -7,33 +7,14 @@ from django.contrib.admin.views.decorators import staff_member_required
 
 
 @staff_member_required
-def first_page(request):
-    """
-    first page
-    """
-    if not request.user.is_superuser:
-        print("ping")
-        return render(request, "mainapp/home_page.html")
-    return render(request, "updateapp/progress_page.html")
-
-
-@staff_member_required
 def home_page(request):
     """
     other page
     """
     print("test")
     if request.method == 'POST':
-        print("HERE =>>>>>", request.POST)
-        print("\nwow =>>>>>", request.FILES)
-        print("plop: >>", request.FILES['files_list'])
-        mm = request.FILES['files_list']
-        my_files = []
-        # Problem here
-        for f in request.FILES.getlist('files_list'):
-            my_files += f
-        print("checkpoint:", my_files)
-        
+        print(request.POST)
+        #return render(request, "updateapp/update_page.html")        
     return render(request, "updateapp/home_page.html")
 
 

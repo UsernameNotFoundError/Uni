@@ -12,9 +12,6 @@ from mysql.connector import connect  # in case model doe not work
 from Uni.settings import DATABASES
 from Bio import Entrez
 import xml.etree.ElementTree as ET
-#import sys
-#sys.path.insert(0, "path")
-#import models
 
 
 class SuperUpdate():
@@ -31,7 +28,8 @@ class SuperUpdate():
         self.updating_status = 0
         self._stop_me = False
         self.html_print = ""
-        self.ignore_bacteria = True
+        self.ignore_this_taxa = ""
+        self.do_only_this_taxa = ""
 
 
     def _start_update(self):
@@ -58,27 +56,33 @@ class SuperUpdate():
             mysql.connector.connect
         """
         self.html_print += "Now checking Database...\n"
-        i=0  # del me
         for index, row in self.assembly_df.iterrows():
             if self._stop_me:
                 break
-            i+=1  # del me
+                self.updating_status = self._get_update_progress(index)
             search_target_id, search_target_version = row['assembly_accession'].split('.')
             #search_target = row['assembly_accession'][4:]
-            try:
+            try:  # try/except to check assembly presence 
                 fetched_object_from_database = Assembly.objects.get(assembly_id=search_target_id[4:], assembly_version=search_target_version)
                 print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
-            except Assembly.DoesNotExist:
+            except Assembly.DoesNotExist:  # try/except to check assembly presence 
                 self.html_print += "Adding new assembly " + search_target_id + "\n"
                 print("checkpoint: Assembly.DoesNotExist")
                 #HERE CODE
-                try:
+                try:  # try/except to check species presence 
                     fetched_object_from_database_species = Species.objects.get(ncbi_id=row['taxid'])
                     print('\nSpecies exists\n', index, "got this thing (species", fetched_object_from_database_species)
-                except Species.DoesNotExist:
+                except Species.DoesNotExist:  # try/except to check species presence 
                     print("Species.DoesNotExist")
                     taxa_string= self.tax_string_extractor(row['taxid'])
                     print("taxa is:", taxa_string)
+                    if len(self.ignore_this_taxa) > 0:  # Ignore this taxa
+                        if self.ignore_this_taxa in taxa_string:
+                            continue
+                    # sum([i in "ok" for i in "ppp;ok;ii".split(";")])
+                    if len(self.do_only_this_taxa) > 0:  # do only this taxa
+                        if self.do_only_this_taxa not in taxa_string:
+                            continue
                     if self.ignore_bacteria and taxa_string.split(';')[1] == ' Bacteria':  # add not bacteria
                         print('ignored bac')
                         continue
@@ -116,7 +120,7 @@ class SuperUpdate():
                         file_save_loc = os.path.join(target_directory,
                                                         file_name
                                                     )
-                        print("link check:", file_url)
+                        print("download link check:", file_url)
                         print("save_loc: ", file_save_loc)
                         wget.download(file_url, file_save_loc)  # Thisdoes not work
                         print("downloaded!")
@@ -208,33 +212,20 @@ class SuperUpdate():
 
                     print("Done")
                 except Exception as e:  # incase download does not work
-                    print(" Error occured: ", e)
+                    print(" Error occured : ", e)
                     with open(os.path.join(self.UPDATE_FILES_DIR, "error_files.log"), "a") as error_file:
                         error_file.write(
                                         file_url,
                                         + "\n"
                                         )
-                #Species
-                
 
-                # FAA file
-
-                # json file
-
-                # Longest Protein
-                # Blast
-                #////////////////////
                 print("THIS WORKED !!!! ", search_target_version)
-                if i>100:  # del me
-                    print("out")
-                    break   # del me
-            except Exception as e:
+
+            except Exception as e:  # try/except to check assembly presence 
                 print("ERROR 2:", e)
-                if i>100:  # del me
-                    print("out")
-                    break  # del me
+
         self._stop_me = True  # endfor
-        print("stopped",self._stop_me)     
+        print("stopped/finished", self._stop_me, index)     
 
     
     def download_refseq(self,

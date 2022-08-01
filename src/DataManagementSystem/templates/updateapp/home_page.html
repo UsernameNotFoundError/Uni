@@ -10,11 +10,17 @@
       <form class=""  method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         <label class="custom-file-label" for="files_list">Start new update</label>
-        <div class="form-check form-check-inline form-control" >
-          <input class="btn-check-input" type="checkbox" value="0" id="fna" name="bacteria_checked" checked>
-          <label class="btn-check-label " for="ignore_bac">
-            Ignore Bacteria
-          </label>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Ignore</span>
+          </div>
+          <input class="form-control" type="text" value="Bacteria" id="fna" name="ignore_this_taxa" placeholder="You can choose to ignore taxonomy" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon2">Targeted update</span>
+          </div>
+          <input class="form-control sm-6" type="text" value="" id="fna" name="do_only_this_taxa" placeholder="You can choose to add only specific taxonomy" aria-describedby="basic-addon2">
         </div>
         <p></p>
         <button type="button" class="btn btn-danger form-control" data-toggle="modal" data-target="#doublecheck">Start update</button>

@@ -10,12 +10,11 @@
     <div class="jumbotron">
       <h2>Updating in progress:</h2>
       <hr>
-      {{ step_indicator }}
       <h4>Updating...</h4>
         {% if stop %}
         in progress
         <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}0%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}%</div>
         </div>
         {% else %}
         Finished
@@ -25,7 +24,7 @@
         {% endif %}
         <h2>Status:</h2>
         <hr>
-        <div class="overflow-auto">{{ updating_status }}</div>
+        <textarea row="5" class="">{{ updating_status }}</textarea >
 
       <form action="" method="post">
         {% csrf_token %}
