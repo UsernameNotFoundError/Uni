@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends "mainapp/base.html" %}
+{% load static %}
+{% load bootstrap5 %}
+    {% block body_block%}
+    <div class="jumbotron">
+      <h2>Status:</h2>
+      <hr>
+      <div class="row">
+        <textarea class="col-md-12 form-control">{{ updating_status }}</textarea >
+      </div>
+      <p></p>
+      <div>
+      <form action="" method="post">
+        {% csrf_token %}
+        <button type="" class="col-md-2 btn btn-danger pull-right" name="stop_me" >Next</button>
+        &nbsp;
+        <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Pause" name="stop_me"/>
+      </form>
+    </div>
+    </div>
+
+
+    {% endblock %}

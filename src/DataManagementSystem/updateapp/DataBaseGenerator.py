@@ -24,12 +24,14 @@ class SuperUpdate():
     UPDATE_FILES_DIR = os.path.join(BASE_DIR,'updateapp/myupdatefiles')
     UPDATE_LOCATION = "/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/" # Change me
 
-    def __init__(self) -> None:
+    def __init__(self, ignore_this_taxa="" , do_only_this_taxa="") -> None:
+        print("START THREAD")
         self.updating_status = 0
         self._stop_me = False
         self.html_print = ""
-        self.ignore_this_taxa = ""
-        self.do_only_this_taxa = ""
+        self.ignore_this_taxa = ignore_this_taxa
+        self.do_only_this_taxa = do_only_this_taxa
+        self._job_done = False
 
 
     def _start_update(self):
@@ -43,7 +45,8 @@ class SuperUpdate():
         self.readdata()
         # 3rd Check data base add and download lastest
         self.check_database()
-        self._stop_me = False
+        self._stop_me = True
+        self._job_done = True
 
     
     def check_database(self):
@@ -55,38 +58,38 @@ class SuperUpdate():
             gzip
             mysql.connector.connect
         """
-        self.html_print += "Now checking Database...\n"
+        self._write_log("Comparing Database data with the new one...\n")
         for index, row in self.assembly_df.iterrows():
+            if index%500 == 0:
+                self.updating_status = self._get_update_progress(index)
             if self._stop_me:
                 break
-                self.updating_status = self._get_update_progress(index)
+            self._job_done = False  # Security mesure so that the thread continue working
             search_target_id, search_target_version = row['assembly_accession'].split('.')
             #search_target = row['assembly_accession'][4:]
             try:  # try/except to check assembly presence 
                 fetched_object_from_database = Assembly.objects.get(assembly_id=search_target_id[4:], assembly_version=search_target_version)
-                print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
+                #print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
             except Assembly.DoesNotExist:  # try/except to check assembly presence 
-                self.html_print += "Adding new assembly " + search_target_id + "\n"
-                print("checkpoint: Assembly.DoesNotExist")
+                self._write_log("Adding new assembly " + search_target_id + "\n")
+                self.updating_status = self._get_update_progress(index)
                 #HERE CODE
                 try:  # try/except to check species presence 
                     fetched_object_from_database_species = Species.objects.get(ncbi_id=row['taxid'])
-                    print('\nSpecies exists\n', index, "got this thing (species", fetched_object_from_database_species)
                 except Species.DoesNotExist:  # try/except to check species presence 
-                    print("Species.DoesNotExist")
-                    taxa_string= self.tax_string_extractor(row['taxid'])
-                    print("taxa is:", taxa_string)
+                    taxa_string = self.tax_string_extractor(row['taxid'])
+                    print("taxa is:", taxa_string, " ignored are", self.ignore_this_taxa)
                     if len(self.ignore_this_taxa) > 0:  # Ignore this taxa
-                        if self.ignore_this_taxa in taxa_string:
+                        if sum([one_taxa in taxa_string for one_taxa in self.ignore_this_taxa.split(";")]):
+                            # Check if if all element that are sprated by a semicolumn are included in taxastring
+                            # ignore taxa
                             continue
-                    # sum([i in "ok" for i in "ppp;ok;ii".split(";")])
                     if len(self.do_only_this_taxa) > 0:  # do only this taxa
-                        if self.do_only_this_taxa not in taxa_string:
+                        if sum([one_taxa not in taxa_string for one_taxa in self.do_only_this_taxa.split(";")]): 
+                            # skip if taxa not present
                             continue
-                    if self.ignore_bacteria and taxa_string.split(';')[1] == ' Bacteria':  # add not bacteria
-                        print('ignored bac')
-                        continue
                     # Create new specie
+                    self._write_log("Creating new Specie for " +  + "\n")
                     Species.objects.create(species_name=row['organism_name'],
                                             ncbi_id=row['taxid'],
                                             alias=row['asm_name'],
@@ -123,6 +126,12 @@ class SuperUpdate():
                         print("download link check:", file_url)
                         print("save_loc: ", file_save_loc)
                         wget.download(file_url, file_save_loc)  # Thisdoes not work
+                        self._write_log(
+                                        "Downloaded " 
+                                        + file_save_loc
+                                        + "sucessfully"
+                                        + "\n"
+                                        )
                         print("downloaded!")
                         with gzip.open(file_save_loc, 'rb') as f_in:
                             with open(file_save_loc[:-3], 'wb') as f_out:
@@ -138,8 +147,7 @@ class SuperUpdate():
                                             dir_location=target_directory,
                                             file_location=target_directory+'/genomic.fna',
                                             )
-                    with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
-                        update_file.write(
+                    self._write_log(
                                     target_directory+'/genomic.fna'
                                     + "\n"
                                     )
@@ -160,8 +168,7 @@ class SuperUpdate():
                             """INSERT INTO GenomicAnnotation(Assembly_ID, Assembly_Version, File_Location) 
                                 VALUES ({0}, {1},"{2}");
                             """, [assembly_instance.assembly_id, assembly_instance.assembly_version, target_directory+'/genomic.gff'])
-                    with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
-                        update_file.write(
+                    self._write_log(
                                     target_directory+'/genomic.gff'
                                     + "\n"
                                     )
@@ -174,9 +181,7 @@ class SuperUpdate():
                                                 date_of_the_data = date.today(),
                                                 file_location=target_directory+'/protein.faa'
                                                 )
-                    with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
-                        update_file.write(
-                                    target_directory+'/protein.faa'
+                    self._write_log(target_directory+'/protein.faa'
                                     + "\n"
                                     )
                     # json File NEED USE fdog
@@ -210,7 +215,8 @@ class SuperUpdate():
                                         + "\n"
                                         )
 
-                    print("Done")
+                    print("Done with ", index)
+                    self._job_done = True
                 except Exception as e:  # incase download does not work
                     print(" Error occured : ", e)
                     with open(os.path.join(self.UPDATE_FILES_DIR, "error_files.log"), "a") as error_file:
@@ -223,8 +229,9 @@ class SuperUpdate():
 
             except Exception as e:  # try/except to check assembly presence 
                 print("ERROR 2:", e)
-
+        self.updating_status = self._get_update_progress(index)
         self._stop_me = True  # endfor
+        self._job_done = True
         print("stopped/finished", self._stop_me, index)     
 
     
@@ -238,8 +245,13 @@ class SuperUpdate():
             refseq_url (str, optional): Link to the ftp REFSEQ. Defaults to "https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt".
             local_path (regexp, optional): Saving location. Defaults to "C:\Users\Amine\Documents\GoetheUni\MASTERARBEIT\test".
         """
-        self.html_print += "Downloading the lastest NCBI assembly summary...\n"
-        #wget.download(refseq_url, local_path)
+        self._write_log("Downloading the lastest NCBI assembly summary...")
+        if os.path.exists(local_path):
+            self._write_log("\nOld file still exists, replacing old file...")
+            os.remove(local_path)
+        else:
+            wget.download(refseq_url, local_path)
+        self._write_log("successfull!\n")
         self.downloaded_assembly_summary_path = os.path.join(local_path, 'assembly_summary_refseq.txt')
         if Path(self.downloaded_assembly_summary_path).is_file:
             print("Assembly downloaded successfully!")
@@ -293,7 +305,7 @@ class SuperUpdate():
         Imports:
             pandas
         """        
-        self.html_print += "Filtering the assembly summary...\n"
+        self._write_log += "Filtering the assembly summary...\n"
         self.assembly_df = pd.read_csv(
                                     self.downloaded_assembly_summary_path,
                                     delimiter="\t",
@@ -364,6 +376,10 @@ class SuperUpdate():
             with open(save_path, 'wb') as f_out:
                 shutil.copyfileobj(f_in, f_out)
 
+    def _write_log(self, text_output):
+        self.html_print += text_output
+        with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
+                        update_file.write(text_output)
 
 if __name__=="__main__":
     print("What are you doing?")

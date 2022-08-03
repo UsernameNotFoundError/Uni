@@ -3,7 +3,7 @@
 {% load static %}
 {% load bootstrap5 %}
     {% block body_block%}
-    {% if stop %}
+    {% if refresh %}
         <meta http-equiv="refresh" content=5 />
     {% endif %}
 
@@ -11,28 +11,31 @@
       <h2>Updating in progress:</h2>
       <hr>
       <h4>Updating...</h4>
-        {% if stop %}
-        in progress
-        <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}%</div>
-        </div>
-        {% else %}
-        Finished
-        <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">Done!</div>
-        </div>
-        {% endif %}
-        <h2>Status:</h2>
-        <hr>
-        <textarea row="5" class="">{{ updating_status }}</textarea >
-
+      {% if refresh %}
+      in progress:
+      <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">{{ step_indicator }}%</div>
+      </div>
+      {% else %}
+      Finished 
+      <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" style="width: {{ step_indicator }}%" aria-valuenow="{{ step_indicator }}" aria-valuemin="0" aria-valuemax="100">Done!</div>
+      </div>
+      {% endif %}
+      <h2>Status:</h2>
+      <hr>
+      <div class="row">
+        <textarea class="col-md-12 form-control">{{ updating_status }}</textarea >
+      </div>
+      <p></p>
+      <div>
       <form action="" method="post">
         {% csrf_token %}
-        <button type="submit" class="btn btn-danger pull-right" name="stop_me" >Cancel</button>
+        <button type="submit" class="col-md-2 btn btn-danger pull-right" name="stop_me" >Cancel</button>
         &nbsp;
-        <input type="submit" class="btn btn-warning pull-right" value="Pause" name="stop_me"/>
+        <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Pause" name="stop_me"/>
       </form>
-      
+    </div>
     </div>
 
 

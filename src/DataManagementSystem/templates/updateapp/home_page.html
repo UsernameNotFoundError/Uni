@@ -5,21 +5,17 @@
       <h2>Hello Sir {{user.username}}!</h2>
       <p style="text-align:center;"><h3>It's {% now "jS F Y H:i" %}</h3></p>
       <hr>
-      <h3>Last update was made on 21.07.2022</h3>
+      <h3>Last update was made on {{ last_update_date }}</h3>
       <hr>
-      <form class=""  method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
+      <form class=""  action="progress/?ignore_this_taxa={{ignore_this_taxa}}?do_only_this_taxa={{do_only_this_taxa}}" enctype="multipart/form-data">
         <label class="custom-file-label" for="files_list">Start new update</label>
         <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">Ignore</span>
-          </div>
+          <span class="input-group-addon" id="basic-addon1">Ignore</span>
           <input class="form-control" type="text" value="Bacteria" id="fna" name="ignore_this_taxa" placeholder="You can choose to ignore taxonomy" aria-describedby="basic-addon1">
         </div>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon2">Targeted update</span>
-          </div>
+        <p></p>
+        <div class="input-group input-group">
+          <span class="input-group-addon" id="basic-addon2">Targeted update</span>
           <input class="form-control sm-6" type="text" value="" id="fna" name="do_only_this_taxa" placeholder="You can choose to add only specific taxonomy" aria-describedby="basic-addon2">
         </div>
         <p></p>
