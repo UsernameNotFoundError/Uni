@@ -1,7 +1,10 @@
 from django.contrib import admin
 from django.views.generic.base import RedirectView
-from django.urls import path, include
+from django.urls import path, include, re_path
 from mainapp import views
+from django.conf import settings
+from django.conf.urls.static import static
+from django.views.static import serve
 
 urlpatterns = [
     path('', views.user_login, name="login"),
@@ -15,7 +18,7 @@ urlpatterns = [
     path('sign_up/', views.sign_up_page, name="sign_up"),
     path('tree_search_page/', views.tree_search_page, name="tree_search_page"),
     path('test/<str:my_query>/', views._test_page, name="test_page"),
-    #path('test/<path:my_query>/', views._test_page,name="test_page"),
+    re_path(r'^media/(?P<path>.*)$',serve,{'document_root':settings.MEDIA_ROOT}),
     path('<path:notfound404>', views.home_page, name="home_page"),
 
-]
+] #+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

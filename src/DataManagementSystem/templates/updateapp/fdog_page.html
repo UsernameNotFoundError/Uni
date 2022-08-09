@@ -4,20 +4,33 @@
 {% load bootstrap5 %}
     {% block body_block%}
     <div class="jumbotron">
-      <h2>Status:</h2>
+      <h2>Successfully updated:</h2>
       <hr>
-      <div class="row">
-        <textarea class="col-md-12 form-control">{{ updating_status }}</textarea >
-      </div>
-      <p></p>
-      <div>
+      <ol>
+        <li>fna files</li>
+        <li>faa files</li>
+        <li>gff files</li>
+      </ol>
       <form action="" method="post">
+        <div class="row">
+          <textarea class="col-md-12 form-control" id="cola" name="fanta" style="height: 200px;">{{ slurm_script }}</textarea >
+        </div>
+        <hr>
+        <div class="input-group mb-3">
+          <span class="input-group-addon" id="basic-addon1">slurm output path: </span>
+          <input class="form-control" type="text" value="~/slurm_output" id="fna" name="slurm_output" placeholder="choose a path to find the cluster output" aria-describedby="basic-addon1">
+        </div>
+        <hr> 
+        <p></p>
+        <div>
         {% csrf_token %}
-        <button type="" class="col-md-2 btn btn-danger pull-right" name="stop_me" >Next</button>
-        &nbsp;
-        <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Pause" name="stop_me"/>
+        <a href="{% url 'home_page'%}" class="col-md-2 btn btn-danger pull-right" >Cancel<a>
+        <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Run on cluster" name="cluster_script"/>
       </form>
     </div>
+    <a href="/media/profile_pics/flower.jpg" download>
+      download
+    </a>
     </div>
 
 

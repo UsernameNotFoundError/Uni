@@ -21,7 +21,7 @@ class SuperUpdate():
     """
     _version = 1.0
     BASE_DIR = Path(__file__).resolve().parent.parent
-    UPDATE_FILES_DIR = os.path.join(BASE_DIR,'updateapp/myupdatefiles')
+    UPDATE_FILES_DIR = os.path.join(BASE_DIR,'media/updateapp/myupdatefiles')
     UPDATE_LOCATION = "/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/" # Change me
 
     def __init__(self, ignore_this_taxa="" , do_only_this_taxa="") -> None:
@@ -60,6 +60,7 @@ class SuperUpdate():
         """
         self._write_log("Comparing Database data with the new one...\n")
         for index, row in self.assembly_df.iterrows():
+            print("Progressing: ", index, row)
             if index%500 == 0:
                 self.updating_status = self._get_update_progress(index)
             if self._stop_me:
@@ -69,27 +70,43 @@ class SuperUpdate():
             #search_target = row['assembly_accession'][4:]
             try:  # try/except to check assembly presence 
                 fetched_object_from_database = Assembly.objects.get(assembly_id=search_target_id[4:], assembly_version=search_target_version)
-                #print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
+                print('\nQuerry found:\n', index, search_target_id, "got this thing", fetched_object_from_database)
             except Assembly.DoesNotExist:  # try/except to check assembly presence 
-                self._write_log("Adding new assembly " + search_target_id + "\n")
-                self.updating_status = self._get_update_progress(index)
                 #HERE CODE
                 try:  # try/except to check species presence 
                     fetched_object_from_database_species = Species.objects.get(ncbi_id=row['taxid'])
-                except Species.DoesNotExist:  # try/except to check species presence 
-                    taxa_string = self.tax_string_extractor(row['taxid'])
-                    print("taxa is:", taxa_string, " ignored are", self.ignore_this_taxa)
+                    taxa_string = fetched_object_from_database_species.taxonomy
                     if len(self.ignore_this_taxa) > 0:  # Ignore this taxa
                         if sum([one_taxa in taxa_string for one_taxa in self.ignore_this_taxa.split(";")]):
+                            print("taxa is:", taxa_string, " ignored are", self.ignore_this_taxa)
                             # Check if if all element that are sprated by a semicolumn are included in taxastring
                             # ignore taxa
+                            self._job_done = True
                             continue
                     if len(self.do_only_this_taxa) > 0:  # do only this taxa
                         if sum([one_taxa not in taxa_string for one_taxa in self.do_only_this_taxa.split(";")]): 
                             # skip if taxa not present
+                            self._job_done = True
+                            continue
+                    self._write_log("Adding new assembly " + search_target_id + "\n")
+                    self.updating_status = self._get_update_progress(index)
+                except Species.DoesNotExist:  # try/except to check species presence 
+                    taxa_string = self.tax_string_extractor(row['taxid'])
+                    if len(self.ignore_this_taxa) > 0:  # Ignore this taxa
+                        if sum([one_taxa in taxa_string for one_taxa in self.ignore_this_taxa.split(";")]):
+                            print("taxa is:", taxa_string, " ignored are", self.ignore_this_taxa)
+                            # Check if if all element that are sprated by a semicolumn are included in taxastring
+                            # ignore taxa
+                            self._job_done = True
+                            continue
+                    if len(self.do_only_this_taxa) > 0:  # do only this taxa
+                        if sum([one_taxa not in taxa_string for one_taxa in self.do_only_this_taxa.split(";")]): 
+                            # skip if taxa not present
+                            self._job_done = True
                             continue
                     # Create new specie
                     self._write_log("Creating new Specie for " +  + "\n")
+                    self.updating_status = self._get_update_progress(index)
                     Species.objects.create(species_name=row['organism_name'],
                                             ncbi_id=row['taxid'],
                                             alias=row['asm_name'],
@@ -97,6 +114,7 @@ class SuperUpdate():
                                             )
                 #////////////////////
                 # Make directory
+                self._write_log("Making new directory for new assembly " + search_target_id + "... ")
                 target_directory = os.path.join(
                                                 self.UPDATE_LOCATION,
                                                 row['assembly_accession'][4:7],
@@ -106,6 +124,7 @@ class SuperUpdate():
                                                 'raw_dir'
                                                 )
                 os.system('mkdir -p ' + target_directory)
+                self._write_log("successfull.\n")
                 self.updating_status = self._get_update_progress(index)
                 # GFF FNA FAA files
                 try: 
@@ -129,14 +148,15 @@ class SuperUpdate():
                         self._write_log(
                                         "Downloaded " 
                                         + file_save_loc
-                                        + "sucessfully"
+                                        + " sucessfully"
                                         + "\n"
                                         )
                         print("downloaded!")
+                        # unpack the file
                         with gzip.open(file_save_loc, 'rb') as f_in:
                             with open(file_save_loc[:-3], 'wb') as f_out:
                                 shutil.copyfileobj(f_in, f_out)
-                        os.remove(file_save_loc)
+                        os.remove(file_save_loc)  # Delete the uncompressed version
                     # FNA file mySQL
                     print("checkpoint1")
 
@@ -148,7 +168,8 @@ class SuperUpdate():
                                             file_location=target_directory+'/genomic.fna',
                                             )
                     self._write_log(
-                                    target_directory+'/genomic.fna'
+                                    "DB path added: "
+                                    + target_directory+'/genomic.fna'
                                     + "\n"
                                     )
                     # gff file mySQL
@@ -169,7 +190,8 @@ class SuperUpdate():
                                 VALUES ({0}, {1},"{2}");
                             """, [assembly_instance.assembly_id, assembly_instance.assembly_version, target_directory+'/genomic.gff'])
                     self._write_log(
-                                    target_directory+'/genomic.gff'
+                                    "DB path added: "
+                                    + target_directory+'/genomic.gff'
                                     + "\n"
                                     )
                     # faa file mySQL
@@ -181,7 +203,9 @@ class SuperUpdate():
                                                 date_of_the_data = date.today(),
                                                 file_location=target_directory+'/protein.faa'
                                                 )
-                    self._write_log(target_directory+'/protein.faa'
+                    self._write_log(
+                                    "DB path added: "
+                                    + target_directory+'/protein.faa'
                                     + "\n"
                                     )
                     # json File NEED USE fdog
@@ -229,6 +253,8 @@ class SuperUpdate():
 
             except Exception as e:  # try/except to check assembly presence 
                 print("ERROR 2:", e)
+            print("Out for loop")
+
         self.updating_status = self._get_update_progress(index)
         self._stop_me = True  # endfor
         self._job_done = True
@@ -246,9 +272,12 @@ class SuperUpdate():
             local_path (regexp, optional): Saving location. Defaults to "C:\Users\Amine\Documents\GoetheUni\MASTERARBEIT\test".
         """
         self._write_log("Downloading the lastest NCBI assembly summary...")
-        if os.path.exists(local_path):
+        if os.path.exists(local_path+"/assembly_summary_refseq.txt"):
             self._write_log("\nOld file still exists, replacing old file...")
-            os.remove(local_path)
+            os.remove(local_path+"/assembly_summary_refseq.txt")
+            print("ping1")
+            wget.download(refseq_url, local_path)
+            print("pong1")
         else:
             wget.download(refseq_url, local_path)
         self._write_log("successfull!\n")
@@ -278,6 +307,31 @@ class SuperUpdate():
             print("MySQL command error! ")
 
 
+    def fdog_luncher(self, slurm_sript, path_to_slurm_log):
+        """
+        This function use the cluster to create the protein's annotations (json) and blast dir
+        """
+        # In case fdog_seed is too big it will be split 
+        small_files_list = []
+        with open(UPDATE_FILES_DIR+"/fdog_seed.csv", "r") as big_file:
+            # update database
+            for i, line in enumerate(big_file):
+                # Split files for cluster run
+                if i % 1000 == 0:
+                    small_files_list += "small_fdog_file_{}.csv".format(i//1000)
+                with open(small_files_list[-1], "a") as small_file:
+                    small_file.write(line)
+
+
+        # run all fdog on the cluster
+        for fdog_file in small_files_list:
+            #create slurm_file
+            with open("", "w") as slurm_file:
+                slurm_file.write(slurm_sript.replace("\r", ""))
+
+            os.system("sbatch " + slurm_file)
+        return
+
     def _get_update_progress(self, my_index) -> int:
         if my_index>self.data_volume:
             print("Update progress Error!")
@@ -305,7 +359,7 @@ class SuperUpdate():
         Imports:
             pandas
         """        
-        self._write_log += "Filtering the assembly summary...\n"
+        self._write_log("Filtering the assembly summary...\n")
         self.assembly_df = pd.read_csv(
                                     self.downloaded_assembly_summary_path,
                                     delimiter="\t",

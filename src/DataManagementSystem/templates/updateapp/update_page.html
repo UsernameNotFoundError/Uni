@@ -4,7 +4,7 @@
 {% load bootstrap5 %}
     {% block body_block%}
     {% if refresh %}
-        <meta http-equiv="refresh" content=5 />
+      <meta http-equiv="refresh" content=30 />
     {% endif %}
 
     <div class="jumbotron">
@@ -25,7 +25,7 @@
       <h2>Status:</h2>
       <hr>
       <div class="row">
-        <textarea class="col-md-12 form-control">{{ updating_status }}</textarea >
+        <textarea class="col-md-12 form-control" style="height: 200px;">{{ updating_status }}</textarea >
       </div>
       <p></p>
       <div>
