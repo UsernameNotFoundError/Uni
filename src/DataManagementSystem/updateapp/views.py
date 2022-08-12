@@ -2,38 +2,44 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from updateapp.DataBaseGenerator import SuperUpdate
-from updateapp.my_functions import Test
 import _thread
 from datetime import datetime
 import os
 import pathlib
 from django.contrib.admin.views.decorators import staff_member_required
 
-
 @staff_member_required
 def home_page(request):
     """
     other page
     """
+    if request.method == "POST": 
+        if request.POST['add_new_files']:
+            update_db_function()
+            return HttpResponse("Updating script lunched!")
+        if request.POST['clear_cache']:
+            SuperUpdate.clear_cache()
+
     if  os.path.exists(SuperUpdate.UPDATE_FILES_DIR+'assembly_summary_refseq.txt'):
         last_update_date = datetime.fromtimestamp(
                         pathlib.Path(SuperUpdate.UPDATE_FILES_DIR+'assembly_summary_refseq.txt').stat().st_mtime)
     else:
         last_update_date = "an unknown date"
     return render(request, "updateapp/home_page.html", 
-            {"last_update_date":last_update_date}
+            {"last_update_date":last_update_date,
+            "fdog_run":os.path.exists(SuperUpdate.UPDATE_FILES_DIR+'fdog_seed.csv')}
                     )
 
 
+@staff_member_required
 def after_update_page(request):
     """
     This is the page for fdog and cluster usage
     """
     if request.method == "POST":  # to lunch fdog
-        pass  # RUN FUCTION HERE
-        print(request.POST['fanta'].replace('\r\n','\n'))
-        return HttpResponse("cluster is lunched! you can see the progress with \"squeue\" command")
-    print("working! fdog")
+        SuperUpdate.fdog_luncher(request.POST['my_new_slurm_script'])
+        print(request.POST['my_new_slurm_script'].replace('\r\n','\n'))        
+        return HttpResponse("cluster is lunched! you can see the progress with \"squeue\" command.\nPS: Do not forget to add the files to the data base after the cluster finishes!")
     SLURM_SCRIPT = """
     #!/bin/bash
     #SBATCH --partition=all,pool,inteli7
@@ -41,13 +47,13 @@ def after_update_page(request):
     #SBATCH --cpus-per-task=10
     #SBATCH --mem-per-cpu=3000mb
     #SBATCH --job-name="fdog_DB"
-    #SBATCH --output=addTaxa_%A_%a.o.out
-    #SBATCH --error=addTaxa_%A_%a.e.out
-    #SBATCH --array=1-1000%4
+    #SBATCH --output=/dev/null
+    #SBATCH --error=/dev/null
+    #SBATCH --array=[my_lines]%4
 
     echo This is task $SLURM_ARRAY_TASK_ID
 
-    SEED=$(awk "FNR==$SLURM_ARRAY_TASK_ID" /home/amine/Documents/Slurmrun/fdog_seed_1.csv)
+    SEED=$(awk "FNR==$SLURM_ARRAY_TASK_ID" [my_file])
     NAME=`echo $SEED |cut -d ',' -f 1`
     TAX=`echo $SEED |cut -d ',' -f 2`
     END=`echo $SEED |cut -d ',' -f 3`
@@ -82,7 +88,7 @@ def update_view(request):
         if step_indicator >= 100 or my_global_instance._stop_me :  # Stop refresh
             print("End Updating")
             exec("del(globals()['my_global_instance'])")
-            refresh_page = False
+            return HttpResponseRedirect(reverse("updateapp:update_fdog_page"))
         else:
             refresh_page = not my_global_instance._stop_me
         print("checkpointing:", "my_global_instance" in globals().keys(), my_global_instance._job_done)
@@ -118,3 +124,19 @@ def update_view(request):
     except Exception as e:
         print("Fatal error", e)
         return HttpResponse("Fatal Error while updating!")
+
+
+def mysql_script(request):
+    """
+    this page updates the database with the new containt with through a mySQL command
+    requires fdog file that will be deleted after use
+    """
+    SuperUpdate.mySQL_add_annotations_and_blast()
+    return render(request, "updateapp/mysql_run.html")
+
+
+
+def del_cache(request):
+    for one_file in os.listdir(SuperUpdate.UPDATE_FILES_DIR):
+        os.remove(os.path.join(SuperUpdate.UPDATE_FILES_DIR, one_file))
+    return HttpResponseRedirect(reverse("updateapp:home_page"))

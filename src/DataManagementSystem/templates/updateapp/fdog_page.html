@@ -4,34 +4,39 @@
 {% load bootstrap5 %}
     {% block body_block%}
     <div class="jumbotron">
-      <h2>Successfully updated:</h2>
+      <h2>Update ended:</h2>
       <hr>
       <ol>
         <li>fna files</li>
         <li>faa files</li>
         <li>gff files</li>
       </ol>
+      <hr>
+      <h3>Proceed to fdog update?</h3>
+      <hr>
       <form action="" method="post">
         <div class="row">
-          <textarea class="col-md-12 form-control" id="cola" name="fanta" style="height: 200px;">{{ slurm_script }}</textarea >
+          <textarea class="col-md-12 form-control" id="cola" name="my_new_slurm_script" style="height: 200px;">{{ slurm_script }}</textarea >
         </div>
         <hr>
         <div class="input-group mb-3">
           <span class="input-group-addon" id="basic-addon1">slurm output path: </span>
-          <input class="form-control" type="text" value="~/slurm_output" id="fna" name="slurm_output" placeholder="choose a path to find the cluster output" aria-describedby="basic-addon1">
+          <input class="form-control" type="text" value="" id="fna" name="slurm_output" placeholder="choose a path to find the cluster output" aria-describedby="basic-addon1">
         </div>
         <hr> 
         <p></p>
         <div>
-        {% csrf_token %}
-        <a href="{% url 'home_page'%}" class="col-md-2 btn btn-danger pull-right" >Cancel<a>
-        <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Run on cluster" name="cluster_script"/>
+          {% csrf_token %}
+          <a class="btn btn-primary pull-left" href="/media/updateapp/fdog_seed.csv" download>
+            download fdog seed
+          </a>
+          <a class="btn btn-primary pull-left" href="/media/updateapp/my_last_update.log" download>
+            download update log
+          </a>
+          <a href="{% url 'home_page'%}" class="col-md-2 btn btn-danger pull-right" >Cancel<a>
+          <input type="submit" class="col-md-2 btn btn-warning pull-right" value="Run on cluster" name="cluster_script"/>
+        </div>
       </form>
     </div>
-    <a href="/media/profile_pics/flower.jpg" download>
-      download
-    </a>
-    </div>
-
 
     {% endblock %}

@@ -1,6 +1,6 @@
 __author__ = "Amine"
+from argparse import ONE_OR_MORE
 from datetime import date
-from unicodedata import name
 import wget  # Download files from url
 import gzip  # unzif gz files
 import shutil
@@ -9,19 +9,19 @@ from pathlib import Path
 import os
 from mainapp.models import Assembly, Species, Genomicannotation, Proteinset
 from mysql.connector import connect  # in case model doe not work
-from Uni.settings import DATABASES
+from Uni.settings import DATABASES, MEDIA_DIR
 from Bio import Entrez
 import xml.etree.ElementTree as ET
+import glob
 
 
 class SuperUpdate():
     """
-    This module updates the database
-
+    This class contains the modules reponsible for the database updates
     """
-    _version = 1.0
+    _version = 2.0
     BASE_DIR = Path(__file__).resolve().parent.parent
-    UPDATE_FILES_DIR = os.path.join(BASE_DIR,'media/updateapp/myupdatefiles')
+    UPDATE_FILES_DIR = os.path.join(BASE_DIR,'media/updateapp/')
     UPDATE_LOCATION = "/mnt/c/Users/Amine/Documents/GoetheUni/MASTERARBEIT/test/" # Change me
 
     def __init__(self, ignore_this_taxa="" , do_only_this_taxa="") -> None:
@@ -32,12 +32,16 @@ class SuperUpdate():
         self.ignore_this_taxa = ignore_this_taxa
         self.do_only_this_taxa = do_only_this_taxa
         self._job_done = False
+        self._write_log("Update log of" + str(date.today()) +".\n", new_update=True)
 
 
     def _start_update(self):
         """
         Called with an other thread to ensure simultaneous execution 
         """
+        if self._stop_me:
+            print("Update not initiated!")
+            return
         print('Initiating update!')
         # 1st Step: get the lastest NCBI assembly summary
         self.download_refseq()
@@ -59,11 +63,13 @@ class SuperUpdate():
             mysql.connector.connect
         """
         self._write_log("Comparing Database data with the new one...\n")
-        for index, row in self.assembly_df.iterrows():
+        for index, my_tuple in enumerate(self.assembly_df.iterrows()):
+            row = my_tuple[1]
             print("Progressing: ", index, row)
             if index%500 == 0:
                 self.updating_status = self._get_update_progress(index)
             if self._stop_me:
+                self._write_log("Job was interrupted...\n")
                 break
             self._job_done = False  # Security mesure so that the thread continue working
             search_target_id, search_target_version = row['assembly_accession'].split('.')
@@ -261,6 +267,13 @@ class SuperUpdate():
         print("stopped/finished", self._stop_me, index)     
 
     
+    def clear_cache(self):
+        """delete update files
+        """
+        for one_file in os.listdir(self.UPDATE_FILES_DIR):
+            os.remove(os.path.join(dir, one_file))
+
+
     def download_refseq(self,
                         refseq_url="https://ftp.ncbi.nlm.nih.gov/genomes/refseq/assembly_summary_refseq.txt",
                         local_path=UPDATE_FILES_DIR
@@ -307,18 +320,18 @@ class SuperUpdate():
             print("MySQL command error! ")
 
 
-    def fdog_luncher(self, slurm_sript, path_to_slurm_log):
+    def fdog_luncher(self, slurm_sript):
         """
         This function use the cluster to create the protein's annotations (json) and blast dir
         """
         # In case fdog_seed is too big it will be split 
         small_files_list = []
-        with open(UPDATE_FILES_DIR+"/fdog_seed.csv", "r") as big_file:
+        with open(self.UPDATE_FILES_DIR+"fdog_seed.csv", "r") as big_file:
             # update database
             for i, line in enumerate(big_file):
                 # Split files for cluster run
                 if i % 1000 == 0:
-                    small_files_list += "small_fdog_file_{}.csv".format(i//1000)
+                    small_files_list += [self.UPDATE_FILES_DIR+"small_fdog_file_{}.csv".format(i//1000)]
                 with open(small_files_list[-1], "a") as small_file:
                     small_file.write(line)
 
@@ -326,11 +339,13 @@ class SuperUpdate():
         # run all fdog on the cluster
         for fdog_file in small_files_list:
             #create slurm_file
-            with open("", "w") as slurm_file:
-                slurm_file.write(slurm_sript.replace("\r", ""))
+            slurm_file_path = self.UPDATE_FILES_DIR+"fdog_seed.slurm"
+            with open(slurm_file_path, "w") as slurm_file:  #change me
+                slurm_file.write(slurm_sript.replace("\r", "").replace("[my_file]", fdog_file).replace("[my_lines]", "1-"+str(open(fdog_file).read().count("\n"))))
 
-            os.system("sbatch " + slurm_file)
+            os.system("sbatch " + slurm_file_path)
         return
+
 
     def _get_update_progress(self, my_index) -> int:
         if my_index>self.data_volume:
@@ -340,6 +355,64 @@ class SuperUpdate():
             return 100
         print ("current prog",  my_index, int(my_index/self.data_volume*100))
         return int(my_index/self.data_volume*100)
+
+
+    def mySQL_add_annotations_and_blast() -> None:
+        """
+        Adds the newly made json files and blastdir to the database
+        """
+        with open(MEDIA_DIR+"/updateapp/fdog_seed.csv", "r") as my_input_file:
+            my_input_data = my_input_file.readlines()
+            
+        for line in my_input_data:
+            if len(line) < 2:
+                break
+            my_values = line[:-1].split(",")
+            try:
+                print(my_values)
+                conn = connect( user=DATABASES['default']['USER'],
+                                password=DATABASES['default']['PASSWORD'],
+                                host=DATABASES['default']['HOST'],
+                                database=DATABASES['default']['NAME'],
+                                autocommit=True
+                                )
+                my_cursor = conn.cursor(buffered=True)
+                my_cursor.execute("Use "+ DATABASES['default']['NAME'] + ";")
+                my_cursor.execute(
+                        """SELECT ProteinSet.Protein_ID
+                        FROM Assembly
+                        JOIN Species
+                        ON Assembly.Species=Species.Species_id
+                        JOIN GenomicAnnotation
+                        ON Assembly.Assembly_ID=GenomicAnnotation.Assembly_ID AND Assembly.Assembly_version=GenomicAnnotation.Assembly_version
+                        join ProteinSet
+                        on GenomicAnnotation.Annotation_ID=ProteinSet.Annotation_ID
+                        WHERE NCBI_ID = {1} and Assembly.Assembly_version= {2};""".format(*my_values)
+                        )   
+                
+                my_fdog_dir = os.path.join("/share/gluster/GeneSets/NCBI-Genomes/",
+                            my_values[0][4:7],
+                            my_values[0][7:10],
+                            my_values[0][10:13],
+                            my_values[0] + '.' + my_values[2],
+                            'fdog'
+                            )
+                            
+                os.chdir(my_fdog_dir+"/weight_dir")    
+                json_file = my_fdog_dir + "/weight_dir/" + glob.glob("*.json")[0]
+
+                            
+                my_target_protein_id = my_cursor.fetchone()[0]
+                print("check 1:", my_target_protein_id)
+                my_cursor.execute(
+                        "INSERT INTO FeatureAnnotation(Protein_ID, Tool, File_Location) VALUES({0}, 'fdog', '{1}');".format(*[my_target_protein_id, json_file])
+                        )  # FeatureAnnotation
+                my_cursor.execute(
+                        "INSERT INTO BlastDB(Protein_ID, Dir_Location) VALUES({0}, '{1}');".format(*[my_target_protein_id, my_fdog_dir+"/blast_dir"])
+                        )  # BlastDB
+
+            except Exception as e:
+                print("MySQL command error! \n", e)
 
 
     def readdata(self):
@@ -430,10 +503,17 @@ class SuperUpdate():
             with open(save_path, 'wb') as f_out:
                 shutil.copyfileobj(f_in, f_out)
 
-    def _write_log(self, text_output):
-        self.html_print += text_output
-        with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
-                        update_file.write(text_output)
+
+    def _write_log(self, text_output, new_update=False):
+        if new_update:
+            with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "w") as update_file:
+                update_file.write(text_output)
+        else:
+            self.html_print += text_output
+            my_log_file = os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log")
+
+            with open(os.path.join(self.UPDATE_FILES_DIR, "my_last_update.log"), "a") as update_file:
+                update_file.write(text_output)
 
 if __name__=="__main__":
     print("What are you doing?")

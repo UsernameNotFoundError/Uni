@@ -3,12 +3,20 @@
     {% block body_block%}
     <div class="jumbotron">
       <h2>Hello Sir {{user.username}}!</h2>
+      <a href={% url 'updateapp:clear_cache' %} class="btn btn-info pull-right">Delete Cache</a>
       <p style="text-align:center;"><h3>It's {% now "jS F Y H:i" %}</h3></p>
       <hr>
       <h3>Last update was made on {{ last_update_date }}</h3>
       <hr>
       <form class=""  action="progress/?ignore_this_taxa={{ignore_this_taxa}}?do_only_this_taxa={{do_only_this_taxa}}" enctype="multipart/form-data">
         <label class="custom-file-label" for="files_list">Start new update</label>
+        {% if fdog_run %}
+        <div class="alert alert-warning" role="alert">
+          <strong>fdog seed file found!</strong>
+          <hr>Please click on this button to update with the last data to the database!
+          <a type="button" href={% url 'updateapp:mysql_run' %} class="btn btn-warning form-control" >Add the new cluster files to DB </a>
+        </div>
+        {% endif %}
         <div class="input-group mb-3">
           <span class="input-group-addon" id="basic-addon1">Ignore</span>
           <input class="form-control" type="text" value="Bacteria" id="fna" name="ignore_this_taxa" placeholder="You can choose to ignore taxonomy" aria-describedby="basic-addon1">
