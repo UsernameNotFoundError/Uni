@@ -1,0 +1,98 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+5762|Naegleria gruberi|GCF_000004985.1||active
+51637|Naegleria lovaniensis|GCF_003324165.1||active
+5763|Naegleria fowleri|GCF_008403515.1||active
+2898|Cryptomonas paramecium|GCF_000194455.1||active
+4781|Plasmopara halstedii|GCF_900000015.1||active
+5661|Leishmania donovani|GCF_000227135.1||active
+5679|Leishmania panamensis|GCF_000755165.1||active
+5698|Trypanosoma rangeli|GCF_003719475.1||active
+5741|Giardia intestinalis|GCF_000002435.2||active
+5786|Dictyostelium purpureum|GCF_000190715.1||active
+5801|Eimeria acervulina|GCF_000499425.1||active
+5802|Eimeria tenella|GCF_000499545.2||active
+5804|Eimeria maxima|GCF_000499605.1||active
+5823|Plasmodium berghei ANKA|GCF_900002375.2||active
+5849|Plasmodium gallinaceum|GCF_900005855.1||active
+5851|Plasmodium knowlesi strain H|GCF_000006355.2||active
+5854|Plasmodium reichenowi|GCF_001601855.1||active
+5855|Plasmodium vivax|GCF_000002415.2|Salvador I|active
+5857|Plasmodium fragile|GCF_000956335.1||active
+5858|Plasmodium malariae|GCF_900090045.1||active
+5861|Plasmodium yoelii|GCF_900002385.2||active
+5866|Babesia bigemina|GCF_000981445.1||active
+5874|Theileria annulata|GCF_000003225.4||active
+5932|Ichthyophthirius multifiliis|GCF_000220395.1||active
+12968|Blastocystis hominis|GCF_000151665.1|Singapore isolate B (sub-type 7)|active
+31271|Plasmodium chabaudi chabaudi|GCF_900002335.2||active
+36329|Plasmodium falciparum 3D7|GCF_000002765.5|3D7|active
+44056|Aureococcus anophagefferens|GCF_000186865.1||active
+44415|Eimeria mitis|GCF_000499745.2||active
+51315|Eimeria necatrix|GCF_000499385.1||active
+54757|Plasmodium vinckei vinckei|GCF_900681995.1||active
+67003|Trypanosoma theileri|GCF_002087225.1|Edinburgh|active
+67593|Phytophthora sojae|GCF_000149755.1||active
+71804|Trypanosoma grayi|GCF_000691245.1||active
+77519|Plasmodium gonderi|GCF_002157705.1||active
+83891|Trypanosoma conorhini|GCF_003719485.1||active
+85471|Plasmodium relictum|GCF_900005765.1||active
+88456|Cyclospora cayetanensis|GCF_002999335.1|NF1_C8|active
+94643|Besnoitia besnoiti|GCF_002563875.1||active
+110365|Gregarina niphandrodes|GCF_000223845.1||active
+112090|Aphanomyces astaci|GCF_000520075.1||active
+157072|Aphanomyces invadans|GCF_000520115.1||active
+157538|Leptomonas pyrrhocoris|GCF_001293395.1|H10|active
+185431|Trypanosoma brucei brucei TREU927|GCF_000002445.2|927/4 GUTat10.1|active
+189622|Babesia ovata|GCF_002897235.1||active
+208452|Plasmodium coatneyi|GCF_001680005.1||active
+227086|Bigelowiella natans|GCF_000002455.1||active
+261658|Cavenderia fasciculata|GCF_000203815.1|SH3|active
+280463|Emiliania huxleyi CCMP1516|GCF_000372725.1||active
+294381|Entamoeba histolytica HM-1:IMSS|GCF_000208925.1||active
+296543|Thalassiosira pseudonana CCMP1335|GCF_000149405.2||active
+312017|Tetrahymena thermophila SB210|GCF_000189635.1||active
+333668|Theileria parva strain Muguga|GCF_000165365.1||active
+347515|Leishmania major strain Friedlin|GCF_000002725.2||active
+352472|Dictyostelium discoideum AX4|GCF_000004695.1||active
+353151|Cryptosporidium hominis TU502|GCF_000006425.1||active
+353152|Cryptosporidium parvum Iowa II|GCF_000165345.1|Iowa type II|active
+353153|Trypanosoma cruzi strain CL Brener|GCF_000209065.1||active
+370354|Entamoeba dispar SAW760|GCF_000209125.1||active
+370355|Entamoeba invadens IP1|GCF_000330505.1||active
+403677|Phytophthora infestans T30-4|GCF_000142945.1||active
+412030|Paramecium tetraurelia strain d4-2|GCF_000165425.1||active
+412133|Trichomonas vaginalis G3|GCF_000002825.2||active
+420245|Leishmania braziliensis MHOM/BR/75/M2904|GCF_000002845.2||active
+423536|Perkinsus marinus ATCC 50983|GCF_000006405.1||active
+435258|Leishmania infantum JPCM5|GCF_000002875.2||active
+441375|Cryptosporidium muris RN66|GCF_000006515.1||active
+461836|Thecamonas trahens ATCC 50062|GCF_000142905.1||active
+462227|Babesia sp. Xinjiang|GCF_002095265.1||active
+464988|Hemiselmis andersenii|GCF_000018645.1||active
+484906|Babesia bovis T2Bo|GCF_000165395.1|T2Bo|active
+508771|Toxoplasma gondii ME49|GCF_000006565.2||active
+556484|Phaeodactylum tricornutum CCAP 1055/1|GCF_000150955.2||active
+572307|Neospora caninum Liverpool|GCF_000208865.1||active
+647221|Plasmodium gaboni|GCF_001602025.1||active
+670386|Heterostelium album PN500|GCF_000004825.1||active
+679716|Trypanosoma brucei gambiense DAL972|GCF_000210295.1||active
+695850|Saprolegnia parasitica CBS 223.65|GCF_000151545.1||active
+744533|Naegleria gruberi strain NEG-M|GCF_000004985.1||retired_Oct21
+761204|Phytophthora parasitica INRA-310|GCF_000247585.1||active
+857276|Cryptosporidium ubiquitum|GCF_001865345.1|39726|active
+869250|Theileria orientalis strain Shintoku|GCF_000740895.1||active
+880535|Plasmodium sp. gorilla clade G2|GCF_900097015.1||active
+905079|Guillardia theta CCMP2712|GCF_000315625.1||active
+929439|Leishmania mexicana MHOM/GT/2001/U1103|GCF_000234665.1||active
+944170|Blastocystis sp. subtype 4|GCF_000743755.1||active
+1076696|Entamoeba nuttalli P19|GCF_000257125.1||active
+1093141|Nannochloropsis gaditana CCMP526|GCF_000240725.1||active
+1120755|Plasmodium cynomolgi strain B|GCF_000321355.1||active
+1133968|Babesia microti strain RI|GCF_000691945.2||active
+1156394|Saprolegnia diclina VS20|GCF_000281045.1||active
+1237626|Plasmodium inui San Antonio 1|GCF_000524495.1||active
+1257118|Acanthamoeba castellanii str. Neff|GCF_000313135.1||active
+1410327|Acytostelium subglobosum LB1|GCF_000787575.1||active
+1537102|Theileria equi strain WA|GCF_000342415.1||active
+412030|Paramecium tetraurelia strain d4-2|GCF_000141845.1||skipped
+55529|Guillardia theta|GCF_000002975.1||skipped

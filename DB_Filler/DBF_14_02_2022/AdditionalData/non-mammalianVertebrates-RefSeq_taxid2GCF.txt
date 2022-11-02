@@ -1,0 +1,291 @@
+taxid|organism name|assembly accession|intraspecific name|status
+8478|Chrysemys picta bellii|GCF_000241765.4|RCT428|active
+59729|Taeniopygia guttata|GCF_003957565.2|Black17|active
+36176|Chiloscyllium plagiosum|GCF_004010195.1|BGI_BamShark_2017|active
+61221|Varanus komodoensis|GCF_004798865.1||active
+160734|Plectropomus leopardus|GCF_008729295.1|mb|active
+91951|Catharus ustulatus|GCF_009819885.2|bCatUst1|active
+30331|Bufo gargarizans|GCF_014858855.1|SCDJY-AF-19|active
+451745|Nematolebias whitei|GCF_014905685.2|Nwh7|active
+8469|Chelonia mydas|GCF_015237465.2|rCheMyd1|active
+68294|Corvus kubaryi|GCF_017639235.1|FWS band 111438036|active
+148594|Falco naumanni|GCF_017639655.2|bFalNau1|active
+1250792|Melanotaenia boesemani|GCF_017639745.1|fMelBoe1|active
+109905|Chelmon rostratus|GCF_017976325.1|fCheRos1|active
+74940|Oncorhynchus tshawytscha|GCF_018296145.1|Ot180627B|active
+241271|Cheilinus undulatus|GCF_018320785.1||active
+8153|Haplochromis burtoni|GCF_018398535.1||active
+59861|Coregonus clupeaformis|GCF_018398675.1|EN20210322|active
+34773|Alosa sapidissima|GCF_018492685.1|fAloSap1|active
+56313|Tyto alba|GCF_018691265.1|M040663|active
+1606681|Puntigrus tetrazona|GCF_018831695.1|hp1|active
+7868|Callorhinchus milii|GCF_018977255.1|IMCB2004|active
+8520|Sceloporus undulatus|GCF_019175285.1|JIND9_A2432|active
+28829|Solea senegalensis|GCF_019176455.1|Sse05_10M|active
+9002|Centrocercus urophasianus|GCF_019232065.1|14NV4802_14NV808|active
+30410|Lagopus leucura|GCF_019238085.1|7727_CA_CO|active
+33528|Gambusia affinis|GCF_019740435.1||active
+119488|Siniperca chuatsi|GCF_020085105.1|FFG_IHB_CAS|active
+7950|Clupea harengus|GCF_900700415.2||active
+8240|Thunnus maccoyii|GCF_910596095.1||active
+8236|Thunnus albacares|GCF_914725855.1||active
+13397|Carcharodon carcharias|GCF_017639515.1|sCarCar2|active
+158456|Betta splendens|GCF_900634795.3||active
+221976|Pyrgilauda ruficollis|GCF_017590135.1|IOZ18807|active
+223781|Aquila chrysaetos chrysaetos|GCF_900496995.4||active
+356909|Onychostruthus taczanowskii|GCF_017590055.1|IOZ18803|active
+7913|Polyodon spathula|GCF_017654505.1|WHYD16114869 AA|active
+9031|Gallus gallus|GCF_016700215.1|bGalGal1|skipped
+941984|Toxotes jaculatrix|GCF_017976425.1|fToxJac2|active
+1094192|Motacilla alba alba|GCF_015832195.1|MOTALB 02|active
+118141|Megalops cyprinoides|GCF_013368585.1|fMegCyp1|active
+120794|Falco rusticolus|GCF_015220075.1|bFalRus1|active
+134920|Pungitius pungitius|GCF_902500615.1||active
+161584|Syngnathus acus|GCF_901709675.1||active
+260615|Mauremys reevesii|GCF_016161935.1|NIE-2019|active
+2691554|Salvelinus sp. IW2-2015|GCF_002910315.2|IW2-2015|active
+27706|Micropterus salmoides|GCF_014851395.1|LMB-PRFRI|active
+27794|Dermochelys coriacea|GCF_009764565.2|rDerCor1|retired_Oct21
+42526|Colossoma macropomum|GCF_904425465.1||active
+43150|Hirundo rustica|GCF_015227805.1|bHirRus1|active
+43689|Simochromis diagramma|GCF_900408965.1||active
+451745|Nematolebias whitei|GCF_014905685.1|Nwh7|retired_Oct21
+481459|Gasterosteus aculeatus aculeatus|GCF_016920845.1||active
+55291|Polypterus senegalus|GCF_016835505.1|Bchr 013|active
+72105|Sebastes umbrosus|GCF_015220745.1|fSebUmb1|active
+77115|Cyprinodon tularosa|GCF_016077235.1||active
+7830|Scyliorhinus canicula|GCF_902713615.1||active
+7936|Anguilla anguilla|GCF_013347855.1|fAngAng1|active
+8005|Electrophorus electricus|GCF_013358815.1|fEleEle1|active
+8018|Oncorhynchus keta|GCF_012931545.1|Oke142-1 Chum Gynogen|active
+8040|Salvelinus namaycush|GCF_016432855.1|Seneca|active
+8168|Perca fluviatilis|GCF_010015445.1||active
+8177|Acanthopagrus latus|GCF_904848185.1|v.2019|active
+8245|Xiphias gladius|GCF_016859285.1|SHS-SW01|active
+8407|Rana temporaria|GCF_905171775.1||active
+84834|Molothrus ater|GCF_012460135.1|BHLD 08-10-18|active
+88082|Crotalus tigris|GCF_016545835.1|CLP2741|active
+90988|Pimephales promelas|GCF_016745375.1||active
+9160|Passer montanus|GCF_014805655.1|IOZ18808|active
+8384|Bufo bufo|GCF_905171765.1||active
+8869|Cygnus olor|GCF_009769625.2||active
+148594|Falco naumanni|GCF_017639655.1||retired_June2021
+9031|Gallus gallus|GCF_016699485.2|bGalGal1|active
+417921|Etheostoma cragini|GCF_013103735.1|ETHCR|active
+54343|Etheostoma spectabile|GCF_008692095.1|ETHSP|active
+100784|Balearica regulorum gibbericeps|GCF_000709895.1|BALRE|active
+103695|Pogona vitticeps|GCF_900067755.1|POGVI|active
+103944|Protobothrops mucrosquamatus|GCF_001527695.2|PROMU|active
+105023|Nothobranchius furzeri|GCF_001465895.1|NOTFU|active
+106582|Maylandia zebra|GCF_000238955.4|MAYZE|active
+106734|Chelonoidis abingdonii|GCF_003597395.1|CHEAB|active
+109280|Hippocampus comes|GCF_001891065.1|HIPCO|active
+113540|Scleropages formosus|GCF_900964775.1|SCLFO|active
+114329|Neopelma chrysocephalum|GCF_003984885.1|NEOCH|active
+118200|Picoides pubescens|GCF_000699005.1|PICPU|active
+1196302|Corvus moneduloides|GCF_009650955.1|CORMO|active
+1203425|Notolabrus celidotus|GCF_009762535.1|NOTCE|active
+121530|Tauraco erythrolophus|GCF_000709365.1|TAUER|active
+1234273|Tachysurus fulvidraco|GCF_003724035.1|TACFU|active
+125878|Nanorana parkeri|GCF_000935625.1|NANPA|active
+128390|Nipponia nippon|GCF_000708225.1|NIPNI|active
+13146|Melopsittacus undulatus|GCF_012275295.1|MELUN|active
+13735|Pelodiscus sinensis|GCF_000230535.1|PELSI|active
+1415580|Microcaecilia unicolor|GCF_901765095.1|MICUN|active
+144197|Stegastes partitus|GCF_000690725.1|STEPA|active
+146911|Gekko japonicus|GCF_001447785.1|GEKJA|active
+150288|Boleophthalmus pectinirostris|GCF_000788275.1|BOLPE|active
+156563|Cyanistes caeruleus|GCF_002901205.1|CYACA|active
+158456|Betta splendens|GCF_900634795.2|BETSP|retired May2021
+1608454|Sinocyclocheilus anshuiensis|GCF_001515605.1|SINAN|active
+164674|Empidonax traillii|GCF_003031625.1|EMPTR|active
+1676925|Paramormyrops kingsleyae|GCF_002872115.1|PARKI|active
+173247|Echeneis naucrates|GCF_900963305.1|ECHNA|active
+175836|Buceros rhinoceros silvestris|GCF_000710305.1|BUCRH|active
+176057|Nestor notabilis|GCF_000696875.1|NESNO|active
+176946|Python bivittatus|GCF_000186305.1|PYTBI|active
+181119|Pseudopodoces humilis|GCF_000331425.1|PSEHU|active
+181472|Salarias fasciatus|GCF_902148845.1|SALFA|active
+1825980|Gopherus evgoodei|GCF_007399415.2|GOPEV|active
+1841481|Seriola lalandi dorsalis|GCF_002814215.1|SERLA|active
+187382|Chlamydotis macqueenii|GCF_000695195.1|CHLMA|active
+188344|Leptosomus discolor|GCF_000691785.1|LEPDI|active
+188379|Egretta garzetta|GCF_000687185.1|EGRGA|active
+194338|Athene cunicularia|GCF_003259725.1|ATHCU|active
+194408|Rhinatrema bivittatum|GCF_901001135.1|RHIBI|active
+195615|Hippoglossus stenolepis|GCF_013339905.1|HIPST|active
+198806|Calidris pugnax|GCF_001431845.1|CALPU|active
+202946|Apteryx mantelli mantelli|GCF_001039765.1|APTMA|active
+205130|Mastacembelus armatus|GCF_900324485.2|MASAR|active
+210632|Parambassis ranga|GCF_900634625.1|PARRA|active
+215358|Larimichthys crocea|GCF_000972845.2|LARCR|active
+219594|Aythya fuligula|GCF_009819795.1|AYTFU|active
+223781|Aquila chrysaetos chrysaetos|GCF_900496995.1|AQUCH|retired May2021
+240206|Pterocles gutturalis|GCF_000699245.1|PTEGU|active
+244447|Cynoglossus semilaevis|GCF_000523025.1|CYNSE|active
+2489341|Strigops habroptila|GCF_004027225.2|STRHA|active
+2587831|Terrapene carolina triunguis|GCF_002925995.2|TERCA|active
+259920|Rhincodon typus|GCF_001642345.1|RHITY|active
+260995|Geotrypetes seraphini|GCF_902459505.1|GEOSE|active
+27687|Erpetoichthys calabaricus|GCF_900747795.1|ERPCA|active
+279965|Antrostomus carolinensis|GCF_000700745.1|ANTCA|active
+28377|Anolis carolinensis|GCF_000090745.1|ANOCA|active
+28743|Cyprinodon variegatus|GCF_000732505.1|CYPVA|active
+29144|Chanos chanos|GCF_902362185.1|CHACH|active
+296741|Chiroxiphia lanceolata|GCF_009829145.1|CHILA|active
+299123|Lonchura striata domestica|GCF_005870125.1|LONST|active
+299321|Denticeps clupeoides|GCF_900700375.1|DENCL|active
+303518|Pundamilia nyererei|GCF_000239375.1|PUNNY|active
+30419|Opisthocomus hoazin|GCF_000692075.1|OPIHO|active
+30455|Fulmarus glacialis|GCF_000690835.1|FULGL|active
+30464|Nothoprocta perdicaria|GCF_003342845.1|NOTPE|active
+307959|Sinocyclocheilus rhinocerous|GCF_001515625.1|SINRH|active
+308060|Apteryx rowi|GCF_003343035.1|APTRO|active
+31033|Takifugu rubripes|GCF_901000725.2|TAKRU|active
+310571|Epinephelus lanceolatus|GCF_005281545.1|EPILA|active
+310915|Pangasianodon hypophthalmus|GCF_009078355.1|PANHY|active
+31138|Trachemys scripta elegans|GCF_013100865.1|TRASC|active
+321398|Lepidothrix coronata|GCF_001604755.1|LEPCO|active
+32473|Xiphophorus couchianus|GCF_001444195.1|XIPCO|active
+32507|Neolamprologus brichardi|GCF_000239395.1|NEOBR|active
+328815|Manacus vitellinus|GCF_001715985.3|MANVI|active
+345164|Falco cherrug|GCF_000337975.1|FALCH|active
+34816|Morone saxatilis|GCF_004916995.1|MORSA|active
+35005|Thamnophis elegans|GCF_009769535.1|THAEL|active
+35019|Thamnophis sirtalis|GCF_001077635.1|THASI|active
+36300|Pelecanus crispus|GCF_000687375.1|PELCR|active
+37040|Gavia stellata|GCF_000690875.1|GAVST|active
+375764|Sphaeramia orbicularis|GCF_902148855.1|SPHOR|active
+381198|Anser cygnoides domesticus|GCF_000971095.1|ANSCY|active
+38654|Alligator sinensis|GCF_000455745.1|ALLSI|active
+386614|Amblyraja radiata|GCF_010909765.2|AMBRA|active
+390379|Thalassophryne amazonica|GCF_902500255.1|THAAM|active
+40690|Trematomus bernacchii|GCF_902827165.1|TREBE|active
+409849|Periophthalmus magnuspinnatus|GCF_009829125.1|PERMA|active
+41447|Seriola dumerili|GCF_002260705.1|SERDU|active
+415028|Corapipo altera|GCF_003945725.1|CORAL|active
+433405|Anarrhichthys ocellatus|GCF_004355925.1|ANAOC|active
+43700|Monopterus albus|GCF_001952655.1|MONAL|active
+441366|Gouania willdenowi|GCF_900634775.1|GOUWI|active
+441894|Struthio camelus australis|GCF_000698965.1|STRCA|active
+44394|Zonotrichia albicollis|GCF_000385455.1|ZONAL|active
+48698|Poecilia formosa|GCF_000485575.1|POEFO|active
+48699|Poecilia latipinna|GCF_001443285.1|POELA|active
+48701|Poecilia mexicana|GCF_001443325.1|POEME|active
+48883|Geospiza fortis|GCF_000277835.1|GEOFO|active
+50402|Charadrius vociferus|GCF_000708025.1|CHAVO|active
+507980|Tyto alba alba|GCF_902150015.1|TYTAL|retired_Oct21
+52239|Pseudochaenichthys georgianus|GCF_902827115.1|PSEGE|active
+52644|Haliaeetus leucocephalus|GCF_000737465.1|HALLE|active
+52670|Austrofundulus limnaeus|GCF_001266775.1|AUSLI|active
+52904|Scophthalmus maximus|GCF_013347765.1|SCOMA|active
+54374|Mesitornis unicolor|GCF_000695765.1|MESUN|active
+54380|Cariama cristata|GCF_000690535.1|CARCR|active
+54383|Eurypyga helias|GCF_000690775.1|EURHE|active
+55661|Cuculus canorus|GCF_000709325.1|CUCCA|active
+56716|Cottoperca gobio|GCF_900634415.1|COTGO|active
+56723|Labrus bergylta|GCF_900080235.1|LABBE|active
+57068|Acanthisitta chloris|GCF_000695815.1|ACACH|active
+57397|Apaloderma vittatum|GCF_000703405.1|APAVI|active
+57412|Colius striatus|GCF_000690715.1|COLST|active
+57421|Merops nubicus|GCF_000691845.1|MERNU|active
+586833|Myripristis murdjan|GCF_902150065.1|MYRMU|active
+59729|Taeniopygia guttata|GCF_008822105.2|TAEGU|retired_June2021
+59894|Ficedula albicollis|GCF_000247815.1|FICAL|active
+63155|Archocentrus centrarchus|GCF_007364275.1|ARCCE|active
+64144|Anabas testudineus|GCF_900324465.2|ANATE|active
+64176|Podarcis muralis|GCF_004329235.1|PODMU|active
+74940|Oncorhynchus tshawytscha|GCF_002872995.1|ONCTS|retired_Oct21
+75366|Sinocyclocheilus grahami|GCF_001515645.1|SINGR|active
+7757|Petromyzon marinus|GCF_010993605.1|PETMA|active
+7868|Callorhinchus milii|GCF_000165045.1|CALMI|retired_Oct21
+7897|Latimeria chalumnae|GCF_000225785.1|LATCH|active
+7906|Acipenser ruthenus|GCF_010645085.1|ACIRU|active
+7918|Lepisosteus oculatus|GCF_000242695.1|LEPOC|active
+7950|Clupea harengus|GCF_900700415.1|CLUHA|retired_Oct21
+7955|Danio rerio|GCF_000002035.6|DANRE|active
+7957|Carassius auratus|GCF_003368295.1|CARAU|active
+7962|Cyprinus carpio|GCF_000951615.1|CYPCA|retired_Oct21
+7994|Astyanax mexicanus|GCF_000372685.2|ASTME|active
+7998|Ictalurus punctatus|GCF_001660625.1|ICTPU|active
+8010|Esox lucius|GCF_011004845.1|ESOLU|active
+8019|Oncorhynchus kisutch|GCF_002021735.2|ONCKI|active
+8023|Oncorhynchus nerka|GCF_006149115.1|ONCNE|active
+8030|Salmo salar|GCF_000233375.1|SALSA|active
+8032|Salmo trutta|GCF_901001165.1|SALTR|active
+80427|Lacerta agilis|GCF_009819535.1|LACAG|active
+8049|Gadus morhua|GCF_902167405.1|GADMO|active
+8081|Poecilia reticulata|GCF_000633615.1|POERE|active
+8083|Xiphophorus maculatus|GCF_002775205.1|XIPMA|active
+8084|Xiphophorus hellerii|GCF_003331165.1|XIPHE|active
+8090|Oryzias latipes|GCF_002234675.1|ORYLA|active
+80966|Acanthochromis polyacanthus|GCF_002109545.1|ACAPO|active
+80972|Amphiprion ocellaris|GCF_002776465.1|AMPOC|active
+8103|Cyclopterus lumpus|GCF_009769545.1|CYCLU|active
+8128|Oreochromis niloticus|GCF_001858045.2|ORENI|active
+8153|Haplochromis burtoni|GCF_000239415.1|HAPBU|retired_Oct21
+8154|Astatotilapia calliptera|GCF_900246225.1|ASTCA|active
+8167|Perca flavescens|GCF_004354835.1|PERFL|active
+8175|Sparus aurata|GCF_900880675.1|SPAAU|active
+8187|Lates calcarifer|GCF_001640805.1|LATCA|active
+8208|Notothenia coriiceps|GCF_000735185.1|NOTCO|active
+8218|Gymnodraco acuticeps|GCF_902827175.1|GYMAC|active
+8255|Paralichthys olivaceus|GCF_001970005.1|PAROL|active
+8267|Hippoglossus hippoglossus|GCF_009819705.1|HIPHI|active
+8355|Xenopus laevis|GCF_001663975.1|XENLA|retired_June2021
+8364|Xenopus tropicalis|GCF_000004195.4|XENTR|active
+8478|Chrysemys picta bellii|GCF_000241765.3|CHRPI|retired_Oct21
+8496|Alligator mississippiensis|GCF_000281125.3|ALLMI|active
+8502|Crocodylus porosus|GCF_001723895.1|CROPO|active
+85066|Corvus brachyrhynchos|GCF_000691975.1|CORBR|active
+8524|Zootoca vivipara|GCF_011800845.1|ZOOVI|active
+8663|Notechis scutatus|GCF_900518725.1|NOTSC|active
+8673|Pseudonaja textilis|GCF_900518735.1|PSETE|active
+87175|Camarhynchus parvulus|GCF_901933205.1|CAMPA|active
+8790|Dromaius novaehollandiae|GCF_003342905.1|DRONO|active
+8868|Cygnus atratus|GCF_013377495.1|CYGAT|active
+8884|Oxyura jamaicensis|GCF_011077185.1|OXYJA|active
+8897|Chaetura pelagica|GCF_000747805.1|CHAPE|active
+8932|Columba livia|GCF_000337935.1|COLLI|active
+8954|Falco peregrinus|GCF_000337955.1|FALPE|active
+8969|Haliaeetus albicilla|GCF_000691405.1|HALAL|active
+8996|Numida meleagris|GCF_002078875.1|NUMME|active
+9054|Phasianus colchicus|GCF_004143745.1|PHACO|active
+9103|Meleagris gallopavo|GCF_000146605.3|MELGA|active
+9135|Serinus canaria|GCF_007115625.1|SERCA|active
+9157|Parus major|GCF_001522545.3|PARMA|active
+9172|Sturnus vulgaris|GCF_001447265.1|STUVU|active
+91951|Catharus ustulatus|GCF_009819885.1|CATUS|retired_Oct21
+9209|Phalacrocorax carbo|GCF_000708925.1|PHACA|active
+9233|Aptenodytes forsteri|GCF_000699145.1|APTFO|active
+9238|Pygoscelis adeliae|GCF_000699105.1|PYGAD|active
+9244|Calypte anna|GCF_003957555.1|CALAN|active
+93934|Coturnix japonica|GCF_001577835.2|COTJA|active
+94827|Tinamus guttatus|GCF_000705375.1|TINGU|active
+94835|Gavialis gangeticus|GCF_001723915.1|GAVGA|active
+94885|Pantherophis guttatus|GCF_001185365.1|PANGU|active
+97097|Phaethon lepturus|GCF_000687285.1|PHALE|active
+283035|Sander lucioperca|GCF_008315115.2|FBNREF2018|active
+30732|Oryzias melastigma|GCF_002922805.2||active
+37003|Kryptolebias marmoratus|GCF_001649575.2|JLee-2015|active
+42514|Pygocentrus nattereri|GCF_015220715.1|fPygNat1|active
+47969|Oreochromis aureus|GCF_013358895.1||active
+649802|Pipra filicauda|GCF_003945595.2|LSUMZ 115617|active
+8022|Oncorhynchus mykiss|GCF_013265735.2|Arlee|active
+8078|Fundulus heteroclitus|GCF_011125445.2|FHET01|active
+8469|Chelonia mydas|GCF_015237465.1|rCheMyd1|retired_Oct21
+8839|Anas platyrhynchos|GCF_015476345.1|Z2|active
+932674|Corvus cornix cornix|GCF_000738735.5|S Up H32|active
+283035|Sander lucioperca|GCF_008315115.1 SLUC FBN 1|SANLU|retired Apr21 Dec2020
+30732|Oryzias melastigma|GCF_002922805.1 Om v0.7.RACA|ORYME|retired Apr21
+37003|Kryptolebias marmoratus|GCF_001649575.1 ASM164957v1|KRYMA|retired Apr21
+386614|Amblyraja radiata|GCF_010909765.1 sAmbRad1.pri|AMBRA|retired Apr21
+42514|Pygocentrus nattereri|GCF_001682695.1 Pygocentrus nattereri-1.0.2|PYGNA|retired Apr21
+47969|Oreochromis aureus|GCF_005870065.1 ASM587006v1|OREAU|retired Apr21
+649802|Pipra filicauda|GCF_003945595.1 ASM394559v1|PIPFI|retired Apr21
+8022|Oncorhynchus mykiss|GCF_002163495.1 Omyk 1.0|ONCMY|retired Apr21
+8078|Fundulus heteroclitus|GCF_000826765.1 Fundulus heteroclitus-3.0.2|FUNHE|retired Apr21
+8469|Chelonia mydas|GCF_000344595.1 CheMyd 1.0|CHEMY|retired Apr21
+8839|Anas platyrhynchos|GCF_003850225.1 IASCAAS PekingDuck PBH1.5|ANAPL|retired Apr21
+9031|Gallus gallus|GCF_000002315.6 GRCg6a|GALGA|retired Apr21
+932674|Corvus cornix cornix|GCF_000738735.2 ASM73873v2|CORCO|retired Apr21

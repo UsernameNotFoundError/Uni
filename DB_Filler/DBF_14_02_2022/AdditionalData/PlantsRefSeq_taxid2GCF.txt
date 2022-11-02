@@ -1,0 +1,147 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+3055|Chlamydomonas reinhardtii|GCF_000002595.2||active
+97700|Quercus lobata|GCF_001633185.2|SW786|active
+3983|Manihot esculenta|GCF_001659605.2||active
+4236|Lactuca sativa|GCF_002870075.2||active
+180675|Salvia splendens|GCF_004379255.1|huo1|active
+72917|Erigeron canadensis|GCF_010389155.1|Cc75|active
+29780|Mangifera indica|GCF_011075055.1||active
+60698|Macadamia integrifolia|GCF_013358625.1||active
+94328|Zingiber officinale|GCF_018446385.1||active
+32201|Carya illinoinensis|GCF_018687715.1||active
+54955|Telopea speciosissima|GCF_018873765.1|NSW1024214|active
+2249226|Juglans microcarpa x Juglans regia|GCF_004785595.1|MS1-56|active
+2711|Citrus sinensis|GCF_000317415.1||active
+2769|Chondrus crispus|GCF_000350225.1||active
+3055|Chlamydomonas reinhardtii|GCF_000002595.1||retired_Oct21
+3068|Volvox carteri f. nagariensis|GCF_000143455.1||active
+3075|Auxenochlorella protothecoides|GCF_000733215.1||active
+3218|Physcomitrium patens|GCF_000002425.4||active
+3469|Papaver somniferum|GCF_003573695.1||active
+3483|Cannabis sativa|GCF_900626175.2||active
+3555|Beta vulgaris subsp. vulgaris|GCF_000511025.2||active
+3562|Spinacia oleracea|GCF_002007265.1||active
+3635|Gossypium hirsutum|GCF_007990345.1|1008001.06|active
+3641|Theobroma cacao|GCF_000208745.1||active
+3649|Carica papaya|GCF_000150535.2||active
+3656|Cucumis melo|GCF_000313045.1||active
+3659|Cucumis sativus|GCF_000004075.3||active
+3661|Cucurbita maxima|GCF_002738345.1||active
+3662|Cucurbita moschata|GCF_002738365.1||active
+3664|Cucurbita pepo subsp. pepo|GCF_002806865.1||active
+3673|Momordica charantia|GCF_001995035.1||active
+3694|Populus trichocarpa|GCF_000002775.4|Nisqually-1|active
+3702|Arabidopsis thaliana|GCF_000001735.4||active
+3708|Brassica napus|GCF_000686985.2||active
+3711|Brassica rapa|GCF_000309985.2||active
+3726|Raphanus sativus|GCF_000801105.1||active
+3750|Malus domestica|GCF_002114115.1|X9273 #13|active
+3755|Prunus dulcis|GCF_902201215.1||active
+3760|Prunus persica|GCF_000346465.2||active
+3816|Abrus precatorius|GCF_003935025.1|BTA|active
+3818|Arachis hypogaea|GCF_003086295.2||active
+3821|Cajanus cajan|GCF_000340665.1||active
+3827|Cicer arietinum|GCF_000331145.1||active
+3847|Glycine max|GCF_000004515.6||active
+3848|Glycine soja|GCF_004193775.1||active
+3871|Lupinus angustifolius|GCF_001865875.1||active
+3880|Medicago truncatula|GCF_003473485.1||active
+3885|Phaseolus vulgaris|GCF_000499845.1||active
+3914|Vigna angularis|GCF_001190045.1||active
+3916|Vigna radiata var. radiata|GCF_000741045.1||active
+3917|Vigna unguiculata|GCF_004118075.1||active
+3981|Hevea brasiliensis|GCF_001654055.1||active
+3983|Manihot esculenta|GCF_001659605.1||retired_Oct21
+3988|Ricinus communis|GCF_000151685.1||active
+4072|Capsicum annuum|GCF_000710875.1||active
+4081|Solanum lycopersicum|GCF_000188115.4||active
+4096|Nicotiana sylvestris|GCF_000393655.1||active
+4097|Nicotiana tabacum|GCF_000715135.1||active
+4098|Nicotiana tomentosiformis|GCF_000390325.2||active
+4113|Solanum tuberosum|GCF_000226075.1||active
+4155|Erythranthe guttata|GCF_000504015.1||active
+4182|Sesamum indicum|GCF_000512975.1||active
+4232|Helianthus annuus|GCF_002127325.2||active
+4236|Lactuca sativa|GCF_002870075.1||retired_Oct21
+4432|Nelumbo nucifera|GCF_000365185.1||active
+4442|Camellia sinensis|GCF_004153795.1||active
+4533|Oryza brachyantha|GCF_000231095.2||active
+4555|Setaria italica|GCF_000263155.2||active
+4556|Setaria viridis|GCF_005286985.1||active
+4558|Sorghum bicolor|GCF_000003195.3||active
+4577|Zea mays|GCF_902167145.1||active
+4615|Ananas comosus|GCF_001540865.1||active
+4686|Asparagus officinalis|GCF_001876935.1||active
+13333|Amborella trichopoda|GCF_000471905.2||active
+13443|Coffea arabica|GCF_003713225.1|CCC135-36|active
+15368|Brachypodium distachyon|GCF_000005505.3||active
+22663|Punica granatum|GCF_007655135.1|Tunisia-2019|active
+28526|Solanum pennellii|GCF_001406875.1||active
+28532|Tarenaya hassleriana|GCF_000463585.1||active
+29729|Gossypium arboreum|GCF_000612285.1||active
+29730|Gossypium raimondii|GCF_000327365.1||active
+29760|Vitis vinifera|GCF_000003745.3||active
+35883|Ipomoea nil|GCF_001879475.1||active
+35885|Ipomoea triloba|GCF_003576645.1||active
+38727|Panicum virgatum|GCF_016808335.1||active
+39947|Oryza sativa Japonica Group|GCF_001433935.1||active
+41875|Bathycoccus prasinos|GCF_002220235.1||active
+42229|Prunus avium|GCF_002207925.1||active
+42345|Phoenix dactylifera|GCF_009389715.1||active
+43335|Populus alba|GCF_005239225.1|PAL-ZL1|active
+49369|Coffea eugenioides|GCF_003713205.1|CCC68of|active
+49451|Nicotiana attenuata|GCF_001879085.1||active
+51240|Juglans regia|GCF_001411555.2||active
+51953|Elaeis guineensis|GCF_000442705.1||active
+55513|Pistacia vera|GCF_008641045.1||active
+55577|Dioscorea cayenensis subsp. rotundata|GCF_009730915.1||active
+58331|Quercus suber|GCF_002906115.1|HL8|active
+59895|Cynara cardunculus var. scolymus|GCF_001531365.1|2C|active
+63459|Chenopodium quinoa|GCF_001683475.1||active
+66656|Durio zibethinus|GCF_002303985.1|D1|active
+70448|Ostreococcus tauri|GCF_000214015.3||active
+71139|Eucalyptus grandis|GCF_016545825.1|ANBG69807.140|active
+72664|Eutrema salsugineum|GCF_000478725.1||active
+74649|Rosa chinensis|GCF_002994745.2||active
+75702|Populus euphratica|GCF_000495115.1||active
+78828|Phalaenopsis equestris|GCF_001263595.1||active
+79200|Daucus carota subsp. sativus|GCF_001625215.1||active
+81972|Arabidopsis lyrata subsp. lyrata|GCF_000004255.2||active
+81985|Capsella rubella|GCF_000375325.1||active
+85681|Citrus clementina|GCF_000493195.1||active
+85692|Triticum dicoccoides|GCF_002162155.1|Atlit2015|active
+88036|Selaginella moellendorffii|GCF_000143415.4||active
+90675|Camelina sativa|GCF_000633955.1||active
+96939|Vitis riparia|GCF_004353265.1|1030|active
+97700|Quercus lobata|GCF_001633185.1|SW786|retired_Oct21
+101020|Fragaria vesca subsp. vesca|GCF_000184155.1||active
+102107|Prunus mume|GCF_000346735.1|4|active
+102211|Benincasa hispida|GCF_009727055.1||active
+106335|Hibiscus syriacus|GCF_006381635.1|YM2019G1|active
+108875|Herrania umbratica|GCF_002168275.1||active
+109376|Brassica oleracea var. oleracea|GCF_000695525.1||active
+130081|Galdieria sulphuraria|GCF_000341285.1||active
+130453|Arachis duranensis|GCF_000817695.2||active
+130454|Arachis ipaensis|GCF_000816755.2||active
+145388|Monoraphidium neglectum|GCF_000611645.1||active
+158386|Olea europaea var. sylvestris|GCF_002742605.1||active
+178133|Rhodamnia argentea|GCF_900635035.1|14919|active
+180498|Jatropha curcas|GCF_014843425.1|ELGS0001-1231|active
+200361|Aegilops tauschii subsp. strangulata|GCF_002575655.1||active
+206008|Panicum hallii|GCF_002211085.1||active
+207710|Prosopis alba|GCF_004799145.1|B1F8T4|active
+210225|Nymphaea colorata|GCF_008831285.1|Beijing-Zhang1983|active
+214687|Musa acuminata subsp. malaccensis|GCF_000313855.2||active
+219896|Syzygium oleosum|GCF_900635055.1|S1999-0275|active
+225117|Pyrus x bretschneideri|GCF_000315295.1||active
+280699|Cyanidioschyzon merolae strain 10D|GCF_000091205.1||active
+296587|Micromonas commoda|GCF_000090985.2||active
+326968|Ziziphus jujuba|GCF_000826755.1||active
+436017|Ostreococcus lucimarinus CCE9901|GCF_000092065.1||active
+458696|Tripterygium wilfordii|GCF_013401445.1|XIE 37|active
+554065|Chlorella variabilis|GCF_000147415.1||active
+564608|Micromonas pusilla CCMP1545|GCF_000151265.2||active
+574566|Coccomyxa subellipsoidea C-169|GCF_000258705.1|C-169|active
+906689|Dendrobium catenatum|GCF_001605985.2||active
+981085|Morus notabilis|GCF_000414095.1||active
+3702|Arabidopsis thaliana|GCF_018141725.1||retired_Oct21

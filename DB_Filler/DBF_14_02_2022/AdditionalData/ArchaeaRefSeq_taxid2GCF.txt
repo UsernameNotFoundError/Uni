@@ -1,0 +1,1184 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+1300164|Methanobrevibacter arboriphilus JCM 13429 = DSM 1125|GCF_001316345.1||active
+2565781|Candidatus Nanohalobium constans|GCF_009617975.1||active
+1710539|Natrinema sp. YPL30|GCF_013456555.2||active
+2816475|Haloterrigena sp. KZCA68|GCF_017352155.2||active
+2795383|Nitrosopumilus sp. K4|GCF_018128925.1||active
+156457|Methanocalculus chunghsingensis|GCF_018132105.1||active
+2731220|Methanobacterium sp. MethCAN|GCF_018141185.1||active
+662476|Haloarcula sinaiiensis ATCC 33800|GCF_018200015.1||active
+35743|Halorubrum sodomense|GCF_018228765.1||active
+83986|Methanoculleus bourgensis|GCF_018495055.1||active
+2834276|Methanospirillum sp. J.3.6.1-F.2.7.3|GCF_018502485.1||active
+2836432|Halorubrum sp. 2020YC2|GCF_018623055.1||active
+2173|Methanobrevibacter smithii|GCF_018784305.1||active
+1429914|Halomicroarcula salina|GCF_019061225.1||active
+1429915|Halomicroarcula limicola|GCF_019061235.1||active
+2286|Saccharolobus shibatae|GCF_019175305.1||active
+2286|Saccharolobus shibatae|GCF_019175325.1||skipped
+523848|Saccharolobus shibatae B12|GCF_019175345.1||active
+2203|Methanospirillum hungatei|GCF_019263745.1||active
+2841655|Methanobacterium sp. YSL|GCF_019351055.1||active
+2487746|Halomicroarcula sp. F24A|GCF_019599405.1||active
+2487747|Halomicroarcula sp. F13|GCF_019599465.1||active
+2487748|Halomicroarcula sp. F28|GCF_019599485.1||active
+2487749|Halomicroarcula sp. F27|GCF_019599505.1||active
+1427151|Halomicroarcula pellucida|GCF_019599515.1||active
+299308|Methanofollis formosanus|GCF_019633745.1||active
+39441|Methanobrevibacter arboriphilus|GCF_019669925.1||active
+2209|Methanosarcina mazei|GCF_019669945.1||active
+118126|Methanoculleus chikugoensis|GCF_019669965.1||active
+2862870|Salinarchaeum sp. IM2453|GCF_019693215.1||active
+2824673|Stygiolobus sp. KN-1|GCF_019704315.1||active
+1017351|Halobaculum magnesiiphilum|GCF_019823105.1||active
+2871694|Natrinema sp. SYSU A 869|GCF_019879105.1||active
+2872158|Halobaculum sp. C46|GCF_019880225.1||active
+2175149|Halobaculum roseum|GCF_019880245.1||active
+2874285|Methanobacterium sp. VT|GCF_019931065.1||active
+91560|Methanimicrococcus blatticola|GCF_020011555.1||active
+2876193|Haloprofundus sp. SQT7-1|GCF_020097815.1||active
+2876194|Haloprofundus sp. SEDH52|GCF_020097835.1||active
+370324|Haloterrigena longa|GCF_020105915.1||active
+2848611|Methanobrevibacter sp. TMH8|GCF_020148105.1||active
+2876190|Haloprofundus sp. Gai1-5|GCF_020150815.1||active
+1849069|Saliphagus infecundisoli|GCF_020177165.1||active
+1849069|Saliphagus infecundisoli|GCF_020177375.1||skipped
+1586233|Halosiccatus urmianus|GCF_020217425.1||active
+2689387|Thermococcus bergensis|GCF_020386975.1||active
+2878391|Halosiccatus sp. LT50|GCF_020405185.1||active
+2878535|Natrinema sp. SLN56|GCF_020405205.1||active
+2878680|Natrinema sp. DC36|GCF_020405225.1||active
+2878391|Halosiccatus sp. LT50|GCF_020405245.1||active
+2878679|Natrinema sp. LT61|GCF_020515625.1||active
+1122961|Picrophilus oshimae DSM 9789|GCF_900176435.1||active
+2546128|Methanocaldococcus sp. SG7|GCF_902827225.1||active
+66851|Methanobrevibacter oralis|GCF_912073625.1||active
+2161|Methanobacterium bryantii|GCF_002287175.1||active
+2162|Methanobacterium formicicum|GCF_000762265.1||active
+2162|Methanobacterium formicicum|GCF_001458655.1|Mb9|skipped
+2173|Methanobrevibacter smithii|GCF_000824705.1||active
+2173|Methanobrevibacter smithii|GCF_002252585.1||skipped
+2173|Methanobrevibacter smithii|GCF_002813085.1||skipped
+2173|Methanobrevibacter smithii|GCF_900650605.1||skipped
+2173|Methanobrevibacter smithii|GCF_900654205.1|PRJEB30652|skipped
+2173|Methanobrevibacter smithii|GCF_901111125.1|PRJEB32190|skipped
+2173|Methanobrevibacter smithii|GCF_902384055.1|MGYG-HGUT-02163|skipped
+2173|Methanobrevibacter smithii|GCF_902387325.1|MGYG-HGUT-02446|skipped
+2177|Methanohalophilus halophilus|GCF_001889405.1||active
+2177|Methanohalophilus halophilus|GCF_003722055.1||skipped
+2177|Methanohalophilus halophilus|GCF_900106905.1||skipped
+2188|Methanococcus voltae|GCF_017875395.1||active
+2188|Methanococcus voltae|GCF_017875565.1||skipped
+2188|Methanococcus voltae|GCF_017875625.1||skipped
+2200|Methanoculleus thermophilus|GCF_001571405.1||active
+2200|Methanoculleus thermophilus|GCF_900101055.1||skipped
+2209|Methanosarcina mazei|GCF_000978935.1||active
+2209|Methanosarcina mazei|GCF_000978945.1||skipped
+2209|Methanosarcina mazei|GCF_000978955.1||skipped
+2209|Methanosarcina mazei|GCF_000978965.1||skipped
+2209|Methanosarcina mazei|GCF_000979015.1||skipped
+2209|Methanosarcina mazei|GCF_000979025.1||skipped
+2209|Methanosarcina mazei|GCF_000979035.1||skipped
+2209|Methanosarcina mazei|GCF_000979045.1||skipped
+2209|Methanosarcina mazei|GCF_000979095.1||skipped
+2209|Methanosarcina mazei|GCF_000979105.1||skipped
+2209|Methanosarcina mazei|GCF_000979115.1||skipped
+2209|Methanosarcina mazei|GCF_000979125.1||skipped
+2209|Methanosarcina mazei|GCF_000979175.1||skipped
+2209|Methanosarcina mazei|GCF_000979185.1||skipped
+2209|Methanosarcina mazei|GCF_000979195.1||skipped
+2209|Methanosarcina mazei|GCF_000979205.1||skipped
+2209|Methanosarcina mazei|GCF_000979255.1||skipped
+2209|Methanosarcina mazei|GCF_000979265.1||skipped
+2209|Methanosarcina mazei|GCF_000979275.1||skipped
+2209|Methanosarcina mazei|GCF_000979335.1||skipped
+2209|Methanosarcina mazei|GCF_000979345.1||skipped
+2209|Methanosarcina mazei|GCF_000979375.1||skipped
+2209|Methanosarcina mazei|GCF_000979495.1||skipped
+2209|Methanosarcina mazei|GCF_000979505.1||skipped
+2209|Methanosarcina mazei|GCF_000979515.1||skipped
+2209|Methanosarcina mazei|GCF_000979555.1||skipped
+2209|Methanosarcina mazei|GCF_000979575.1||skipped
+2209|Methanosarcina mazei|GCF_000979585.1||skipped
+2209|Methanosarcina mazei|GCF_000979595.1||skipped
+2209|Methanosarcina mazei|GCF_000979635.1||skipped
+2209|Methanosarcina mazei|GCF_000979655.1||skipped
+2209|Methanosarcina mazei|GCF_000979665.1||skipped
+2209|Methanosarcina mazei|GCF_000979675.1||skipped
+2209|Methanosarcina mazei|GCF_000979685.1||skipped
+2209|Methanosarcina mazei|GCF_000979735.1||skipped
+2209|Methanosarcina mazei|GCF_000979745.1||skipped
+2209|Methanosarcina mazei|GCF_000979755.1||skipped
+2209|Methanosarcina mazei|GCF_000979765.1||skipped
+2209|Methanosarcina mazei|GCF_000979815.1||skipped
+2209|Methanosarcina mazei|GCF_000979825.1||skipped
+2209|Methanosarcina mazei|GCF_000979845.1||skipped
+2209|Methanosarcina mazei|GCF_000979855.1||skipped
+2209|Methanosarcina mazei|GCF_000979895.1||skipped
+2209|Methanosarcina mazei|GCF_000979915.1||skipped
+2209|Methanosarcina mazei|GCF_000979925.1||skipped
+2209|Methanosarcina mazei|GCF_000979935.1||skipped
+2209|Methanosarcina mazei|GCF_000979995.1||skipped
+2209|Methanosarcina mazei|GCF_000980005.1||skipped
+2209|Methanosarcina mazei|GCF_000980025.1||skipped
+2209|Methanosarcina mazei|GCF_000980055.1||skipped
+2209|Methanosarcina mazei|GCF_000980075.1||skipped
+2209|Methanosarcina mazei|GCF_000980085.1||skipped
+2209|Methanosarcina mazei|GCF_000980105.1||skipped
+2209|Methanosarcina mazei|GCF_000980135.1||skipped
+2209|Methanosarcina mazei|GCF_000980155.1||skipped
+2209|Methanosarcina mazei|GCF_000980175.1||skipped
+2209|Methanosarcina mazei|GCF_005485005.1||skipped
+2209|Methanosarcina mazei|GCF_010706455.1||skipped
+2210|Methanosarcina thermophila|GCF_900116525.1||active
+2226|Methanococcoides methylutens|GCF_000765475.1||active
+2226|Methanococcoides methylutens|GCF_900773915.1|DSM2657|skipped
+2234|Archaeoglobus fulgidus|GCF_900069765.1|Archaeoglobus_fulgidus_oil|active
+2242|Halobacterium salinarum|GCF_004799605.1||active
+2242|Halobacterium salinarum|GCF_014202515.1||skipped
+2246|Haloferax volcanii|GCF_007714225.1||active
+2247|Halorubrum lacusprofundi|GCF_002215285.1||active
+2247|Halorubrum lacusprofundi|GCF_002215305.1||skipped
+2248|Halorubrum saccharovorum|GCF_000700025.1||active
+2265|Thermococcus litoralis|GCF_900064395.1|Thermococcus_litoralis_oil|active
+2283|Acidianus ambivalens|GCF_009428885.1||active
+2283|Acidianus ambivalens|GCF_009729015.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001481595.1||active
+2285|Sulfolobus acidocaldarius|GCF_001481635.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001559955.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001559965.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001559975.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001559985.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560035.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560045.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560065.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560085.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560115.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560125.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560135.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560165.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560195.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560205.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560215.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560245.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560275.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560285.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560305.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560315.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560355.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560375.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560385.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560405.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560435.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560455.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560465.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560485.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560515.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560525.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560555.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560565.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560595.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560605.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560635.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560645.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560675.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560685.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560715.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560725.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560755.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560765.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560795.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560815.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_001560835.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_002215405.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_002215445.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_002215485.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_002215525.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_002215565.1||skipped
+2285|Sulfolobus acidocaldarius|GCF_007996945.1||skipped
+2287|Saccharolobus solfataricus|GCF_000968355.2||active
+2287|Saccharolobus solfataricus|GCF_000968395.2||skipped
+2287|Saccharolobus solfataricus|GCF_000968435.2|98/2|skipped
+2287|Saccharolobus solfataricus|GCF_003852095.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852115.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852135.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852155.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852175.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852195.1||skipped
+2287|Saccharolobus solfataricus|GCF_003852215.1||skipped
+2287|Saccharolobus solfataricus|GCF_900079115.1||skipped
+2309|Pyrodictium occultum|GCF_001462395.1||active
+2317|Methanosphaera stadtmanae|GCF_003265405.1||active
+2317|Methanosphaera stadtmanae|GCF_902384015.1|MGYG-HGUT-02164|skipped
+12915|Acidianus infernus|GCF_009729545.1||active
+13773|Pyrobaculum aerophilum|GCF_003400025.1||active
+13773|Pyrobaculum aerophilum|GCF_003400145.1||skipped
+28442|Haloarcula vallismortis|GCF_900106715.1||active
+28892|Methanofollis liminatans DSM 4140|GCF_000275865.1||active
+29284|Halorubrum trapanicum|GCF_002355655.1||active
+29284|Halorubrum trapanicum|GCF_017873555.1||skipped
+29540|Natrialba asiatica DSM 12278|GCF_000337555.1||active
+35743|Halorubrum sodomense|GCF_900111935.1||active
+35746|Haloferax gibbonsii|GCF_001190965.1||active
+35746|Haloferax gibbonsii|GCF_014969745.1||skipped
+38023|Methanolobus bombayensis|GCF_017873415.1||active
+38026|Methanolobus vulcani|GCF_006546655.1||active
+38026|Methanolobus vulcani|GCF_900100715.1||skipped
+39152|Methanococcus maripaludis|GCF_002945325.1||active
+39152|Methanococcus maripaludis|GCF_003052125.1||skipped
+39152|Methanococcus maripaludis|GCF_013760955.1||skipped
+39152|Methanococcus maripaludis|GCF_013761045.1||skipped
+39152|Methanococcus maripaludis|GCF_013761055.1||skipped
+39152|Methanococcus maripaludis|GCF_013761085.1||skipped
+39152|Methanococcus maripaludis|GCF_013761105.1||skipped
+39152|Methanococcus maripaludis|GCF_013761135.1||skipped
+39152|Methanococcus maripaludis|GCF_013761165.1||skipped
+39152|Methanococcus maripaludis|GCF_013761205.1||skipped
+39152|Methanococcus maripaludis|GCF_013761225.1||skipped
+39152|Methanococcus maripaludis|GCF_014203295.1||skipped
+39152|Methanococcus maripaludis|GCF_014207315.1||skipped
+39152|Methanococcus maripaludis|GCF_014207325.1||skipped
+39152|Methanococcus maripaludis|GCF_016907005.1||skipped
+39152|Methanococcus maripaludis|GCF_017875815.1||skipped
+39664|Methanohalophilus portucalensis|GCF_002761295.1||active
+41673|Acidianus brierleyi|GCF_003201835.2||active
+41675|Stygiolobus azoricus|GCF_009729035.1||active
+43080|Sulfolobus islandicus|GCF_016415645.1||active
+43080|Sulfolobus islandicus|GCF_016415665.1||skipped
+43687|Metallosphaera sedula|GCF_000747605.1||active
+43687|Metallosphaera sedula|GCF_001266655.1||skipped
+43687|Metallosphaera sedula|GCF_001266675.1||skipped
+43687|Metallosphaera sedula|GCF_001266695.1||skipped
+43687|Metallosphaera sedula|GCF_001266715.1||skipped
+43687|Metallosphaera sedula|GCF_001266735.1||skipped
+43776|Haloarcula argentinensis|GCF_012726115.1||active
+43928|Halobaculum gomorrense|GCF_900129775.1||active
+44930|Natronobacterium gregoryi|GCF_900114025.1||active
+47304|Metallosphaera prunae|GCF_005222525.1||active
+47311|Methanobrevibacter cuticularis|GCF_001639285.1||active
+49339|Methanothermobacter defluvii|GCF_003385755.1||active
+49547|Methanobrevibacter curvatus|GCF_001639295.1||active
+49899|Thermococcus profundus|GCF_002214585.1||active
+49900|Thermococcus stetteri|GCF_017873335.1||active
+51203|Methanohalophilus euhalobius|GCF_002973515.1||active
+51203|Methanohalophilus euhalobius|GCF_003722155.1||skipped
+51203|Methanohalophilus euhalobius|GCF_004340645.1||skipped
+51203|Methanohalophilus euhalobius|GCF_900215215.1||skipped
+51589|Haloarcula hispanica|GCF_004150385.1||active
+51589|Haloarcula hispanica|GCF_008729095.1||skipped
+51589|Haloarcula hispanica|GCF_902209435.1|KTF12|skipped
+53952|Thermococcus peptonophilus|GCF_001592435.1||active
+54077|Thermococcus barossii|GCF_002214465.1||active
+54254|Thermosphaera aggregans|GCF_014962245.1||active
+54262|Thermococcus chitonophagus|GCF_002214605.1||active
+54262|Thermococcus chitonophagus|GCF_900012635.1|1|skipped
+55758|Methanobrevibacter filiformis|GCF_001639265.1||active
+55802|Thermococcus barophilus|GCF_001433455.1||active
+56636|Aeropyrum pernix|GCF_004323575.1||active
+57705|Halomicrobium mukohataei|GCF_003992375.1||active
+57705|Halomicrobium mukohataei|GCF_004803735.1||skipped
+57705|Halomicrobium mukohataei|GCF_012726095.1||skipped
+59277|Methanobacterium subterraneum|GCF_002813655.1||active
+59277|Methanobacterium subterraneum|GCF_002813695.1||skipped
+59277|Methanobacterium subterraneum|GCF_012933645.1|HO_2020|skipped
+60847|Halogeometricum borinquense|GCF_004150395.1||active
+60847|Halogeometricum borinquense|GCF_010692885.1||skipped
+61858|Natronorubrum bangense|GCF_004799645.1||active
+62609|Thermocladium modestius|GCF_014646535.1||active
+63740|Halorubrum vacuolatum|GCF_900188065.1||active
+64091|Halobacterium salinarum NRC-1|GCF_000006805.1||active
+66851|Methanobrevibacter oralis|GCF_001639275.1||active
+66851|Methanobrevibacter oralis|GCF_900289035.1||skipped
+66851|Methanobrevibacter oralis|GCF_902384065.1|MGYG-HGUT-02162|skipped
+69014|Thermococcus kodakarensis KOD1|GCF_000009965.1||active
+69527|Natrinema pallidum|GCF_005890195.1||active
+69656|Sulfurisphaera ohwakuensis|GCF_009729055.1||active
+69656|Sulfurisphaera ohwakuensis|GCF_014202105.1||skipped
+70601|Pyrococcus horikoshii OT3|GCF_000011105.1||active
+71997|Thermococcus gorgonarius|GCF_002214385.1||active
+71998|Thermococcus pacificus|GCF_002214485.1||active
+72803|Thermococcus siculi|GCF_002214505.1||active
+74969|Ferroplasma acidiphilum|GCF_002078355.1||active
+74969|Ferroplasma acidiphilum|GCF_013133875.1||skipped
+79929|Methanothermobacter marburgensis str. Marburg|GCF_000145295.1||active
+81417|Methanofollis tationis|GCF_013377755.1||active
+83986|Methanoculleus bourgensis|GCF_900036045.1|Methanoculleus sp MAB1|active
+88724|Natrinema versiforme|GCF_005576615.1||active
+91560|Methanimicrococcus blatticola|GCF_004363215.1||active
+113653|Geoglobus ahangari|GCF_001006045.1||active
+114529|Haloferax alexandrinus|GCF_010692905.1||active
+114529|Haloferax alexandrinus|GCF_012726105.1||skipped
+118062|Methanobacterium congolense|GCF_900095295.1|Buetzberg|active
+118126|Methanoculleus chikugoensis|GCF_900095385.1|L21-II-0|active
+121277|Pyrobaculum arsenaticum|GCF_013414235.1||active
+122420|Thermococcus sp. P6|GCF_002214525.1||active
+145262|Methanothermobacter thermautotrophicus|GCF_014889545.1||active
+148448|Halobiforma haloterrestris|GCF_900112205.1||active
+148449|Halopiger aswanensis|GCF_003610195.1||active
+163002|Thermococcus sp. 9N3|GCF_012027685.1||active
+163003|Thermococcus cleftensis|GCF_000265525.1||active
+163006|Thermococcus sp. CX2|GCF_012027555.1||active
+178306|Pyrobaculum aerophilum str. IM2|GCF_000007225.1||active
+182779|Haloarcula quadrata|GCF_003634715.1||active
+186497|Pyrococcus furiosus DSM 3638|GCF_000007305.1||active
+186497|Pyrococcus furiosus DSM 3638|GCF_008245085.1||skipped
+187420|Methanothermobacter thermautotrophicus str. Delta H|GCF_000008645.1||active
+187880|Thermococcus radiotolerans|GCF_002214565.1||active
+188937|Methanosarcina acetivorans C2A|GCF_000007345.1||active
+190192|Methanopyrus kandleri AV19|GCF_000007185.1||active
+190974|Methanobrevibacter gottschalkii|GCF_900109595.1||active
+190975|Methanobrevibacter thaueri|GCF_003111625.1||active
+190976|Methanobrevibacter woesei|GCF_003111605.1||active
+192952|Methanosarcina mazei Go1|GCF_000007065.1||active
+195522|Thermococcus nautili|GCF_000585495.1||active
+213585|Methanosarcina mazei S-6|GCF_000970205.1||active
+222984|Natrinema altunense|GCF_000731985.1||active
+222984|Natrinema altunense|GCF_004209855.1||skipped
+224325|Archaeoglobus fulgidus DSM 4304|GCF_000008665.1||active
+224719|Methanobrevibacter sp. AbM4|GCF_000404165.1||active
+227598|Thermococcus celericrescens|GCF_001484195.1||active
+230356|Methanolacinia paynteri|GCF_000784355.1||active
+230361|Methanobrevibacter millerae|GCF_001477655.1||active
+230361|Methanobrevibacter millerae|GCF_900103415.1||skipped
+243232|Methanocaldococcus jannaschii DSM 2661|GCF_000091665.1||active
+246969|Thermococcus sp. AM4|GCF_000151205.2||active
+253108|Natronolimnobius baerhuensis|GCF_002177135.1||active
+255616|Haloferax sulfurifontis|GCF_014635105.1||active
+259564|Methanococcoides burtonii DSM 6242|GCF_000013725.1||active
+261290|Halorubrum alkaliphilum|GCF_017873815.1||active
+261291|Halorubrum xinjiangense|GCF_900102375.1||active
+263820|Picrophilus torridus DSM 9790|GCF_000008265.1||active
+267368|Halorubrum terrestre|GCF_009856205.1||active
+267368|Halorubrum terrestre|GCF_009856455.1||skipped
+267377|Methanococcus maripaludis S2|GCF_000011585.1||active
+268735|Halonotius pteroides|GCF_003605635.1||active
+268739|Natronomonas moolapensis 8.8.11|GCF_000591055.1||active
+272557|Aeropyrum pernix K1|GCF_000011125.1||active
+272569|Haloarcula marismortui ATCC 43049|GCF_000011085.1||active
+272569|Haloarcula marismortui ATCC 43049|GCF_005310945.1||skipped
+272844|Pyrococcus abyssi GE5|GCF_000195935.2||active
+273057|Saccharolobus solfataricus P2|GCF_000007005.1||active
+273063|Sulfurisphaera tokodaii str. 7|GCF_000011205.1||active
+273075|Thermoplasma acidophilum DSM 1728|GCF_000195915.1||active
+273116|Thermoplasma volcanium GSS1|GCF_000011185.1||active
+277988|Thermococcus thioreducens|GCF_001418715.1||active
+277988|Thermococcus thioreducens|GCF_002214545.1||skipped
+277988|Thermococcus thioreducens|GCF_900109425.1||skipped
+282676|Acidianus manzaensis|GCF_002116695.1||active
+294671|Methanobrevibacter olleyae|GCF_001563245.1||active
+294671|Methanobrevibacter olleyae|GCF_900114585.1||skipped
+301967|Haloterrigena saccharevitans|GCF_001953745.1||active
+302484|Haloferax larsenii|GCF_900109695.1||active
+304371|Methanocella paludicola SANAE|GCF_000011005.1||active
+308853|Natronorubrum thiooxidans|GCF_900156475.1||active
+309800|Haloferax volcanii DS2|GCF_000025685.1||active
+309800|Haloferax volcanii DS2|GCF_000337315.1||skipped
+312540|Acidiplasma cupricumulans|GCF_001402935.1||active
+323259|Methanospirillum hungatei JF-1|GCF_000013445.1||active
+330779|Sulfolobus acidocaldarius DSM 639|GCF_000012285.1||active
+333146|Ferroplasma acidarmanus fer1|GCF_000152265.2||active
+335819|Halorubrum chaoviator|GCF_002379115.1||active
+335819|Halorubrum chaoviator|GCF_900188075.1||skipped
+337243|Halorubrum ezzemoulense|GCF_002252725.1||active
+337243|Halorubrum ezzemoulense|GCF_002252805.1||skipped
+337243|Halorubrum ezzemoulense|GCF_002252815.1||skipped
+337243|Halorubrum ezzemoulense|GCF_002252835.1||skipped
+337243|Halorubrum ezzemoulense|GCF_002252875.1||skipped
+337243|Halorubrum ezzemoulense|GCF_004126515.1||skipped
+339860|Methanosphaera stadtmanae DSM 3091|GCF_000012545.1||active
+340102|Pyrobaculum arsenaticum DSM 13514|GCF_000016385.1||active
+342949|Pyrococcus sp. NA2|GCF_000211475.1||active
+348780|Natronomonas pharaonis DSM 2160|GCF_000026045.1||active
+348826|Natronorubrum aibiense|GCF_009392895.1||active
+349307|Methanothrix thermoacetophila PT|GCF_000014945.1||active
+351160|Methanocella arvoryzae MRE50|GCF_000063445.1||active
+355548|Halobacterium jilantaiense|GCF_900110535.1||active
+358396|Halobiforma lacisalsi AJ5|GCF_000226975.2||active
+358396|Halobiforma lacisalsi AJ5|GCF_000336655.1||skipped
+362976|Haloquadratum walsbyi DSM 16790|GCF_000009185.1||active
+368407|Methanoculleus marisnigri JR1|GCF_000015825.1||active
+368408|Thermofilum pendens Hrk 5|GCF_000015225.1||active
+368624|Halorubrum lipolyticum|GCF_902377425.1|MGYG-HGUT-01693|active
+370324|Haloterrigena longa|GCF_017352095.1||active
+373386|Natrinema ejinorense|GCF_002494345.1||active
+374847|Candidatus Korarchaeum cryptofilum OPF8|GCF_000019605.1||active
+381852|Haloferax prahovense|GCF_000723845.1||active
+384616|Pyrobaculum islandicum DSM 4184|GCF_000015205.1||active
+386456|Methanobacterium arcticum|GCF_000746075.1||active
+387340|Halorubrum aquaticum|GCF_900113615.1||active
+387631|Archaeoglobus sulfaticallidus PM70-1|GCF_000385565.1||active
+387957|Methanobrevibacter sp. 87.7|GCF_002208625.1||active
+391623|Thermococcus barophilus MP|GCF_000151105.2||active
+392421|Haloterrigena hispanica|GCF_004217335.1||active
+392421|Haloterrigena hispanica|GCF_900101245.1||skipped
+392421|Haloterrigena hispanica|GCF_900111485.1||skipped
+397948|Caldivirga maquilingensis IC-167|GCF_000018305.1||active
+399550|Staphylothermus marinus F1|GCF_000015945.1||active
+399579|Thermogymnomonas acidicola|GCF_014646795.1||active
+402880|Methanococcus maripaludis C5|GCF_000016125.1||active
+406327|Methanococcus vannielii SB|GCF_000017165.1||active
+406552|Natrinema sp. J7-2|GCF_000281695.1||active
+408577|Methanobacterium veterum|GCF_000745485.1||active
+410358|Methanocorpusculum labreanum Z|GCF_000015765.1||active
+410359|Pyrobaculum calidifontis JCM 11548|GCF_000015805.1||active
+413815|Halorubrum cibi|GCF_900182635.1||active
+413816|Halorubrum halophilum|GCF_000739595.1||active
+413816|Halorubrum halophilum|GCF_008806895.1||skipped
+415426|Hyperthermus butylicus DSM 5456|GCF_000015145.1||active
+416348|Halorubrum lacusprofundi ATCC 49239|GCF_000022205.1||active
+419665|Methanococcus aeolicus Nankai-3|GCF_000017185.1||active
+419942|Sulfolobus islandicus Y.N.15.51|GCF_000022485.1||active
+420247|Methanobrevibacter smithii ATCC 35061|GCF_000016525.1||active
+425944|Sulfolobus islandicus L.D.8.5|GCF_000024305.1||active
+426118|Sulfolobus islandicus M.16.4|GCF_000022445.1||active
+427317|Sulfolobus islandicus M.14.25|GCF_000022405.1||active
+427318|Sulfolobus islandicus M.16.27|GCF_000022425.1||active
+429572|Sulfolobus islandicus L.S.2.15|GCF_000022385.1||active
+436308|Nitrosopumilus maritimus SCM1|GCF_000018465.1||active
+439386|Sulfolobus islandicus Y.G.57.14|GCF_000022465.1||active
+439481|Aciduliprofundum boonei T469|GCF_000025665.1||active
+439481|Aciduliprofundum boonei T469|GCF_000151085.1||skipped
+444157|Pyrobaculum neutrophilum V24Sta|GCF_000019805.1||active
+453591|Ignicoccus hospitalis KIN4/I|GCF_000017945.1||active
+456442|Methanoregula boonei 6A8|GCF_000017625.1||active
+469382|Halogeometricum borinquense DSM 11551|GCF_000172995.2||active
+469382|Halogeometricum borinquense DSM 11551|GCF_000337855.1||skipped
+478009|Halobacterium salinarum R1|GCF_000069025.1||active
+483214|Methanobrevibacter smithii DSM 2375|GCF_000151245.1||active
+485914|Halomicrobium mukohataei DSM 12286|GCF_000023965.1||active
+487685|Methanolobus profundi|GCF_900114835.1||active
+488124|Methanofollis ethanolicus|GCF_001571385.1||active
+489911|Halarchaeum rubridurum|GCF_014647115.1||active
+489911|Halarchaeum rubridurum|GCF_017873775.1||skipped
+489913|Halarchaeum nitratireducens|GCF_014647155.1||active
+490899|Desulfurococcus amylolyticus 1221n|GCF_000020905.1||active
+498846|Candidatus Korarchaeum cryptofilum|GCF_003948265.1||active
+507754|Acidiplasma aeolicum|GCF_001399695.1||active
+507754|Acidiplasma aeolicum|GCF_001402945.1||skipped
+519442|Halorhabdus utahensis DSM 12940|GCF_000023945.1||active
+521002|Methanobrevibacter smithii DSM 2374|GCF_000151225.1||active
+521011|Methanosphaerula palustris E1-9c|GCF_000021965.1||active
+523841|Haloferax mediterranei ATCC 33500|GCF_000306765.2||active
+523841|Haloferax mediterranei ATCC 33500|GCF_000337295.1||skipped
+523841|Haloferax mediterranei ATCC 33500|GCF_000685635.1||skipped
+523841|Haloferax mediterranei ATCC 33500|GCF_005406325.1||skipped
+523843|Methanohalophilus portucalensis FDF-1|GCF_001888095.1||active
+523843|Methanohalophilus portucalensis FDF-1|GCF_003722115.1||skipped
+523843|Methanohalophilus portucalensis FDF-1|GCF_900177455.1||skipped
+523844|Methanosarcina thermophila TM-1|GCF_000969885.1||active
+523845|Methanothermococcus thermolithotrophicus DSM 2095|GCF_000376965.1||active
+523846|Methanothermus fervidus DSM 2088|GCF_000166095.1||active
+523847|Sulfuracidifex metallicus DSM 6482 = JCM 9184|GCF_001316045.1||active
+523847|Sulfuracidifex metallicus DSM 6482 = JCM 9184|GCF_009729515.1||skipped
+523849|Thermococcus litoralis DSM 5473|GCF_000246985.2||active
+523850|Thermococcus onnurineus NA1|GCF_000018365.1||active
+528314|Methanoculleus horonobensis|GCF_001602375.1||active
+529709|Pyrococcus yayanosii CH1|GCF_000215995.1||active
+536044|Methanolobus zinderi|GCF_013388255.1||active
+543526|Haloterrigena turkmenica DSM 5511|GCF_000025325.1||active
+547055|Methanolinea mesophila|GCF_017873855.1||active
+547558|Methanohalophilus mahii DSM 5219|GCF_000025865.1||active
+547559|Natrialba magadii ATCC 43099|GCF_000025625.1||active
+547559|Natrialba magadii ATCC 43099|GCF_000337875.1||skipped
+553466|Halogranum rubrum|GCF_900114455.1||active
+553467|Halopelagius inordinatus|GCF_900113245.1||active
+553468|Haladaptatus litoreus|GCF_900156425.1||active
+553469|Halogeometricum rufum|GCF_900112175.1||active
+555311|Saccharolobus solfataricus 98/2|GCF_000175555.1||skipped
+555874|Haloplanus vescus|GCF_900107665.1||active
+555875|Halogeometricum limi|GCF_900115785.1||active
+558529|Natronoarchaeum philippinense|GCF_900215575.1||active
+572478|Vulcanisaeta distributa DSM 14429|GCF_000148385.1||active
+572546|Archaeoglobus profundus DSM 5631|GCF_000025285.1||active
+573063|Methanocaldococcus infernus ME|GCF_000092305.1||active
+573064|Methanocaldococcus fervens AG86|GCF_000023985.1||active
+575195|Haloarcula salaria|GCF_003992425.1||active
+575195|Haloarcula salaria|GCF_014647095.1||skipped
+579137|Methanocaldococcus vulcanius M7|GCF_000024625.1||active
+582419|Thermococcus paralvinellae|GCF_000517445.1||active
+588319|Palaeococcus ferrophilus DSM 13482|GCF_000966265.1||active
+588898|Haloterrigena daqingensis|GCF_001971705.1||active
+588898|Haloterrigena daqingensis|GCF_900156445.1||skipped
+589924|Ferroglobus placidus DSM 10642|GCF_000025505.1||active
+591019|Staphylothermus hellenicus DSM 12710|GCF_000092465.1||active
+593117|Thermococcus gammatolerans EJ3|GCF_000022365.1||active
+593750|Methanoregula formicica SMSP|GCF_000327485.1||active
+604354|Thermococcus sibiricus MM 739|GCF_000022545.1||active
+619593|Acidianus sulfidivorans JP7|GCF_003201765.2||active
+619731|Halostagnicola kamekurae|GCF_900116205.1||active
+633148|Thermosphaera aggregans DSM 11486|GCF_000092185.1||active
+634157|Halorubrum sp. PV6|GCF_003990725.2||active
+634497|Haloarcula hispanica ATCC 33960|GCF_000223905.1||active
+634498|Methanobrevibacter ruminantium M1|GCF_000024185.1||active
+637914|Methanococcus maripaludis KA1|GCF_000828535.1||active
+637915|Methanococcus maripaludis OS7|GCF_000828555.1||active
+640943|Natronorubrum sediminis|GCF_900108095.1||active
+644281|Methanocaldococcus sp. FS406-22|GCF_000025525.1||active
+644295|Methanohalobium evestigatum Z-7303|GCF_000196655.1||active
+647113|Methanothermococcus okinawensis IH1|GCF_000179575.2||active
+647171|Methanotorris formicicus Mc-S-70|GCF_000243455.1||active
+660515|Halorussus rarus|GCF_003369835.1||active
+660517|Halobellus clavatus|GCF_900107195.1||active
+660518|Halorientalis regularis|GCF_900102305.1||active
+660520|Halogranum amylolyticum|GCF_900110465.1||active
+660521|Halogranum gelatinilyticum|GCF_900103715.1||active
+660522|Haloplanus aerogenes|GCF_003688715.1||active
+660522|Haloplanus aerogenes|GCF_003856835.1||skipped
+662475|Haloarcula californiae ATCC 33799|GCF_000337755.1||active
+662476|Haloarcula sinaiiensis ATCC 33800|GCF_000337275.1||active
+662477|Haloarcula vallismortis ATCC 29715|GCF_000337775.1||active
+662478|Haloferax denitrificans ATCC 35960|GCF_000337795.1||active
+662479|Haloferax mucosum ATCC BAA-1512|GCF_000337815.1||active
+662480|Haloferax sulfurifontis ATCC BAA-897|GCF_000337835.1||active
+666510|Acidilobus saccharovorans 345-15|GCF_000144915.1||active
+668570|Methanospirillum lacunae|GCF_003173355.1||active
+671065|Metallosphaera yellowstonensis MK1|GCF_000243315.1||active
+671145|Halomarina oriensis|GCF_003862495.1||active
+671145|Halomarina oriensis|GCF_009791395.1||skipped
+675631|Desulfurococcus mucosus DSM 2161|GCF_001006085.1||active
+679901|Methanosalsum zhilinae DSM 4017|GCF_000217995.1||active
+679926|Methanolacinia petrolearia DSM 11571|GCF_000147875.1||active
+680118|Methanothermobacter tenebrarum|GCF_003264935.1||active
+683846|Fervidicoccus fontis|GCF_015209645.1||active
+693661|Archaeoglobus veneficus SNP6|GCF_000194625.1||active
+694429|Pyrolobus fumarii 1A|GCF_000223395.1||active
+694430|Natronococcus occultus SP4|GCF_000328685.1||active
+694440|Methanomicrobium mobile BP|GCF_000711215.1||active
+697581|Thermofilum adornatus 1505|GCF_000813245.1||active
+699431|Halolamina pelagica|GCF_001307315.1||active
+699431|Halolamina pelagica|GCF_900115675.1||skipped
+699433|Halobellus limi|GCF_004799685.1||active
+699433|Halobellus limi|GCF_900108165.1||skipped
+710190|Methanobacterium petrolearium|GCF_017873625.1||active
+718286|Candidatus Nitrosopumilus sp. NM25|GCF_003175215.1||active
+745377|Natrarchaeobaculum aegyptiacum|GCF_002156705.1||active
+751944|Halobacterium sp. DL1|GCF_000230955.2||active
+755307|Salinigranum rubrum|GCF_002906575.1||active
+765177|Desulfurococcus mucosus DSM 2162|GCF_000186365.1||active
+767519|Halomicrobium zhouii|GCF_900114435.1||active
+768065|Haloquadratum walsbyi C23|GCF_000237865.1||active
+768672|Desulfurococcus amylolyticus DSM 16532|GCF_000231015.2||active
+768679|Thermoproteus tenax Kra 1|GCF_000253055.1||active
+795797|Halalkalicoccus jeotgali B3|GCF_000196895.1||active
+795797|Halalkalicoccus jeotgali B3|GCF_000337255.1||skipped
+795797|Halalkalicoccus jeotgali B3|GCF_000485535.1||skipped
+796385|Methanosarcina barkeri CM1|GCF_001027005.1||active
+797114|Halosimplex carlsbadense 2-9-1|GCF_000337455.1||active
+797209|Haladaptatus paucihalophilus DX253|GCF_000187225.1||active
+797209|Haladaptatus paucihalophilus DX253|GCF_000376445.1||skipped
+797209|Haladaptatus paucihalophilus DX253|GCF_900142335.1||skipped
+797210|Halopiger xanaduensis SH-6|GCF_000217715.1||active
+797299|Halostagnicola larsenii XH-48|GCF_000517625.1||active
+797302|Halovivax ruber XH-70|GCF_000328525.1||active
+797303|Natrinema pellirubrum DSM 15624|GCF_000230735.2||active
+797303|Natrinema pellirubrum DSM 15624|GCF_000337635.1||skipped
+797304|Natronobacterium gregoryi SP2|GCF_000230715.2||active
+797304|Natronobacterium gregoryi SP2|GCF_000337655.1||skipped
+797304|Natronobacterium gregoryi SP2|GCF_002855455.1||skipped
+859192|Candidatus Nitrosarchaeum limnium BG20|GCF_000241145.1||active
+859350|Candidatus Nitrosopumilus salaria BD31|GCF_000242875.2||active
+866790|Methanothermobacter sp. CaT2|GCF_000828575.1||active
+867904|Methanomethylovorans hollandica DSM 15978|GCF_000328665.1||active
+867917|Vulcanisaeta thermophila|GCF_001748385.1||active
+868131|Methanobacterium paludis|GCF_000214725.1||active
+869886|Halosimplex pelagicum|GCF_013415905.1||active
+869889|Halosimplex rubrum|GCF_013415885.1||active
+877455|Methanobacterium lacus|GCF_000191585.1||active
+880724|Methanotorris igneus Kol 5|GCF_000214415.1||active
+890420|Halovenus aranensis|GCF_900100385.1||active
+911116|Methanobrevibacter smithii TS145A|GCF_000189795.1||active
+911117|Methanobrevibacter smithii TS145B|GCF_000189815.1||active
+911118|Methanobrevibacter smithii TS146A|GCF_000189835.1||active
+911119|Methanobrevibacter smithii TS146B|GCF_000189855.1||active
+911121|Methanobrevibacter smithii TS146D|GCF_000189895.1||active
+911122|Methanobrevibacter smithii TS146E|GCF_000189915.1||active
+911123|Methanobrevibacter smithii TS147A|GCF_000189935.1||active
+911124|Methanobrevibacter smithii TS147B|GCF_000189955.1||active
+911125|Methanobrevibacter smithii TS147C|GCF_000189975.1||active
+911126|Methanobrevibacter smithii TS94A|GCF_000189995.1||active
+911127|Methanobrevibacter smithii TS94B|GCF_000190015.1||active
+911128|Methanobrevibacter smithii TS94C|GCF_000190035.1||active
+911129|Methanobrevibacter smithii TS95A|GCF_000190055.1||active
+911130|Methanobrevibacter smithii TS95B|GCF_000190075.1||active
+911131|Methanobrevibacter smithii TS95C|GCF_000190095.1||active
+911132|Methanobrevibacter smithii TS95D|GCF_000190115.1||active
+911133|Methanobrevibacter smithii TS96A|GCF_000190135.1||active
+911134|Methanobrevibacter smithii TS96B|GCF_000190155.1||active
+911135|Methanobrevibacter smithii TS96C|GCF_000190175.1||active
+913025|Thermococcus sp. PK|GCF_000430485.1||active
+926571|Nitrososphaera viennensis EN76|GCF_000698785.1||active
+926690|Haloplanus natans DSM 17983|GCF_000427685.1||active
+930943|Sulfolobus islandicus HVE10/4|GCF_000189575.1||active
+930945|Sulfolobus islandicus REY15A|GCF_000189555.1||active
+931277|Halococcus morrhuae DSM 1307|GCF_000336695.1||active
+931585|Halobellus salinus|GCF_014646875.1||active
+932660|Haloarcula sebkhae|GCF_014647415.1||active
+933801|Acidianus hospitalis W1|GCF_000213215.1||active
+937775|Methanoplanus limicola DSM 2279|GCF_000243255.1||active
+940295|Ignicoccus islandicus DSM 13165|GCF_001481685.1||active
+985053|Vulcanisaeta moutnovskia 768-28|GCF_000190315.1||active
+990316|Methanothrix soehngenii GP6|GCF_000204415.1||active
+996166|Haloarchaeobius iranensis|GCF_900103505.1||active
+999630|Thermoproteus uzoniensis 768-20|GCF_000193375.1||active
+1001994|Nitrosarchaeum koreense MY1|GCF_000220175.1||active
+1006006|Metallosphaera cuprina Ar-4|GCF_000204925.1||active
+1008153|Halalkalicoccus paucihalophilus|GCF_001593955.1||active
+1027373|Nitrosopumilus sp. AR|GCF_000328925.1||active
+1027374|Nitrosopumilus sp. SJ|GCF_000328945.1||active
+1028566|Sulfolobus acidocaldarius N8|GCF_000340315.1||active
+1028567|Sulfolobus acidocaldarius Ron12/I|GCF_000338775.1||active
+1033806|Halorhabdus tiamatea SARL4B|GCF_000215915.2||active
+1033806|Halorhabdus tiamatea SARL4B|GCF_000470655.1||skipped
+1036677|Methanosarcina soligelidi|GCF_000744315.1||active
+1036679|Methanosarcina spelaei|GCF_002287235.1||active
+1041930|Methanocella conradii HZ254|GCF_000251105.1||active
+1042877|Thermococcus sp. 4557|GCF_000221185.1||active
+1046043|Natronomonas gomsonensis|GCF_013391635.1||active
+1048396|Halopenitus persicus|GCF_002355635.1||active
+1048396|Halopenitus persicus|GCF_900107205.1||skipped
+1053692|Methanococcus maripaludis X1|GCF_000220645.1||active
+1056495|Caldisphaera lagunensis DSM 15908|GCF_000317795.1||active
+1069082|Halomicrobium katesii DSM 19301|GCF_000379085.1||active
+1069083|Methanocaldococcus villosus KIN24-T80|GCF_000363885.1||active
+1069083|Methanocaldococcus villosus KIN24-T80|GCF_000371805.1||skipped
+1073081|Halarchaeum solikamskense|GCF_017874695.1||active
+1073996|Halohasta litchfieldiae|GCF_900109065.1||active
+1077256|Methanosphaera cuniculi|GCF_002287195.1||active
+1077256|Methanosphaera cuniculi|GCF_003149675.1||skipped
+1080712|Methanomassiliicoccus luminyensis|GCF_902383895.1|MGYG-HGUT-02161|active
+1090322|Methanolobus tindarius DSM 2278|GCF_000504205.1||active
+1095776|Natronorubrum texcoconense|GCF_900100335.1||active
+1095778|Natronobacterium texcoconense|GCF_900104065.1||active
+1104324|Pyrobaculum ferrireducens|GCF_000234805.1||active
+1110509|Methanosaeta harundinacea 6Ac|GCF_000235565.1||active
+1114856|Natronorubrum tibetense GA33|GCF_000337235.1||active
+1114856|Natronorubrum tibetense GA33|GCF_000383975.1||skipped
+1121945|Halorubrum ezzemoulense DSM 17463|GCF_000421805.1||active
+1121945|Halorubrum ezzemoulense DSM 17463|GCF_002114285.1||skipped
+1122229|Methanobrevibacter gottschalkii DSM 11977|GCF_003814835.1||active
+1122230|Methanocorpusculum bavaricum DSM 4179|GCF_000430905.1||active
+1122233|Methermicoccus shengliensis DSM 18856|GCF_000711905.1||active
+1126238|Halorussus ruber|GCF_004765785.1||active
+1126242|Halorussus amylolyticus|GCF_004143485.2||active
+1126245|Haloplanus salinus|GCF_003336245.1||active
+1132497|Sulfolobus islandicus M.16.2|GCF_000245095.1||active
+1132498|Sulfolobus islandicus M.16.12|GCF_000245115.1||active
+1132499|Sulfolobus islandicus M.16.13|GCF_000245135.1||active
+1132500|Sulfolobus islandicus M.16.22|GCF_000245155.1||active
+1132501|Sulfolobus islandicus M.16.23|GCF_000245175.1||active
+1132502|Sulfolobus islandicus M.16.30|GCF_000245195.1||active
+1132503|Sulfolobus islandicus M.16.40|GCF_000245215.1||active
+1132504|Sulfolobus islandicus M.16.43|GCF_000245235.1||active
+1132505|Sulfolobus islandicus M.16.46|GCF_000245255.1||active
+1132506|Sulfolobus islandicus M.16.47|GCF_000245275.1||active
+1132509|Halococcus hamelinensis 100A6|GCF_000259215.1||active
+1132509|Halococcus hamelinensis 100A6|GCF_000336675.1||skipped
+1150674|Desulfurococcus amylolyticus Z-533|GCF_000513855.1||active
+1151117|Thermococcus zilligii AN1|GCF_000258515.1||active
+1160895|Candidatus Acidianus copahuensis|GCF_000632495.1||active
+1163730|Fervidicoccus fontis Kam940|GCF_000258425.1||active
+1172566|Natrinema sp. J7-1|GCF_000493245.1||active
+1173487|Halorubrum sp. AJ67|GCF_000513435.1||active
+1175296|Methanomassiliicoccus luminyensis B10|GCF_000308215.1||active
+1175444|Methanocella conradii|GCF_902810565.1|1|active
+1183377|Pyrococcus sp. ST04|GCF_000263735.1||active
+1184251|Thermogladius calderae 1633|GCF_000264495.1||active
+1185654|Pyrococcus furiosus COM1|GCF_000275605.1||active
+1186196|Natrinema salaciae|GCF_900110865.1||active
+1193105|Halarchaeum grantii|GCF_014647455.2||active
+1194088|Halorubrum sp. T3|GCF_000296615.1||active
+1198300|Salinirussus salinus|GCF_009831455.1||active
+1198301|Halosimplex litoreum|GCF_016065055.1||active
+1198449|Aeropyrum camini SY1 = JCM 12091|GCF_000591035.1||active
+1198449|Aeropyrum camini SY1 = JCM 12091|GCF_001316065.1||skipped
+1201011|Methanococcoides sp. AM1|GCF_900774055.1|AM1|active
+1201013|Methanococcoides sp. NM1|GCF_900774285.1|NM1|active
+1201294|Methanoculleus bourgensis MS2|GCF_000304355.2||active
+1202767|Halolamina salifodinae|GCF_017874235.1||active
+1202768|Halopiger salifodinae|GCF_000784335.1||active
+1202768|Halopiger salifodinae|GCF_900110455.1||skipped
+1204725|Methanobacterium formicicum DSM 3637|GCF_000302455.1||active
+1210908|Halogranum salarium B-1|GCF_000283335.1||active
+1214066|Methanobrevibacter boviskoreani JH1|GCF_000320505.1||active
+1227452|Haloarcula amylolytica JCM 13557|GCF_000336615.1||active
+1227453|Haloarcula japonica DSM 6131|GCF_000336635.1||active
+1227454|Halobiforma nitratireducens JCM 10879|GCF_000337895.1||active
+1227455|Halococcus saccharolyticus DSM 5350|GCF_000336915.1||active
+1227456|Halococcus salifodinae DSM 8989|GCF_000336935.1||active
+1227457|Halococcus thailandensis JCM 13552|GCF_000336715.1||active
+1227458|Haloferax alexandrinus JCM 10717|GCF_000336735.1||active
+1227459|Haloferax gibbonsii ATCC 33959|GCF_000336775.1||active
+1227460|Haloferax larsenii JCM 13917|GCF_000336955.1||active
+1227461|Haloferax prahovense DSM 18310|GCF_000336815.1||active
+1227462|Haloferax sp. ATCC BAA-644|GCF_000336975.1||active
+1227463|Haloferax sp. ATCC BAA-645|GCF_000336835.1||active
+1227464|Haloferax sp. ATCC BAA-646|GCF_000336855.1||active
+1227465|Halorubrum californiensis DSM 19288|GCF_000336875.1||active
+1227466|Halorubrum coriense DSM 10284|GCF_000337035.1||active
+1227467|Halorubrum distributum JCM 9100|GCF_000337055.1||active
+1227468|Halorubrum distributum JCM 10118|GCF_000337335.1||active
+1227481|Halorubrum hochstenium ATCC 700873|GCF_000337075.1||active
+1227482|Halorubrum lipolyticum DSM 21995|GCF_000337375.1||active
+1227483|Halorubrum litoreum JCM 13561|GCF_000337395.1||active
+1227484|Halorubrum saccharovorum DSM 1137|GCF_000337915.1||active
+1227485|Halorubrum tebenquichense DSM 14210|GCF_000337415.1||active
+1227486|Halorubrum terrestre JCM 10247|GCF_000337435.1||active
+1227487|Halogeometricum pallidum JCM 14848|GCF_000337095.1||active
+1227488|Haloterrigena salina JCM 13891|GCF_000337495.1||active
+1227489|Haloterrigena thermotolerans DSM 11552|GCF_000337115.1||active
+1227490|Halovivax asiaticus JCM 14624|GCF_000337515.1||active
+1227491|Natrialba aegyptia DSM 13077|GCF_000337535.1||active
+1227492|Natrialba chahannaoensis JCM 10990|GCF_000337135.1||active
+1227493|Natrialba hulunbeirensis JCM 10989|GCF_000337575.1||active
+1227494|Natrinema altunense JCM 12890|GCF_000337155.1||active
+1227495|Natrinema pallidum DSM 3751|GCF_000337615.1||active
+1227496|Natrinema versiforme JCM 10478|GCF_000337195.1||active
+1227497|Natronococcus amylolyticus DSM 10524|GCF_000337675.1||active
+1227498|Natronococcus jeotgali DSM 18795|GCF_000337695.1||active
+1227499|Natronolimnohabitans innermongolicus JCM 12255|GCF_000337215.1||active
+1227500|Natronorubrum bangense JCM 10635|GCF_000337715.1||active
+1229908|Candidatus Nitrosopumilus koreensis AR1|GCF_000299365.1||active
+1229909|Candidatus Nitrosopumilus sediminis|GCF_000299395.1||active
+1230452|Haloferax lucentense DSM 14919|GCF_000336795.1||active
+1230453|Haloferax elongans ATCC BAA-1513|GCF_000336755.1||active
+1230454|Halorubrum aidingense JCM 13560|GCF_000336995.1||active
+1230455|Halorubrum arcis JCM 13916|GCF_000337015.1||active
+1230456|Halorubrum kocurii JCM 14978|GCF_000337355.1||active
+1230457|Haloterrigena limicola JCM 13563|GCF_000337475.1||active
+1230458|Natrialba taiwanensis DSM 12281|GCF_000337595.1||active
+1230459|Natrinema gari JCM 14663|GCF_000337175.1||active
+1230460|Natronorubrum sulfidifaciens JCM 14089|GCF_000337735.1||active
+1232219|Halococcus agarilyticus|GCF_000334895.1||active
+1236180|Halopelagius longus|GCF_003351065.1||active
+1236180|Halopelagius longus|GCF_900100875.1||skipped
+1236689|Candidatus Methanomethylophilus alvus Mx1201|GCF_000300255.2||active
+1237085|Candidatus Nitrososphaera gargensis Ga9.2|GCF_000303155.1|enrichment culture Ga9.2|active
+1241935|Sulfolobus islandicus LAL14/1|GCF_000364745.1||active
+1261545|Halarchaeum acidiphilum MH1-52-1|GCF_000400975.1||active
+1261545|Halarchaeum acidiphilum MH1-52-1|GCF_000474235.1||skipped
+1264579|Halococcus sediminicola|GCF_000755245.1||active
+1267564|Halopenitus malekzadehii|GCF_900108505.1||active
+1273541|Pyrodictium delaneyi|GCF_001412615.1||active
+1273541|Pyrodictium delaneyi|GCF_002194565.1||skipped
+1277351|Methanospirillum stamsii|GCF_003173335.1||active
+1291540|Candidatus Methanomethylophilus alvus|GCF_003711245.1||active
+1291540|Candidatus Methanomethylophilus alvus|GCF_902387285.1|MGYG-HGUT-02456|skipped
+1293036|Metallosphaera hakonensis JCM 8857 = DSM 7519|GCF_003201675.2||active
+1293037|Thermococcus celer Vu 13 = JCM 8558|GCF_002214365.1||active
+1293039|Methanobrevibacter arboriphilus JCM 9315|GCF_001315885.1||active
+1293041|Methanogenium cariaci JCM 10550|GCF_001315945.1||active
+1293047|Halopiger djelfimassiliensis|GCF_000455365.1||active
+1293048|Halopiger goleimassiliensis|GCF_000455345.1||active
+1293586|Vulcanisaeta souniana JCM 11219|GCF_014646555.1||active
+1293648|Acidiplasma sp. MBA-1|GCF_000949015.1||active
+1294262|Sulfuracidifex tepidarius|GCF_001316085.1||active
+1294262|Sulfuracidifex tepidarius|GCF_008326385.1||skipped
+1294262|Sulfuracidifex tepidarius|GCF_008326425.1||skipped
+1295009|Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1|GCF_000404225.1||active
+1295120|Thermogymnomonas acidicola JCM 13583|GCF_001316105.1||active
+1295373|Acidiplasma cupricumulans JCM 13668|GCF_001316225.1||active
+1296625|Haloferax sp. BAB-2207|GCF_000328285.1||active
+1300164|Methanobrevibacter arboriphilus JCM 13429 = DSM 1125|GCF_002072215.1||active
+1301915|Methanocaldococcus bathoardescens|GCF_000739065.1||active
+1324957|Candidatus Halobonum tyrrellensis G22|GCF_000495475.1||active
+1333523|Salinarchaeum sp. Harcht-Bsk1|GCF_000403645.1||active
+1343739|Palaeococcus pacificus DY20341|GCF_000725425.1||active
+1344584|Archaeoglobus fulgidus DSM 8774|GCF_000734035.1||active
+1353158|Methanococcoides vulcani|GCF_900111645.1||active
+1353158|Methanococcoides vulcani|GCF_900773955.1|SLH33|skipped
+1353246|Candidatus Nitrosotenuis chungbukensis|GCF_000685395.1||active
+1353260|Candidatus Nitrosocosmicus oleophilus|GCF_000802205.1||active
+1364935|Halorussus salinus|GCF_004765815.2||active
+1364937|Salinigranum salinum|GCF_009176545.1||active
+1365176|Thermofilum adornatum|GCF_000446015.1||active
+1367881|Halorientalis persicus|GCF_900110215.1||active
+1380430|Halolamina rubra|GCF_000739555.1||active
+1380432|Halorhabdus sp. CBA1104|GCF_009690625.1||active
+1383812|Halocalculus aciditolerans|GCF_014647475.1||active
+1383841|Halorubrum sp. Ea8|GCF_002252925.1||active
+1383842|Halorubrum sp. C191|GCF_002727095.1||active
+1383843|Halorubrum sp. Eb13|GCF_002252895.1||active
+1383844|Halorubrum persicum|GCF_002727125.1||active
+1383850|Halorubrum sp. Ib24|GCF_002252745.1||active
+1383851|Halorubrum halodurans|GCF_002252985.1||active
+1392998|Candidatus Methanoperedens nitroreducens|GCF_000685155.1||active
+1392998|Candidatus Methanoperedens nitroreducens|GCF_900196725.1|Mnv1|skipped
+1401244|Methanobrevibacter arboriphilus ANOR1|GCF_000513315.1||active
+1406512|Candidatus Methanomassiliicoccus intestinalis|GCF_902383905.1|MGYG-HGUT-02160|active
+1407055|Candidatus Nitrosotenuis uzonensis|GCF_000723185.1||active
+1407055|Candidatus Nitrosotenuis uzonensis|GCF_905220655.1|Candidatus Nitrosotenuis uzonensis 5A|skipped
+1407499|Halobacterium hubeiense|GCF_001488575.1||active
+1407499|Halobacterium hubeiense|GCF_900003505.1||skipped
+1407499|Halobacterium hubeiense|GCF_900003515.1||skipped
+1407499|Halobacterium hubeiense|GCF_900003525.1||skipped
+1407499|Halobacterium hubeiense|GCF_900003565.1||skipped
+1407499|Halobacterium hubeiense|GCF_900003575.1||skipped
+1407499|Halobacterium hubeiense|GCF_900004275.1||skipped
+1407499|Halobacterium hubeiense|GCF_900005775.1||skipped
+1410606|Candidatus Nitrosopelagicus brevis|GCF_000812185.1||active
+1410606|Candidatus Nitrosopelagicus brevis|GCF_003045125.1||skipped
+1410664|Methanobrevibacter wolinii SH|GCF_000621965.1||active
+1415626|Methanobrevibacter oralis JMR01|GCF_000529525.1||active
+1417673|Haloarcula hispanica N601|GCF_000504565.1||active
+1419722|Halorubrum sp. SD626R|GCF_001261915.1||active
+1419722|Halorubrum sp. SD626R|GCF_005435185.1||skipped
+1427151|Halomicroarcula pellucida|GCF_014647235.1||active
+1429914|Halomicroarcula salina|GCF_010119195.1||active
+1429915|Halomicroarcula limicola|GCF_010119205.1||active
+1431282|Methanohalophilus levihalophilus|GCF_017874375.1||active
+1432656|Thermococcus guaymasensis DSM 11113|GCF_000816105.1||active
+1434099|Methanosarcina sp. Kolksee|GCF_000969945.1||active
+1434100|Methanosarcina sp. MTP4|GCF_000970045.1||active
+1434102|Methanosarcina sp. WH1|GCF_000970005.1||active
+1434103|Methanosarcina sp. WWM596|GCF_000969965.1||active
+1434104|Methanococcoides methylutens MM1|GCF_000970325.1||active
+1434106|Methanosarcina barkeri 227|GCF_000970065.1||active
+1434107|Methanosarcina barkeri 3|GCF_000970305.1||active
+1434108|Methanosarcina barkeri MS|GCF_000970025.1||active
+1434109|Methanosarcina barkeri str. Wiesmoor|GCF_000969985.1||active
+1434110|Methanosarcina horonobensis HB-1 = JCM 15518|GCF_000970285.1||active
+1434111|Methanosarcina lacustris Z-7289|GCF_000970265.1||active
+1434113|Methanosarcina mazei C16|GCF_000970245.1||active
+1434114|Methanosarcina mazei LYC|GCF_000970225.1||active
+1434115|Methanosarcina mazei SarPi|GCF_000970185.1||active
+1434117|Methanosarcina mazei WWM610|GCF_000970165.1||active
+1434118|Methanosarcina siciliae C2J|GCF_000970145.1||active
+1434119|Methanosarcina siciliae HI350|GCF_000970125.1||active
+1434120|Methanosarcina siciliae T4/M|GCF_000970085.1||active
+1434121|Methanosarcina thermophila CHTI-55|GCF_000969925.1||active
+1434123|Methanosarcina vacuolata Z-761|GCF_000969905.1||active
+1448860|Halobellus rufus|GCF_000739575.1||active
+1455608|Haladaptatus cibarius D43|GCF_000710615.1||active
+1455609|Haloterrigena jeotgali A29|GCF_000710605.1||active
+1457250|Halapricum salinum|GCF_000755225.1||active
+1457250|Halapricum salinum|GCF_004799665.1||skipped
+1459636|Candidatus Nitrososphaera evergladensis SR1|GCF_000730285.1|SR1|active
+1470066|Nitrosopumilus cobalaminigenes|GCF_013407145.1||active
+1470067|Nitrosopumilus ureiphilus|GCF_013407185.1||active
+1476858|Haloferax massiliensis|GCF_001368915.1||active
+1476858|Haloferax massiliensis|GCF_902381785.1|MGYG-HGUT-01639|skipped
+1480675|Halolamina sediminis|GCF_001282785.1||active
+1480718|Halorubrum sp. Ea1|GCF_002252965.1||active
+1480728|Halorubrum sp. Hd13|GCF_002252755.1||active
+1483596|Methanosarcina sp. 2.H.T.1A.15|GCF_000979415.1||active
+1483597|Methanosarcina sp. 2.H.T.1A.3|GCF_000979425.1||active
+1483598|Methanosarcina sp. 2.H.T.1A.8|GCF_000979475.1||active
+1483599|Methanosarcina sp. 2.H.T.1A.6|GCF_000979455.1||active
+1483600|Methanosarcina sp. 2.H.A.1B.4|GCF_000979385.1||active
+1483601|Methanosarcina sp. 1.H.A.2.2|GCF_000979975.1||active
+1483602|Methanosarcina sp. 1.H.T.1A.1|GCF_000979295.1||active
+1495067|Halostagnicola sp. A56|GCF_000691505.1||active
+1495314|Methanoculleus sp. MH98A|GCF_000691865.1||active
+1495336|Methanobacterium sp. SMA-27|GCF_000744455.1||active
+1498500|Halorubrum sp. BV1|GCF_000746205.1||active
+1499975|Candidatus Nitrosotalea sinensis|GCF_900143675.1|NSIN|active
+1505907|Thermococcus eurythermalis|GCF_000769655.1||active
+1508454|Haloferax sp. ATB1|GCF_000730175.1||active
+1514971|Haloprofundus marisrubri|GCF_001469955.1||active
+1526048|Haloferax sp. Q22|GCF_001482285.1||active
+1532350|Metallosphaera tengchongensis|GCF_013343295.1||active
+1537265|Halorubrum sp. SP3|GCF_005435195.1||active
+1537267|Halorubrum sp. SP9|GCF_005435015.1||active
+1540082|Acidianus sp. RZ1|GCF_013133895.1||active
+1544718|Haloferax profundi|GCF_001469865.1||active
+1544719|Haloferax marisrubri|GCF_001469875.2||active
+1547897|Halostella salina|GCF_003675855.1||active
+1547898|Haloplanus rubicundus|GCF_003342675.1||active
+1547898|Haloplanus rubicundus|GCF_003342695.1||skipped
+1550241|Thermofilum uzonense|GCF_000993805.1||active
+1550565|Methanoculleus taiwanensis|GCF_004102725.1||active
+1550566|Methanoculleus sediminis|GCF_001017125.1||active
+1561964|Methanosphaera sp. WGK6|GCF_001729965.1||active
+1577791|Candidatus Methanoplasma termitum|GCF_000800805.1||active
+1580092|Nitrosopumilus adriaticus|GCF_000956175.1||active
+1582439|Nitrosopumilus piranensis|GCF_000875775.1||active
+1591054|Thermococcus sp. EP1|GCF_001317345.1||active
+1592728|Haloarcula sp. CBA1115|GCF_000827835.1|CBA1115|active
+1603555|Candidatus Nitrosotenuis cloacae|GCF_000955905.1||active
+1604004|Halanaeroarchaeum sulfurireducens|GCF_001011115.1||active
+1604004|Halanaeroarchaeum sulfurireducens|GCF_001305655.1||skipped
+1608465|Natrinema sp. CBA1119|GCF_002572525.1||active
+1609559|Pyrococcus kukulkanii|GCF_001577775.1||active
+1609968|Methanobrevibacter sp. YE315|GCF_001548675.1||active
+1615586|Methanobacterium aggregans|GCF_017874455.1||active
+1622207|Haloarcula sp. K1|GCF_001647155.1||active
+1638210|Thermococcus sp. 18S1|GCF_012027645.1||active
+1638221|Thermococcus sp. 21S7|GCF_012027615.1||active
+1638223|Thermococcus sp. 21S9|GCF_012027635.1||active
+1638242|Thermococcus sp. Bubb.Bath|GCF_012027595.1||active
+1638246|Thermococcus sp. ES12|GCF_012027515.1||active
+1638254|Thermococcus sp. GR4|GCF_012027545.1||active
+1638255|Thermococcus sp. GR5|GCF_012027535.1||active
+1638256|Thermococcus sp. GR6|GCF_012027415.1||active
+1638257|Thermococcus sp. GR7|GCF_012027455.1||active
+1638258|Thermococcus sp. JdF3|GCF_012027495.1||active
+1638259|Thermococcus sp. LS1|GCF_012027395.1||active
+1638260|Thermococcus sp. LS2|GCF_012027375.1||active
+1638261|Thermococcus sp. M36|GCF_012027355.1||active
+1638262|Thermococcus sp. M39|GCF_012027325.1||active
+1638263|Thermococcus sp. MAR1|GCF_012027305.1||active
+1638267|Thermococcus sp. MV11|GCF_012027285.1||active
+1638272|Thermococcus sp. MV5|GCF_012027425.1||active
+1650354|Caldivirga sp. MU80|GCF_001663375.1||active
+1650659|Thermoproteus sp. CP80|GCF_002077075.2||active
+1650660|Vulcanisaeta sp. EB80|GCF_002078205.2||active
+1670455|Sulfodiicoccus acidiphilus|GCF_003967175.1||active
+1670455|Sulfodiicoccus acidiphilus|GCF_014648235.1||skipped
+1673428|Cuniculiplasma divulgatum|GCF_900083515.1||active
+1673428|Cuniculiplasma divulgatum|GCF_900090055.1||skipped
+1674923|Thermococcus sp. 2319x1|GCF_001484685.1||active
+1674923|Thermococcus sp. 2319x1|GCF_902813195.1||skipped
+1678448|Haloparvum sedimenti|GCF_001462205.1||active
+1679083|Natrarchaeobius chitinivorans|GCF_003841465.1||active
+1679083|Natrarchaeobius chitinivorans|GCF_003841505.1||skipped
+1679091|Natrarchaeobius halalkaliphilus|GCF_003841485.1||active
+1679093|Natronolimnobius sp. AArcel1|GCF_011043775.1||active
+1679489|Haladaptatus sp. R4|GCF_001625445.1||active
+1699371|Haloterrigena sp. YPL8|GCF_013402815.1||active
+1705562|Haloarcula rubripromontorii|GCF_001280425.1||active
+1705562|Haloarcula rubripromontorii|GCF_012726155.1||skipped
+1710536|Halorussus litoreus|GCF_003382685.1||active
+1710537|Halorussus sp. HD8-83|GCF_004765805.1||active
+1710538|Halosimplex salinum|GCF_003730195.1||active
+1710540|Natronomonas salina|GCF_013391105.1||active
+1712654|Thermococcus piezophilus|GCF_001647085.1||active
+1715806|Methanosarcina flavescens|GCF_001304615.2||active
+1758255|Halorubrum aethiopicum|GCF_001542905.1||active
+1765055|Haloarcula sp. CBA1127|GCF_001485575.1||active
+1765056|Haloarcula sp. CBA1128|GCF_001485555.1||active
+1765057|Halobacterium sp. CBA1132|GCF_001485535.1||active
+1765655|Halorubrum tropicale|GCF_001280455.1||active
+1769296|Candidatus Methanomethylophilus sp. 1R26|GCF_001481295.1||active
+1775544|Halorhabdus rudnickae|GCF_900880625.1|WSM64|active
+1776294|Nitrosopumilus sp. Nsub|GCF_001541925.1||active
+1789762|Methanosphaera sp. BMS|GCF_003268005.1||active
+1798806|Candidatus Nitrosocosmicus franklandus|GCF_900696045.1|NFRAN1|active
+1816183|Haloplanus rallus|GCF_009762275.1||active
+1826872|Candidatus Nitrosocosmicus hydrocola|GCF_001870125.1||active
+1846278|Candidatus Nitrosotenuis aquarius|GCF_002787055.1||active
+1853682|Halarchaeum sp. CBA1220|GCF_003721175.2||active
+1853684|Haloarcula sp. CBA1129|GCF_008729015.1||active
+1853685|Haloarcula sp. CBA1130|GCF_008729005.1||active
+1853686|Haloarcula sp. CBA1131|GCF_008728975.1||active
+1853690|Halolamina sp. CBA1230|GCF_002025255.2||active
+1853699|Halorubrum sp. CBA1229|GCF_003721435.2||active
+1855858|Halorubrum sp. ASP121|GCF_005435225.1||active
+1855863|Halorubrum sp. SD612|GCF_002135005.1||active
+1855872|Halorubrum sp. ARQ200|GCF_005435115.1||active
+1855873|Halorubrum sp. SD683|GCF_002135045.1||active
+1860098|Methanosarcina sp. A14|GCF_001729375.1||active
+1860099|Methanobrevibacter sp. A27|GCF_001729385.1||active
+1860100|Methanobacterium sp. A39|GCF_001729285.1||active
+1860156|Methanobrevibacter sp. A54|GCF_001729455.1||active
+1860157|Methanosphaera sp. A6|GCF_001729395.1||active
+1869245|Natrialba sp. SSL1|GCF_001861355.1||active
+1873524|Halodesulfurarchaeum formicicum|GCF_001767315.1||active
+1873524|Halodesulfurarchaeum formicicum|GCF_001886955.1||skipped
+1874277|Conexivisphaera calida|GCF_013340765.1||active
+1874706|Methanolobus psychrotolerans|GCF_002243045.1||active
+1891280|Sulfolobus sp. A20|GCF_001719125.1||active
+1897478|Haladaptatus sp. W1|GCF_001723155.1||active
+1898749|Candidatus Nitrosomarinus catalina|GCF_002156965.1||active
+1903276|Candidatus Nitrosotalea okcheonensis|GCF_900177045.1|NCS1|active
+1903277|Candidatus Nitrosotalea bavarica|GCF_900167955.1|SBT1|active
+1906246|Natronomonas sp. CBA1134|GCF_001950595.1||active
+1911685|Methanobacterium sp. MZ-A1|GCF_002813675.1||active
+1920749|Candidatus Mancarchaeum acidiphilum|GCF_002214165.1||active
+1927129|Methanonatronarchaeum thermophilum|GCF_002153915.1||active
+1932004|Haloarcula taiwanensis|GCF_002844335.1||active
+1932360|Halorientalis sp. IM1011|GCF_001989615.1||active
+1937004|Methanopyrus sp. KOL6|GCF_002201915.1||active
+1937005|Methanopyrus sp. SNP6|GCF_002201895.1||active
+1959104|Nitrosopumilus oxyclinae|GCF_013407165.1||active
+1961921|Natronococcus sp. JC468|GCF_012163165.1||active
+1985678|Halegenticoccus soli|GCF_002844195.1||active
+2008440|Thermococcus sp. 5-4|GCF_002197185.1||active
+2016361|Thermococcus sp. EXT12c|GCF_900198835.1||active
+2016373|Thermococcus sp. IRI35c|GCF_904067545.1||active
+2032630|Halorubrum sp. WN019|GCF_002286985.1||active
+2035255|Candidatus Methanoperedens sp. BLZ2|GCF_002487355.1|BLZ2|active
+2035267|Candidatus Nitrosocosmicus arcticus|GCF_007826885.1||active
+2044521|Natrarchaeobaculum sulfurireducens|GCF_003430805.1||active
+2044521|Natrarchaeobaculum sulfurireducens|GCF_003430825.1||skipped
+2045011|Candidatus Nitrosocaldus islandicus|GCF_002906215.1|3F|active
+2052832|Methanofollis sp. FWC-SCC2|GCF_004297185.1||active
+2052935|Methanolobus sp. SY-01|GCF_004745425.1||active
+2055836|Natronococcus sp. LS1_42|GCF_008122205.1||active
+2055893|Halalkaliarchaeum desulfuricum|GCF_002952775.1||active
+2058097|Candidatus Nitrosocaldus cavascurensis|GCF_900248165.1||active
+2073113|Halobaculum sp. WSA2|GCF_009831625.1||active
+2077198|Haloferax sp. Atlit-48N|GCF_003383015.1||active
+2077199|Haloferax sp. Atlit-47N|GCF_003383065.1||active
+2077200|Haloferax sp. Atlit-24N|GCF_003383005.1||active
+2077201|Haloferax sp. Atlit-19N|GCF_003382985.1||active
+2077202|Haloferax sp. Atlit-16N|GCF_003383085.1||active
+2077203|Haloferax sp. Atlit-12N|GCF_003383095.1||active
+2077204|Haloferax sp. Atlit-10N|GCF_003586325.1||active
+2077205|Haloferax sp. Atlit-6N|GCF_003383195.1||active
+2077206|Haloferax sp. Atlit-4N|GCF_003383025.1||active
+2082189|Methanofervidicoccus abyssi|GCF_004310395.1||active
+2094122|Thermoplasma sp. Kam2015|GCF_003205235.1||active
+2109907|Nitrosopumilus sp. b1|GCF_014078545.1||active
+2109908|Nitrosopumilus sp. b2|GCF_014078535.1||active
+2109909|Nitrosopumilus sp. b3|GCF_014078525.1||active
+2138083|Methanohalophilus profundi|GCF_004137855.1||active
+2162894|Halococcus salsus|GCF_009900715.1||active
+2200888|Sulfolobus sp. B1|GCF_007050195.1||active
+2212850|Natronomonas sp. F17-44|GCF_009184545.1||active
+2216012|Natronomonas sp. F12-1|GCF_009663395.1||active
+2216978|Halonotius sp. F13-13|GCF_003605575.1||active
+2217661|Natronomonas salsuginis|GCF_005239135.1||active
+2234134|Haloglomus irregulare|GCF_007421925.1||active
+2249761|Halorubrum sp. 48-1-W|GCF_003287355.1||active
+2259672|Candidatus Nitrosotenuis sp. DW1|GCF_013407275.1||active
+2259673|Nitrosarchaeum sp. AC2|GCF_013407385.1||active
+2282125|Haloarcula sp. Atlit-7R|GCF_003666065.1||active
+2282126|Halorubrum sp. Atlit-8R|GCF_003666025.1||active
+2282127|Halorubrum sp. Atlit-9R|GCF_003666005.1||active
+2282128|Halorubrum sp. Atlit-26R|GCF_003666015.1||active
+2282129|Halorubrum sp. Atlit-28R|GCF_003665955.1||active
+2282130|Halobellus sp. Atlit-31R|GCF_003665935.1||active
+2282131|Halobellus sp. Atlit-38R|GCF_003665925.1||active
+2282132|Haloarcula sp. Atlit-47R|GCF_003665985.1||active
+2282133|Haloferax sp. Atlit-105R|GCF_003665905.1||active
+2282134|Haloferax sp. Atlit-109R|GCF_003665865.1||active
+2282135|Haloarcula sp. Atlit-120R|GCF_003665885.1||active
+2282148|Candidatus Micrarchaeum sp.|GCF_016806735.1||active
+2282654|Saliphagus sp. LR7|GCF_003344565.1||active
+2283527|Haloprofundus halophilus|GCF_003439925.1||active
+2283638|Halorussus sp. MSC15.2|GCF_010747475.1||active
+2301191|Nitrososphaera sp. AFS|GCF_009898475.1||active
+2321230|Halococcus sp. IIIV-5B|GCF_003602035.1||active
+2341020|Candidatus Nitrosotalea sp. TS|GCF_011319465.1||active
+2341021|Candidatus Nitrosotalea sp. FS|GCF_011319475.1||active
+2419781|Salinadaptatus halalkaliphilus|GCF_006543045.1||active
+2448032|Natrialba swarupiae|GCF_008245225.1||active
+2448456|Halostella sp. LT12|GCF_003675875.1||active
+2478471|Candidatus Methanodesulfokores washburnensis|GCF_003947435.1||active
+2479928|Halorientalis sp. F13-25|GCF_004118325.1||active
+2485783|Methanohalophilus sp. RSK|GCF_003722075.1||active
+2485838|Halorubrum sp. CSM-61|GCF_003781945.1||active
+2487041|Natronomonas sp. CBA1133|GCF_003722095.1||active
+2487750|Halonotius terrestris|GCF_006861665.1||active
+2491675|Methanohalophilus sp. WG1-DM|GCF_004104135.1||active
+2496101|Haloterrigena sp. SYSU A121-1|GCF_013342135.1||active
+2497325|Halorubrum sp. BOL3-1|GCF_004114375.1||active
+2503034|Halorussus sp. DLLS-82|GCF_004521895.1||active
+2505976|Halorussus sp. LYG-36|GCF_004765795.1||active
+2505977|Halorussus sp. RC-68|GCF_004087835.1||active
+2507075|Methanosarcina sp. MSH10X1|GCF_004099695.1||active
+2508724|Halorubrum amylolyticum|GCF_004114995.1||active
+2508726|Candidatus Nitrosopumilus sp. SW|GCF_006740685.1||active
+2509225|Haloarcula sp. MD-130|GCF_005406125.1||active
+2511997|Halonotius roseus|GCF_006861655.1||active
+2512240|Sulfolobus sp. S-194|GCF_012222305.1||active
+2518111|Halorubrum sp. GN11GM_10-3_MGM|GCF_005435175.1||active
+2518112|Halorubrum sp. GN11_10-6_MGM|GCF_005435165.1||active
+2518113|Halorubrum sp. GN12_10-3_MGM|GCF_005435235.1||active
+2518114|Halorubrum sp. ASP1|GCF_005435135.1||active
+2518115|Halorubrum sp. CGM5_25_10-8B|GCF_005435095.1||active
+2518116|Halorubrum sp. CGM4_25_10-8A|GCF_005435025.1||active
+2518117|Halorubrum sp. SD690R|GCF_005435035.1||active
+2518119|Halorubrum sp. SS7|GCF_005435055.1||active
+2527877|Methanocorpusculum sp. GPch4|GCF_012062385.1||active
+2528831|Halostella litorea|GCF_004785955.1||active
+2552943|Haloterrigena sp. H1|GCF_005938085.1||active
+2559572|Halosimplex halophilum|GCF_004698125.1||active
+2559573|Halorhabdus sp. H27|GCF_004944975.1||active
+2562277|Haloferax sp. AS1|GCF_014530665.1||active
+2562280|Halomicroarcula amylolytica|GCF_004681185.1||active
+2563600|Candidatus Nitrosocosmicus sp. SS|GCF_008389435.1||active
+2563600|Candidatus Nitrosocosmicus sp. SS|GCF_009861625.1||skipped
+2563889|Halalkalirubrum salinum|GCF_005543295.1||active
+2565931|Salinigranum halophilum|GCF_004916935.1||active
+2565931|Salinigranum halophilum|GCF_004916945.1||skipped
+2565931|Salinigranum halophilum|GCF_007004735.1||skipped
+2572921|Haloprofundus sp. MHR1|GCF_005155585.1||active
+2583824|Halostella pelagica|GCF_004762015.1||active
+2583990|Halorubrum salsamenti|GCF_007671685.1||active
+2583992|Halorubrum depositum|GCF_007671725.1||active
+2586643|Thermococcus indicus|GCF_006274605.1||active
+2592614|Halobellus captivus|GCF_003697845.1||active
+2592614|Halobellus captivus|GCF_007655485.1||skipped
+2594042|Candidatus Prometheoarchaeum syntrophicum|GCF_008000775.1||active
+2597657|Halobacterium salinarum DSM 3754|GCF_008124605.1||active
+2598455|Thermococcus sp. SY113|GCF_008152015.1||active
+2599399|Salarchaeum sp. JOR-1|GCF_007833275.1||active
+2599926|Methanogenium sp. MK-MG|GCF_009914725.1||active
+2600297|Halorhabdus sp. CUG00001|GCF_009797925.1||active
+2600597|Haloferax sp. KTX1|GCF_902410085.1|KTX11|active
+2603820|Methanothermobacter sp. KEPCO-1|GCF_008033705.1||active
+2606911|Methanothermobacter sp. THM-1|GCF_009914355.1||active
+2606912|Methanothermobacter sp. THM-2|GCF_009917665.1|THM-2|active
+2607662|Methanofervidicoccus sp. A16|GCF_003351865.1||active
+2610902|Halomicrobium sp. LC1Hm|GCF_009617995.1||active
+2650752|Haloferax sp. CBA1148|GCF_008806815.1||active
+2650753|Haloferax sp. CBA1149|GCF_008806915.1||active
+2650754|Haloferax sp. CBA1150|GCF_008806905.1||active
+2650975|Halorussus sp. ZS-3|GCF_008831545.1||active
+2654197|Thermococcus sp. 101 C5|GCF_009372125.1||active
+2663019|Sulfolobus sp. E5-1-F|GCF_009601705.1||active
+2663020|Sulfolobus sp. E11-6|GCF_009602405.1||active
+2666140|Haloferax sp. MBLA0076|GCF_009674605.1||active
+2666142|Haloferax sp. MBLA0077|GCF_009674585.1||active
+2666143|Haloferax sp. MBLA0078|GCF_009674625.1||active
+2668068|Halapricum sp. CBA1109|GCF_009741825.1||active
+2668069|Haloarcula sp. CBA1122|GCF_009741785.1||active
+2668070|Natronomonas sp. CBA1123|GCF_009741925.1||active
+2668071|Halogeometricum sp. CBA1124|GCF_009741955.1||active
+2668072|Halorubrum sp. CBA1125|GCF_009742825.1||active
+2668074|Halobacterium sp. CBA1126|GCF_009741975.1||active
+2675002|Halalkalicoccus subterraneus|GCF_003697815.1||active
+2675099|Haloterrigena salifodinae|GCF_003977755.1||active
+2675099|Haloterrigena salifodinae|GCF_016906025.1||skipped
+2690782|Halorubrum sp. JWXQ-INN 858|GCF_009806985.1||active
+2690967|Natrialba sp. INN-245|GCF_009807105.1||active
+2691917|Natronorubrum halalkaliphilum|GCF_009834785.1||active
+2692199|Halovenus sp. WSH3|GCF_009831575.1||active
+2692200|Halobacterium sp. PCN9|GCF_009831555.1||active
+2715750|Haloarcula sp. R1-2|GCF_011627385.1||active
+2715751|Halobacterium sp. R2-5|GCF_011734195.1||active
+2715752|Halolamina sp. R1-12|GCF_011627345.1||active
+2715753|Halorubellus sp. JP-L1|GCF_011440375.1||active
+2716715|Haloarcula sp. JP-Z28|GCF_011440255.1||active
+2716716|Halostella sp. JP-L12|GCF_011440285.1||active
+2716717|Haloarcula sp. JP-L23|GCF_011602445.1||active
+2716718|Halorussus sp. JP-T4|GCF_011440385.1||active
+2735871|Methanococcoides sp. SA1|GCF_013166765.1||active
+2739057|Halorubrum sp. RHB-C|GCF_013267195.1||active
+2741724|Haloterrigena sp. SYSU A558-1|GCF_013342145.1||active
+2743089|Halobonum sp. NJ-3-1|GCF_013402875.1||active
+2743090|Halobonum sp. Gai3-2|GCF_013401515.1||active
+2747817|Natronomonas halophila|GCF_013391085.1||active
+2750669|Natronomonas sp. LN261|GCF_013839515.1||active
+2750670|Halorhabdus sp. FL145|GCF_013839425.1||active
+2761102|Halobellus sp. MBLA0160|GCF_014212355.1||active
+2776706|Thermofilum sp. 3507LT|GCF_014876775.1||active
+2778916|Halomicrobium sp. IBSBa|GCF_017612575.1||active
+2790029|Halomicrobium sp. ZPS1|GCF_009217585.1||active
+2798580|Archaeoglobus sp. SE56|GCF_016757965.1||active
+2801032|Halorubrum sp. LN27|GCF_016635065.1||active
+2810537|Halobacterium sp. BOL4-2|GCF_016917835.1||active
+2812551|Halobacterium sp. GSL-19|GCF_016917855.1||active
+2817025|Halovivax sp. KZCA124|GCF_017357405.1||active
+2817839|Methanomicrobium sp. W14|GCF_017875315.1||active
+2817849|Methanofollis sp. W23|GCF_017875325.1||active
+1577684|Candidatus Nanopusillus acidilobi|GCF_003431325.1||retired_Oct21
+1577684|Candidatus Nanopusillus acidilobi|GCF_003431325.1||retired_Oct21
+1710539|Natrinema sp. YPL30|GCF_013456555.1||retired_Oct21
+2234135|Natronomonas sp. F19-13|GCF_009184555.1||retired_Oct21
+2217660|Natronomonas sp. F18-79|GCF_009184575.1||retired_Oct21
+2217660|Natronomonas sp. F18-79|GCF_009184575.1||retired_Oct21
+2234135|Natronomonas sp. F19-13|GCF_009184555.1||retired_Oct21
+269797|Methanosarcina barkeri str. Fusaro|GCF_000195895.1||retired_Oct21
+2816475|Haloterrigena sp. KZCA68|GCF_017352155.1||retired_Oct21
+337243|Halorubrum ezzemoulense|GCF_002252735.1||retired_Oct21
+337243|Halorubrum ezzemoulense|GCF_002252865.1||retired_Oct21
+426368|Methanococcus maripaludis C7|GCF_000017225.1||retired_Oct21
+444158|Methanococcus maripaludis C6|GCF_000018485.1||retired_Oct21
+456320|Methanococcus voltae A3|GCF_000006175.1||retired_Oct21
+489912|Halarchaeum salinum|GCF_017874335.1||retired_Oct21
+555311|Saccharolobus solfataricus 98/2|GCF_000024745.1||retired_Oct21
+60847|Halogeometricum borinquense|GCF_011765365.1||retired_Oct21
+648796|Methanoculleus hydrogenitrophicus|GCF_017874195.1||retired_Oct21
+673860|Aciduliprofundum sp. MAR08-339|GCF_000327505.1||retired_Oct21

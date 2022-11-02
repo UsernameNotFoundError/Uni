@@ -1,0 +1,179 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+116960|Ursus arctos horribilis|GCF_003584765.2|GAN/ISIS:MIG12-29695490/34125|active
+230844|Peromyscus maniculatus bairdii|GCF_003704035.1|BW|active
+37029|Prionailurus bengalensis|GCF_016509475.1|Pbe53|active
+9940|Ovis aries|GCF_016772045.1||active
+111838|Microtus oregoni|GCF_018167655.1|MIOR12|active
+494514|Vulpes lagopus|GCF_018345385.1||active
+9694|Panthera tigris|GCF_018350195.1|Pti1|active
+9689|Panthera leo|GCF_018350215.1|Ple1|active
+105255|Dipodomys spectabilis|GCF_019054845.1|Male_0828|active
+1574408|Cervus canadensis|GCF_019320065.1|Bull #8, Minnesota|active
+33562|Dromiciops gliroides|GCF_019393635.1|mDroGli1|active
+1047088|Arvicola amphibius|GCF_903992535.2||active
+9860|Cervus elaphus|GCF_910594005.1||active
+9615|Canis lupus familiaris|GCF_000002285.5|Tasha|skipped
+10029|Cricetulus griseus|GCF_000223135.1||skipped
+1706337|Neophocaena asiaeorientalis asiaeorientalis|GCF_003031525.2||active
+192404|Sturnira hondurensis|GCF_014824575.2|20B|active
+9258|Ornithorhynchus anatinus|GCF_004115215.2|Pmale09|active
+9261|Tachyglossus aculeatus|GCF_015852505.1|mTacAcu1|active
+9305|Sarcophilus harrisii|GCF_902635505.1||active
+9337|Trichosurus vulpecula|GCF_011100635.1|mTriVul1|active
+9361|Dasypus novemcinctus|GCF_000208655.1|3-136|active
+9365|Erinaceus europaeus|GCF_000296755.1|Erinaceus europaeus_13Jul2011|active
+9371|Echinops telfairi|GCF_000313985.2|266|active
+9402|Pteropus alecto|GCF_000325575.1||active
+9407|Rousettus aegyptiacus|GCF_014176215.1|mRouAeg1|active
+9417|Artibeus jamaicensis|GCF_014825515.1|1a|active
+9430|Desmodus rotundus|GCF_002940915.1|DRU21DN04|active
+9483|Callithrix jacchus|GCF_009663435.1||active
+9515|Sapajus apella|GCF_009761245.1|SASKATOON/1434|active
+9531|Cercocebus atys|GCF_000955945.1|FAK|active
+9541|Macaca fascicularis|GCF_000364345.1||active
+9544|Macaca mulatta|GCF_003339765.1|AG07107|active
+9545|Macaca nemestrina|GCF_000956065.1|M95218|active
+9555|Papio anubis|GCF_008728515.1|15944|active
+9565|Theropithecus gelada|GCF_003255815.1|Dixy|active
+9568|Mandrillus leucophaeus|GCF_000951045.1|KB7577|active
+9595|Gorilla gorilla gorilla|GCF_008122165.1|Kamilah (stud number 0661)|active
+9597|Pan paniscus|GCF_013052645.1|Mhudiblu (Carbone #601152)|active
+9598|Pan troglodytes|GCF_002880755.1|Yerkes chimp pedigree #C0471 (Clint)|active
+9601|Pongo abelii|GCF_002880775.1|Susie|active
+9606|Homo sapiens|GCF_000001405.39||active
+9615|Canis lupus familiaris|GCF_014441545.1|SID07034|active
+9627|Vulpes vulpes|GCF_003160815.1||active
+9646|Ailuropoda melanoleuca|GCF_002007445.1|Jingjing|active
+9669|Mustela putorius furo|GCF_000215625.1|ID#1420|active
+9685|Felis catus|GCF_000181335.3|Cinnamon|active
+9691|Panthera pardus|GCF_001857705.1|Maewha|active
+9696|Puma concolor|GCF_003327715.1|SC36_Marlon|active
+9704|Zalophus californianus|GCF_009762305.2|mZalCal1|active
+9708|Odobenus rosmarus divergens|GCF_000321225.1|Ivan|active
+9711|Halichoerus grypus|GCF_012393455.1|241Hg|active
+9713|Leptonychotes weddellii|GCF_000349705.1|WS11-02|active
+9715|Mirounga leonina|GCF_011800145.1|KUSES-001|active
+9720|Phoca vitulina|GCF_004348235.1|PV1807|active
+9731|Globicephala melas|GCF_006547405.1|X-22926-18|active
+9733|Orcinus orca|GCF_000331955.2|Morgan|active
+9739|Tursiops truncatus|GCF_011762595.1|mTurTru1|active
+9749|Delphinapterus leucas|GCF_002288925.2|GAN/ISIS: 26980492/103006|active
+9755|Physeter catodon|GCF_002837175.2|SW-GA|active
+9771|Balaenoptera musculus|GCF_009873245.2|JJ_BM4_2016_0621|active
+9785|Loxodonta africana|GCF_000001905.1|ISIS603380|active
+9793|Equus asinus|GCF_001305755.1|Maral har|active
+9796|Equus caballus|GCF_002863925.1|Twilight|active
+9798|Equus przewalskii|GCF_000696695.1|Burgud|active
+9823|Sus scrofa|GCF_000003025.6|TJ Tabasco|active
+9837|Camelus bactrianus|GCF_000767855.1||active
+9838|Camelus dromedarius|GCF_000803125.2|Drom800|active
+9880|Odocoileus virginianus texanus|GCF_002102435.1|animal Pink-7|active
+9913|Bos taurus|GCF_002263795.1|L1 Dominette 01449 registration number 42190680|active
+9915|Bos indicus|GCF_000247795.1|QUIL7308|active
+9925|Capra hircus|GCF_001704415.1||active
+9940|Ovis aries|GCF_002742125.1||retired_Oct21
+9974|Manis javanica|GCF_014570535.1|MJ74|active
+9978|Ochotona princeps|GCF_014633375.1|UAM:Mamm:113957|active
+9986|Oryctolagus cuniculus|GCF_000003625.3||active
+9994|Marmota marmota marmota|GCF_001458135.1||active
+9999|Urocitellus parryii|GCF_003426925.1|AGS 11-09-20|active
+10020|Dipodomys ordii|GCF_000151885.1|6190|active
+10029|Cricetulus griseus|GCF_003668045.3||active
+10036|Mesocricetus auratus|GCF_017639785.1|SY011|active
+10041|Peromyscus leucopus|GCF_004664715.2||active
+10047|Meriones unguiculatus|GCF_002204375.1||active
+10089|Mus caroli|GCF_900094665.1||active
+10090|Mus musculus|GCF_000001635.27||active
+10093|Mus pahari|GCF_900095145.1||active
+10116|Rattus norvegicus|GCF_015227675.2||active
+10117|Rattus rattus|GCF_011064425.1|New Zealand|active
+10141|Cavia porcellus|GCF_000151735.1||active
+10160|Octodon degus|GCF_000260255.1|3935|active
+10181|Heterocephalus glaber|GCF_000247695.1|NMR 29|active
+13616|Monodelphis domestica|GCF_000002295.2||active
+27622|Molossus molossus|GCF_014108415.1|mMolMol1|active
+27675|Choloepus didactylus|GCF_015220235.1|mChoDid1|active
+28737|Elephantulus edwardii|GCF_000299155.1|Elephantulus edwardi_28Jun2011|active
+29073|Ursus maritimus|GCF_017311325.1|PB19|active
+29078|Eptesicus fuscus|GCF_000308155.1|BU_THK_EF1|active
+29088|Neomonachus schauinslandi|GCF_002201575.1||active
+29139|Vombatus ursinus|GCF_900497805.2||active
+30522|Bos indicus x Bos taurus|GCF_003369695.1||active
+30538|Vicugna pacos|GCF_000164845.3|Carlotta (AHFN-0088)|active
+30608|Microcebus murinus|GCF_000165445.2|mixed|active
+30611|Otolemur garnettii|GCF_000181295.1|467f Iridium|active
+32536|Acinonyx jubatus|GCF_003709585.1|Rico|active
+34839|Chinchilla lanigera|GCF_000276665.1|Chin_1|active
+34884|Callorhinus ursinus|GCF_003265705.1|GAN/ISIS: 27379988/994484|active
+34886|Eumetopias jubatus|GCF_004028035.1|GAN:26980396|active
+35658|Mastomys coucha|GCF_008632895.1|ucsf_1|active
+36723|Mustela erminea|GCF_009829155.1|mMusErm1|active
+37032|Suricata suricatta|GCF_006229205.1|VVHF042|active
+37293|Aotus nancymaae|GCF_000952055.2|86115|active
+38626|Phascolarctos cinereus|GCF_002099425.1|Bilbo 61053|active
+38674|Onychomys torridus|GCF_903995425.1||active
+39432|Saimiri boliviensis boliviensis|GCF_016699345.1|100643|active
+40151|Monodon monoceros|GCF_005190385.1|NGI|active
+42100|Phocoena sinus|GCF_008692025.1|mPhoSin1|active
+42254|Sorex araneus|GCF_000181275.1|GB8-d|active
+43179|Ictidomys tridecemlineatus|GCF_016881025.1|GS200|active
+43346|Bison bison bison|GCF_000754665.1|TAMUID 2011002044|active
+50954|Talpa occidentalis|GCF_014898055.1|TD23|active
+51298|Myotis myotis|GCF_014108235.1|mMyoMyo1|active
+51337|Jaculus jaculus|GCF_000280705.1|JJ0015|active
+51338|Castor canadensis|GCF_001984765.1|Ward|active
+54180|Trachypithecus francoisi|GCF_009764315.1|TF-2019V2|active
+59463|Myotis lucifugus|GCF_000147115.1||active
+59472|Pipistrellus kuhlii|GCF_014108245.1|mPipKuh1|active
+59479|Rhinolophus ferrumequinum|GCF_004115265.1|MPI-CBG mRhiFer1|active
+59534|Oryx dammah|GCF_014754425.2|SB20612|active
+60711|Chlorocebus sabaeus|GCF_015252025.1||active
+61156|Arvicanthis niloticus|GCF_011762505.1|mArvNil1|active
+61383|Lynx canadensis|GCF_007474595.2|LIC74|active
+61621|Rhinopithecus bieti|GCF_001698545.1|Rb0|active
+61622|Rhinopithecus roxellana|GCF_007565055.1|Shanxi Qingling|active
+61853|Nomascus leucogenys|GCF_006542625.1|Asia|active
+72004|Bos mutus|GCF_000298355.1|yakQH1|active
+73337|Ceratotherium simum simum|GCF_000283155.1|SDZICR_KB13650|active
+74533|Panthera tigris altaica|GCF_000464555.1|TaeGuk|retired_Oct21
+76717|Lontra canadensis|GCF_010015895.1|GAN:19392208|active
+79684|Microtus ochrogaster|GCF_000317375.1|Prairie Vole_2|active
+81572|Hylobates moloch|GCF_009828535.2|HMO894|active
+89462|Bubalus bubalis|GCF_003121395.1||active
+89673|Phyllostomus discolor|GCF_004126475.2|MPI-MPIP mPhyDis1|active
+90247|Lagenorhynchus obliquidens|GCF_003676395.1|GAN/ISIS:26980383/991018|active
+93162|Marmota flaviventris|GCF_003676075.2|SJ_83|active
+95912|Hyaena hyaena|GCF_003009895.1|Hyena2069|active
+109478|Myotis brandtii|GCF_000412655.1||active
+116960|Ursus arctos horribilis|GCF_003584765.1|GAN/ISIS:MIG12-29695490/34125|retired_Oct21
+118797|Lipotes vexillifer|GCF_000442215.1||active
+127582|Trichechus manatus latirostris|GCF_000243295.1|Lorelei|active
+130825|Ochotona curzoniae|GCF_017591425.1|NIBS_2020|active
+132908|Pteropus vampyrus|GCF_000151845.1|Shadow|active
+143291|Pteropus giganteus|GCF_902729225.1||active
+143292|Manis pentadactyla|GCF_014570555.1|MP20|active
+143302|Condylura cristata|GCF_000260355.1|star-nosed mole 26May11|active
+185453|Chrysochloris asiatica|GCF_000296735.1||active
+186990|Hipposideros armiger|GCF_001890085.1|ML-2016|active
+225400|Myotis davidii|GCF_000327345.1||active
+230844|Peromyscus maniculatus bairdii|GCF_000500345.1||retired_Oct21
+246437|Tupaia chinensis|GCF_000334495.1||active
+286419|Canis lupus dingo|GCF_012295265.1|COOINDA|active
+291302|Miniopterus natalensis|GCF_001595765.1|MN2012-01|active
+310752|Balaenoptera acutorostrata scammoni|GCF_000493695.1||active
+336983|Colobus angolensis palliatus|GCF_000951035.1|OR3802|active
+379532|Propithecus coquereli|GCF_000956105.1|6110/MARCELLA|active
+391180|Enhydra lutris kenyoni|GCF_002288905.1|GAN:26980312|active
+419612|Camelus ferus|GCF_009834535.1|YT-003-E|active
+482537|Galeopterus variegatus|GCF_000696425.1||active
+491861|Grammomys surdaster|GCF_004785775.1|TR1022|active
+591936|Piliocolobus tephrosceles|GCF_002776525.3|RC106|active
+885580|Fukomys damarensis|GCF_012274545.1|Sample0158|active
+1026970|Nannospalax galili|GCF_000622305.1|Female #2095|active
+1047088|Arvicola amphibius|GCF_903992535.1||retired_Oct21
+1230840|Orycteropus afer afer|GCF_000298275.1|SDZICR_OR568_19922|active
+1608482|Puma yagouaroundi|GCF_014898765.1||active
+1868482|Carlito syrichta|GCF_000164805.1|Samal-C Ts95f|active
+2715852|Cebus imitator|GCF_001604975.1|Cc_AM_T3|active
+1706337|Neophocaena asiaeorientalis asiaeorientalis|GCF_003031525.1||retired_May2021
+192404|Sturnira hondurensis|GCF_014824575.1|20B|retired_May2021

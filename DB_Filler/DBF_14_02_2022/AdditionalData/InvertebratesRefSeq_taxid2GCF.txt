@@ -1,0 +1,281 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+6279|Brugia malayi|GCF_000002995.4||active
+114398|Parasteatoda tepidariorum|GCF_000365465.3||active
+30207|Polistes fuscatus|GCF_010416935.1|324|active
+561572|Frieseomelitta varia|GCF_011392965.1|USP_RPSP 00005682|active
+935657|Colletes gigas|GCF_013123115.1|AHSC1104|active
+45264|Acropora millepora|GCF_013753865.1|JS-1|active
+183418|Apis laboriosa|GCF_014066325.1|Shangri-la|active
+30213|Vespula pensylvanica|GCF_014466175.1|Volc-1|active
+396416|Bombus pyrosoma|GCF_014825855.1|SC7728|active
+684658|Aphidius gifuensis|GCF_014905175.1|YNYX2018|active
+41895|Tribolium madens|GCF_015345945.1|multiple individuals|active
+63436|Leptopilina heterotoma|GCF_015476425.1|Lh14|active
+7243|Drosophila teissieri|GCF_016746235.2||active
+129105|Drosophila santomea|GCF_016746245.2||active
+7245|Drosophila yakuba|GCF_016746365.2||active
+6945|Ixodes scapularis|GCF_016920785.2|PalLabHiFi|active
+27405|Penaeus japonicus|GCF_017312705.1|Ginoza2017|active
+30066|Anopheles merus|GCF_017562075.2||active
+7217|Drosophila ananassae|GCF_017639315.1||active
+7654|Lytechinus variegatus|GCF_018143015.1|NC3|active
+125945|Drosophila biarmipes|GCF_018148935.1|14023-0361.10|active
+7282|Drosophila obscura|GCF_018151105.1|BZ-5 IFL|active
+1041015|Drosophila rhopaloa|GCF_018152115.1|14029-0021.01|active
+30025|Drosophila ficusphila|GCF_018152265.1|14025-0441.05|active
+30023|Drosophila elegans|GCF_018152505.1|14027-0461.03|active
+30033|Drosophila kikkawai|GCF_018152535.1|14028-0561.14|active
+29030|Drosophila takahashii|GCF_018152695.1|IR98-3 E-12201|active
+7222|Drosophila grimshawi|GCF_018153295.1|15287-2541.00|active
+7230|Drosophila mojavensis|GCF_018153725.1|15081-1352.22|active
+29029|Drosophila eugracilis|GCF_018153835.1|14026-0451.02|active
+42026|Drosophila bipectinata|GCF_018153845.1|14024-0381.04|active
+6706|Homarus americanus|GCF_018991925.1|GMGI-L3|active
+1232801|Amphibalanus amphitrite|GCF_019059575.1|SeventyFive|active
+32260|Venturia canescens|GCF_019457755.1|UGA|active
+32391|Cotesia glomerata|GCF_020080835.1|CgM1|active
+91739|Aricia agestis|GCF_905147365.1||active
+1735272|Gigantopelta aegis|GCF_016097555.1|Gae_Host|active
+6087|Hydra vulgaris|GCF_000004095.1||active
+6105|Actinia tenebrosa|GCF_009602425.1||active
+6183|Schistosoma mansoni|GCF_000237925.1||active
+6185|Schistosoma haematobium|GCF_000699445.2||active
+6198|Opisthorchis viverrini|GCF_000715545.1||active
+6210|Echinococcus granulosus|GCF_000524195.1||active
+6238|Caenorhabditis briggsae|GCF_000004555.1||active
+6239|Caenorhabditis elegans|GCF_000002985.6||active
+6334|Trichinella spiralis|GCF_000181795.1||active
+6412|Helobdella robusta|GCF_000326865.1||active
+6500|Aplysia californica|GCF_000002075.1|F4 #8|active
+6526|Biomphalaria glabrata|GCF_000457365.1|BB02|active
+6565|Crassostrea virginica|GCF_002022765.2|RU13XGHG1-28|active
+6573|Mizuhopecten yessoensis|GCF_002113885.1||active
+6579|Pecten maximus|GCF_902652985.1||active
+6687|Penaeus monodon|GCF_015228065.1|SGIC_2016|active
+6689|Penaeus vannamei|GCF_003789085.1||active
+6850|Limulus polyphemus|GCF_000517525.1||active
+6941|Rhipicephalus microplus|GCF_013339725.1|Rmic-2018|active
+6956|Dermatophagoides pteronyssinus|GCF_001901225.1||active
+7029|Acyrthosiphon pisum|GCF_005508785.1|AL4f|active
+7038|Bemisia tabaci|GCF_001854935.1|MEAM1|active
+7048|Sitophilus oryzae|GCF_002938485.1||active
+7054|Photinus pyralis|GCF_008802855.1|1611_PpyrPB1|active
+7070|Tribolium castaneum|GCF_000002335.3||active
+7091|Bombyx mori|GCF_014905235.1||active
+7092|Bombyx mandarina|GCF_003987935.1|Bman2017|active
+7108|Spodoptera frugiperda|GCF_011064685.1|Faw-zju|active
+7111|Trichoplusia ni|GCF_003590095.1|ovarian cell line Hi5|active
+7130|Manduca sexta|GCF_014839805.1|Smith_Timp_Sample1|active
+7137|Galleria mellonella|GCF_003640425.2|Carbio01_MB|active
+7159|Aedes aegypti|GCF_002204515.2||active
+7160|Aedes albopictus|GCF_006496715.1|FPA|active
+7167|Anopheles albimanus|GCF_013758885.1||active
+7173|Anopheles arabiensis|GCF_016920715.1|DONGOLA|active
+7176|Culex quinquefasciatus|GCF_015732765.1||active
+7209|Loa loa|GCF_000183805.2||active
+7213|Ceratitis capitata|GCF_000347755.3||active
+7220|Drosophila erecta|GCF_003286155.1||active
+7224|Drosophila hydei|GCF_003285905.1||active
+7225|Scaptodrosophila lebanonensis|GCF_003285725.1||active
+7226|Drosophila mauritiana|GCF_004382145.1||active
+7227|Drosophila melanogaster|GCF_000001215.4||active
+7229|Drosophila miranda|GCF_003369915.1||active
+7232|Drosophila navojoa|GCF_001654015.2|navoj_Jal97|active
+7234|Drosophila persimilis|GCF_003286085.1||active
+7237|Drosophila pseudoobscura|GCF_009870125.1||active
+7238|Drosophila sechellia|GCF_004382195.1||active
+7240|Drosophila simulans|GCF_016746395.1||active
+7241|Drosophila subobscura|GCF_008121235.1|14011-0131.10|active
+7244|Drosophila virilis|GCF_003285735.1||active
+7260|Drosophila willistoni|GCF_000005925.1||active
+7263|Drosophila arizonae|GCF_001654025.1|ariz_Son04|active
+7266|Drosophila guanche|GCF_900245975.1||active
+7274|Drosophila serrata|GCF_002093755.1||active
+7282|Drosophila obscura|GCF_002217835.1||retired_June2021
+7291|Drosophila albomicans|GCF_009650485.1||active
+7370|Musca domestica|GCF_000371365.1||active
+7375|Lucilia cuprina|GCF_000699065.1||active
+7396|Glossina fuscipes|GCF_014805625.1|IAEA_lab_2018|active
+7425|Nasonia vitripennis|GCF_009193385.2||active
+7446|Vespa mandarinia|GCF_014083535.2|Nanaimo|active
+7460|Apis mellifera|GCF_003254395.2||active
+7461|Apis cerana|GCF_001442555.1||active
+7462|Apis dorsata|GCF_000469605.1||active
+7463|Apis florea|GCF_000184785.3||active
+7493|Trichogramma pretiosum|GCF_000599845.2||active
+7515|Ctenocephalides felis|GCF_003426905.1|EL2017-DRISC|active
+7539|Leptinotarsa decemlineata|GCF_000500325.1||active
+7574|Lingula anatina|GCF_001039355.2|Amm_Jpn|active
+7604|Asterias rubens|GCF_902459465.1||active
+7668|Strongylocentrotus purpuratus|GCF_000002235.5|Spur 01|active
+7719|Ciona intestinalis|GCF_000224145.3||active
+7725|Styela clava|GCF_013122585.1|OUC-MLS-2016-MISD03-12-06|active
+7739|Branchiostoma floridae|GCF_000003815.2||active
+7741|Branchiostoma belcheri|GCF_001625305.1|BF01|active
+10224|Saccoglossus kowalevskii|GCF_000003605.2||active
+10228|Trichoplax adhaerens|GCF_000150275.1||active
+12957|Atta cephalotes|GCF_000143395.1||active
+13164|Myzus persicae|GCF_001856785.1||active
+13632|Lucilia sericata|GCF_015586225.1|MDLA Ls3-8-SP2|active
+13686|Solenopsis invicta|GCF_016802725.1|M01_SB|active
+27457|Bactrocera dorsalis|GCF_000789215.1||active
+28584|Drosophila suzukii|GCF_013340165.1||active
+28588|Zeugodacus cucurbitae|GCF_000806345.1||active
+28610|Rhagoletis pomonella|GCF_013731165.1|Grant_MI|active
+28612|Rhagoletis zephyria|GCF_001687245.1|East Lansing|active
+29029|Drosophila eugracilis|GCF_000236325.1||retired_June2021
+29053|Copidosoma floridanum|GCF_000648655.2|CFLO.00-Male|active
+29058|Helicoverpa armigera|GCF_002156985.1|Harm_GR_Male_#8|active
+29159|Crassostrea gigas|GCF_902806645.1||active
+30019|Drosophila busckii|GCF_011750605.1||active
+30023|Drosophila elegans|GCF_000224195.1||retired_June2021
+30069|Anopheles stephensi|GCF_013141755.1||active
+30195|Bombus terrestris|GCF_000214255.1||active
+31234|Caenorhabditis remanei|GCF_000149515.1||active
+32264|Tetranychus urticae|GCF_000239435.1||active
+33412|Zerene cesonia|GCF_012273895.1||active
+34506|Strongyloides ratti|GCF_001040885.1||active
+34632|Rhipicephalus sanguineus|GCF_013339695.1|Rsan-2018|active
+34638|Galendromus occidentalis|GCF_000255335.1||active
+34720|Trachymyrmex septentrionalis|GCF_001594115.1|Tsep2-gDNA-1|active
+35525|Daphnia magna|GCF_003990815.1||active
+35570|Stomoxys calcitrans|GCF_001015335.1||active
+37344|Athalia rosae|GCF_000344095.2|CS-ADULT|active
+37621|Priapulus caudatus|GCF_000485595.1||active
+37653|Octopus bimaculoides|GCF_001194135.1|UCB-OBI-ISO-001|active
+38358|Bradysia coprophila|GCF_014529535.1||active
+41117|Pollicipes pollicipes|GCF_011947565.2|AB1234|active
+42434|Culex pipiens pallens|GCF_016801865.1|TS|active
+43146|Rhopalosiphum maidis|GCF_003676215.2|BTI-1|active
+45351|Nematostella vectensis|GCF_000209225.1||active
+46514|Patiria miniata|GCF_015706575.1|m_02_andy|active
+46731|Pocillopora damicornis|GCF_003704095.1|RSMAS|active
+47314|Drosophila novamexicana|GCF_003285875.2||active
+48498|Orbicella faveolata|GCF_002042975.1|FL|active
+50390|Diabrotica virgifera virgifera|GCF_003013835.1|Ped12-6-A-3|active
+50429|Stylophora pistillata|GCF_002571385.1|CSM Monaco|active
+51031|Necator americanus|GCF_000507365.1||active
+51655|Plutella xylostella|GCF_905116875.1||active
+59916|Bactrocera tryoni|GCF_016617805.1|S06|active
+62625|Varroa jacobsoni|GCF_002532875.1|VJ856|active
+64459|Pieris rapae|GCF_001856805.1||active
+64791|Trachymyrmex zeteki|GCF_001594055.1|Tzet28-1|active
+64793|Wasmannia auropunctata|GCF_000956235.1|WASHAW1|active
+64838|Fopius arisanus|GCF_000806365.1||active
+66420|Papilio xuthus|GCF_000836235.1||active
+69319|Microplitis demolitor|GCF_000572035.2||active
+69820|Spodoptera litura|GCF_002706865.1||active
+70779|Acropora digitifera|GCF_000222465.1||active
+72036|Lepeophtheirus salmonis|GCF_016086655.2|Lsal2020|active
+72781|Formica exsecta|GCF_003651465.1|Colony F162|active
+76193|Papilio machaon|GCF_001298355.1|ya'a_city_454_Pm|active
+76194|Papilio polytes|GCF_000836215.1||active
+77166|Dendroctonus ponderosae|GCF_000355655.1||active
+79782|Cimex lectularius|GCF_000648675.2|CLEC.00|active
+80765|Aphis gossypii|GCF_004010815.1|AGOS-L3|active
+83485|Linepithema humile|GCF_000217595.1||active
+88015|Eurytemora affinis|GCF_000591075.1||active
+91411|Polistes canadensis|GCF_001313835.1|GaletaPanama2010|active
+93504|Ostrinia furnacalis|GCF_004193835.1|ACB-3|active
+103372|Acromyrmex echinatior|GCF_000204515.1||active
+103933|Bombus bifarius|GCF_011952205.1|JDL3187|active
+104421|Camponotus floridanus|GCF_003227725.1||active
+104688|Bactrocera oleae|GCF_001188975.3|Demokritus|active
+105785|Cryptotermes secundus|GCF_002891405.2||active
+108931|Nilaparvata lugens|GCF_014356525.1|BPH|active
+109461|Varroa destructor|GCF_002443255.1||active
+110193|Nicrophorus vespilloides|GCF_001412225.1|i.1.1-1|active
+110368|Bicyclus anynana|GCF_900239965.1||active
+115081|Megalopta genalis|GCF_011865705.1|nest CK6|active
+116150|Pararge aegeria|GCF_905163445.1||active
+116153|Aethina tumida|GCF_001937115.1|BRL-Maryland|active
+121224|Pediculus humanus corporis|GCF_000006295.1||active
+121845|Diaphorina citri|GCF_000475195.1||active
+132113|Bombus impatiens|GCF_000188095.3|North American commercial source|active
+133434|Acanthaster planci|GCF_001949145.1||active
+133901|Frankliniella occidentalis|GCF_000697945.2|FOCC.00|active
+136037|Zootermopsis nevadensis|GCF_000696155.1||active
+139649|Teleopsis dalmanni|GCF_002237135.1|2A|active
+143948|Diuraphis noxia|GCF_001186385.1||active
+143950|Sipha flava|GCF_003268045.1|LNK|active
+143995|Megachile rotundata|GCF_000220905.1||active
+144034|Pogonomyrmex barbatus|GCF_000187915.1||active
+151771|Dendronephthya gigantea|GCF_004324835.1|DGI-Jeju-01|active
+156304|Ceratina calcarata|GCF_001652005.1|Rehan_Ccalc_2016|active
+158441|Folsomia candida|GCF_002217175.1||active
+161013|Thrips palmi|GCF_012932325.1|BJ-2018|active
+166361|Onthophagus taurus|GCF_000648695.1||active
+174628|Bactrocera latifrons|GCF_001853355.1|USDA-ARS-PBARC rearing strain|active
+178035|Dufourea novaeangliae|GCF_001272555.1|0120121106|active
+180454|Anopheles gambiae str. PEST|GCF_000005575.2||active
+198719|Drosophila innubila|GCF_004354385.1|TH190305|active
+202533|Stegodyphus dumicola|GCF_010614865.1|AA2019|active
+207650|Bombus vosnesenskii|GCF_011952255.1|JDL3184/JDL3185|active
+211228|Cephus cinctus|GCF_000341935.1||active
+217634|Anoplophora glabripennis|GCF_000390285.2|ALB-LARVAE|active
+218467|Centruroides sculpturatus|GCF_000671375.1|CEXI.00-Female|active
+219809|Pseudomyrmex gracilis|GCF_002006095.1|BER0280|active
+222816|Orussus abietinus|GCF_000612105.2|OABI.00-Male|active
+224129|Agrilus planipennis|GCF_000699045.2|EAB-ADULT|active
+225164|Lottia gigantea|GCF_000327385.1||active
+265458|Contarinia nasturtii|GCF_009176525.2|CC-2019|active
+278856|Danaus plexippus plexippus|GCF_009731565.1|F-2|active
+286706|Halyomorpha halys|GCF_000696795.2|HHAL.00|active
+294128|Hyalella azteca|GCF_000764305.1|HAZT.00-mixed|active
+300111|Temnothorax curvispinosus|GCF_003070985.1|PA1|active
+307658|Monomorium pharaonis|GCF_013373865.1|MP-MQ-018|active
+326594|Ceratosolen solmsi marchali|GCF_000503995.1||active
+334116|Vanessa tameamea|GCF_002938995.1|Waianae|active
+343691|Hermetia illucens|GCF_905115235.1||active
+400682|Amphimedon queenslandica|GCF_000090795.1||active
+400727|Pomacea canaliculata|GCF_003073045.1|SZHN2017|active
+411798|Vollenhovia emeryi|GCF_000949405.1|VEMERY1.0|active
+431895|Monosiga brevicollis MX1|GCF_000002865.3||active
+441921|Neodiprion lecontei|GCF_001263575.1|Nlec_01|active
+454923|Diachasma alloeum|GCF_001412515.2|Michigan|active
+456900|Cyphomyrmex costatus|GCF_001594065.1|MS0001|active
+460826|Chelonus insularis|GCF_013357705.1|UGA/USDA-ARS -01|active
+471704|Trachymyrmex cornetzi|GCF_001594075.1|Tcor2-1|active
+473952|Osmia lignaria|GCF_012274295.1|UT-Olig-1|active
+486640|Odontomachus brunneus|GCF_010583005.1|Ranch 3 - 2012|active
+516756|Eufriesea mexicana|GCF_001483705.1|0111107269|active
+520822|Atta colombica|GCF_001594045.1|Treedump-2|active
+543639|Dermacentor silvarum|GCF_013339745.1|Dsil-2018|active
+595528|Capsaspora owczarzaki ATCC 30864|GCF_000151315.2||active
+597456|Habropoda laboriosa|GCF_001263275.1|0110345459|active
+609295|Dinoponera quadriceps|GCF_001313825.1|SergipeBrazil2010|active
+610380|Harpegnathos saltator|GCF_003227715.1||active
+613905|Nylanderia fulva|GCF_005281655.1|TAMU-Nful-2015|active
+667725|Sphaeroforma arctica JP610|GCF_001186125.1||active
+680683|Amyelois transitella|GCF_001186105.1||active
+691883|Fonticula alba|GCF_000388065.1||active
+742174|Melanaphis sacchari|GCF_002803265.2||active
+743375|Polistes dominula|GCF_001465965.1|PdomPennStateAug2009|active
+946362|Salpingoeca rosetta|GCF_000188695.1||active
+1159321|Belonocnema treatae|GCF_010883055.1|2016_QV_RU_SX_M_011|active
+1437191|Osmia bicornis bicornis|GCF_004153925.1|LIB18336|active
+1477025|Hyposmocoma kahamanoa|GCF_003589595.1|Upper Palolo Valley|active
+1486046|Drosophila subpulchrella|GCF_014743375.2||active
+1518534|Anopheles coluzzii|GCF_016920705.1|MOPTI|active
+1529436|Anneissia japonica|GCF_011630105.1|Jap-2015-1|active
+2015173|Ooceraea biroi|GCF_003672135.1|clonal line C1|active
+2448451|Nomia melanderi|GCF_003710045.1|Touchet_males|active
+2607531|Octopus sinensis|GCF_006345805.1|Ov201803|active
+2652724|Exaiptasia diaphana|GCF_001417965.1|CC7|active
+2705178|Bombus vancouverensis nearcticus|GCF_011952275.1|JDL1245|active
+2795564|Maniola hyperantus|GCF_902806685.1||active
+1041015|Drosophila rhopaloa|GCF_000236305.1||retired_Oct21
+114398|Parasteatoda tepidariorum|GCF_000365465.2||retired_Oct21
+125945|Drosophila biarmipes|GCF_000233415.1||retired_Oct21
+129105|Drosophila santomea|GCF_016746245.1||retired_Oct21
+29030|Drosophila takahashii|GCF_000224235.1||retired_Oct21
+30025|Drosophila ficusphila|GCF_000220665.1||retired_Oct21
+30033|Drosophila kikkawai|GCF_000224215.1||retired_Oct21
+42026|Drosophila bipectinata|GCF_000236285.1||retired_Oct21
+45264|Acropora millepora|GCF_004143615.1|SF001|retired_Oct21
+6279|Brugia malayi|GCF_000002995.3||retired_Oct21
+6945|Ixodes scapularis|GCF_016920785.1|PalLabHiFi|retired_Oct21
+7217|Drosophila ananassae|GCF_003285975.2||retired_Oct21
+7222|Drosophila grimshawi|GCF_000005155.2||retired_Oct21
+7230|Drosophila mojavensis|GCF_000005175.2||retired_Oct21
+7245|Drosophila yakuba|GCF_016746365.1||retired_Oct21

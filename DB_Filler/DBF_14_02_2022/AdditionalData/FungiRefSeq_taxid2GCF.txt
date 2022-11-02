@@ -1,0 +1,411 @@
+taxid|organism_name|assembly_accession|intraspecific_name|status
+1159556|Ustilaginoidea virens|GCF_000687475.1||active
+91492|Aspergillus udagawae|GCF_001078395.1||active
+5007|Brettanomyces bruxellensis|GCF_011074885.1||active
+332952|Aspergillus flavus NRRL3357|GCF_014117465.1||active
+83186|Diaporthe citri|GCF_014595645.1||active
+48578|Suillus paluster|GCF_016628075.1||active
+48586|Suillus subalutaceus|GCF_016647625.1||active
+48587|Suillus subaureus|GCF_016647635.1||active
+116603|Suillus plorans|GCF_016647745.1||active
+1912939|Suillus fuscotomentosus|GCF_016647785.1||active
+1912936|Suillus discolor|GCF_016758755.1||active
+1904413|Suillus clintonianus|GCF_016758775.1||active
+48563|Suillus bovinus|GCF_016758785.1||active
+1069201|Aspergillus luchuensis|GCF_016861625.1||active
+182096|Aspergillus chevalieri|GCF_016861735.1||active
+1220207|Aspergillus puulaauensis|GCF_016861865.1||active
+456999|Rhizoctonia solani|GCF_016906535.1|XN|active
+1517512|Aspergillus pseudoviridinutans|GCF_018340605.1||active
+75553|Aspergillus viridinutans|GCF_018404265.1||active
+181124|Marasmius oreades|GCF_018924745.1|03SP1|active
+45513|Scheffersomyces spartinae|GCF_019049425.1||active
+1450536|Guyanagaster necrorhizus MCA 3950|GCF_019112545.1||active
+1937702|Ogataea haglerorum|GCF_019207285.1|81-453-3|active
+870730|Ogataea angusta|GCF_019207475.1|61-244|active
+748121|Diaporthe batatas|GCF_019321695.1||active
+2732470|Bacidia gigantensis|GCF_019456465.1||active
+36050|Fusarium poae|GCF_019609905.1||active
+84275|Cercospora kikuchii|GCF_019650295.1||active
+1042133|Fusarium musae|GCF_019915245.1||active
+1174677|Morchella sextelata|GCF_020137385.1||active
+111463|Hirsutella rhossiliensis|GCF_020360975.1||active
+192010|Fusarium mangiferae|GCF_900044065.1||active
+120017|Ustilago hordei|GCF_900519145.1||active
+61262|Kazachstania barnettii|GCF_903064755.1||active
+119953|Alternaria atra|GCF_907166805.1|CS162|active
+4896|Schizosaccharomyces pombe|GCF_000002945.1||active
+4909|Pichia kudriavzevii|GCF_003054445.1||active
+4950|Torulaspora delbrueckii|GCF_000243375.1||active
+4956|Zygosaccharomyces rouxii|GCF_000026365.1||active
+4999|Kockovaella imperatae|GCF_002102565.1||active
+5068|Aspergillus tubingensis|GCF_013340325.1||active
+5078|Penicillium griseofulvum|GCF_001561935.1||active
+5082|Penicillium roqueforti|GCF_015533775.1||active
+5322|Pleurotus ostreatus|GCF_014466165.1||active
+5454|Ascochyta rabiei|GCF_004011695.1|Me14|active
+5467|Colletotrichum truncatum|GCF_014235925.1||active
+5478|[Candida] glabrata|GCF_000002545.3||active
+5480|Candida parapsilosis|GCF_000182765.1||active
+5481|Diutina rugosa|GCF_008704595.1||active
+5599|Alternaria alternata|GCF_001642055.1||active
+13502|Brettanomyces nanus|GCF_011074865.1||active
+27291|Saccharomyces paradoxus|GCF_002079055.1||active
+27334|Penicillium expansum|GCF_000769745.1||active
+28985|Kluyveromyces lactis|GCF_000002515.2||active
+33203|Purpureocillium lilacinum|GCF_001653265.1|PLFJ-1|active
+40302|Nosema ceranae|GCF_000988165.1||active
+41047|Aspergillus thermomutatus|GCF_002237265.1||active
+41067|Aspergillus candidus|GCF_002847045.1||active
+42260|Zygotorulaspora mrakii|GCF_013402915.1||active
+42677|Fusarium subglutinans|GCF_013396075.1||active
+45133|Lasiodiplodia theobromae|GCF_012971845.1||active
+45286|Eremothecium sinecaudum|GCF_001548555.1||active
+45357|[Candida] haemuloni|GCF_002926055.2||active
+45607|Wickerhamiella sorbophila|GCF_002251995.1||active
+48254|Torulaspora globosa|GCF_014133895.1||active
+56646|Fusarium venenatum|GCF_900007375.1||active
+58627|Debaryomyces fabryi|GCF_001447935.2||active
+58853|Trichoderma citrinoviride|GCF_003025115.1||active
+58919|Tilletiopsis washingtonensis|GCF_003144115.1||active
+60172|Penicillium solitum|GCF_002072235.1||active
+61395|Linderina pennispora|GCF_002104995.1||active
+61420|Aspergillus caelatus|GCF_009193585.1||active
+64571|Lobosporangium transversale|GCF_002105155.1||active
+74035|Arthroderma uncinatum|GCF_011692745.1||active
+76775|Malassezia restricta|GCF_003290485.1||active
+77020|Malassezia pachydermatis|GCF_001278385.1||active
+84753|Moesziomyces antarcticus|GCF_000747765.1||active
+87229|Botrytis porri|GCF_014898465.1||active
+91928|Exophiala spinifera|GCF_000836115.1||active
+98403|Drechmeria coniospora|GCF_001625195.1||active
+105984|Apiotrichum porosum|GCF_003942205.1||active
+109264|Aspergillus bombycis|GCF_001792695.1||active
+112416|Letharia columbiana|GCF_014066305.1|WasteWater2|active
+112498|Ramularia collo-cygni|GCF_900074925.1||active
+121627|Talaromyces rugulosus|GCF_013368755.1||active
+122368|Cercospora beticola|GCF_002742065.1||active
+132259|Aspergillus pseudotamarii|GCF_009193445.1||active
+139641|Botrytis byssoidea|GCF_014898295.1||active
+139825|Sparassis crispa|GCF_003851025.1||active
+148305|Pyricularia grisea|GCF_004355905.1||active
+149040|Mollisia scopiformis|GCF_001500285.1||active
+156630|Alternaria arborescens|GCF_004154835.1||active
+209559|Aspergillus alliaceus|GCF_009176365.1||active
+212818|Exophiala mesophila|GCF_000836275.1||active
+214684|Cryptococcus neoformans var. neoformans JEC21|GCF_000091045.1||active
+215243|Exophiala oligosperma|GCF_000835515.1||active
+215250|Acaromyces ingoldii|GCF_003144295.1||active
+222929|Coccidioides posadasii C735 delta SOWgp|GCF_000151335.2||active
+227321|Aspergillus nidulans FGSC A4|GCF_000149205.2||active
+229533|Fusarium graminearum PH-1|GCF_000240135.3||active
+231269|Fusarium coffeatum|GCF_003316985.1||active
+235443|Cryptococcus neoformans var. grubii H99|GCF_000149245.1||active
+236234|Diplodia corticola|GCF_001883845.1||active
+237561|Candida albicans SC5314|GCF_000182965.3||active
+237631|Ustilago maydis 521|GCF_000328475.2||active
+240176|Coprinopsis cinerea okayama7#130|GCF_000182895.1||active
+242507|Pyricularia oryzae 70-15|GCF_000002495.2||active
+245834|Neohortaea acidophila|GCF_010093505.1||active
+246410|Coccidioides immitis RS|GCF_000149335.2||active
+253628|Verruconis gallopava|GCF_000836295.1||active
+254056|Fonsecaea monophora|GCF_001642475.1||active
+264951|Byssochlamys spectabilis|GCF_004022145.1||active
+280036|Sporisorium graminicola|GCF_005498985.1||active
+283643|Cryptococcus neoformans var. neoformans B-3501A|GCF_000149385.1||active
+284591|Yarrowia lipolytica CLIB122|GCF_000002525.2||active
+284592|Debaryomyces hansenii CBS767|GCF_000006445.2||active
+284811|Eremothecium gossypii ATCC 10895|GCF_000091025.4||active
+284813|Encephalitozoon cuniculi GB-M1|GCF_000091225.1|GB-M1|active
+293939|Aspergillus lentulus|GCF_010724455.1||active
+294746|Meyerozyma guilliermondii ATCC 6260|GCF_000149425.1||active
+294747|Candida tropicalis MYA-3404|GCF_000006335.3||active
+301207|Macroventuria anomochaeta|GCF_010093625.1||active
+306901|Chaetomium globosum CBS 148.51|GCF_000143365.1||active
+306902|Clavispora lusitaniae ATCC 42720|GCF_000003835.1||active
+318751|Westerdykella ornata|GCF_010094085.1||active
+321614|Parastagonospora nodorum SN15|GCF_000146915.1||active
+322104|Scheffersomyces stipitis CBS 6054|GCF_000209165.1||active
+326645|Daldinia childiae|GCF_008694065.1||active
+330879|Aspergillus fumigatus Af293|GCF_000002655.1||active
+331117|Aspergillus fischeri NRRL 181|GCF_000149645.2||active
+332648|Botrytis cinerea B05.10|GCF_000143535.2||active
+334819|Fusarium verticillioides 7600|GCF_000149555.1||active
+336722|Zymoseptoria tritici IPO323|GCF_000219625.1||active
+336963|Uncinocarpus reesii 1704|GCF_000003515.1||active
+2059318|Histoplasma capsulatum NAm1|GCF_000149585.1||active
+341663|Aspergillus terreus NIH2624|GCF_000149615.1||active
+342668|Pseudogymnoascus verrucosus|GCF_001662655.1||active
+344612|Aspergillus clavatus NRRL 1|GCF_000002715.2||active
+348802|Exophiala xenobiotica|GCF_000835505.1||active
+367110|Neurospora crassa OR74A|GCF_000182925.2||active
+367775|Cryptococcus gattii WM276|GCF_000185945.1||active
+379508|Lodderomyces elongisporus NRRL YB-4239|GCF_000149685.1||active
+383855|Pseudocercospora fijiensis CIRAD86|GCF_000340215.1||active
+390896|Trematosphaeria pertusa|GCF_010094035.1||active
+398673|Trichoderma gamsii|GCF_001481775.2||active
+402676|Schizosaccharomyces japonicus yFS275|GCF_000149845.2||active
+413071|Trichoderma virens Gv29-8|GCF_000170995.1||active
+418459|Puccinia graminis f. sp. tritici CRL 75-36-700-3|GCF_000149925.1||active
+418784|[Candida] pseudohaemulonii|GCF_003013735.1||active
+425011|Aspergillus niger CBS 513.88|GCF_000002855.3||active
+425265|Malassezia globosa CBS 7966|GCF_000181695.1||active
+426418|Pyrenophora tritici-repentis Pt-1C-BFP|GCF_000149985.1||active
+426428|Fusarium oxysporum f. sp. lycopersici 4287|GCF_000149955.1||active
+431241|Trichoderma reesei QM6a|GCF_000167675.1||active
+436907|Vanderwaltozyma polyspora DSM 70294|GCF_000150035.1||active
+441959|Talaromyces stipitatus ATCC 10500|GCF_000003125.1||active
+441960|Talaromyces marneffei ATCC 18224|GCF_000001985.1||active
+452589|Trichoderma atroviride IMI 206040|GCF_000171015.1||active
+460523|Ogataea polymorpha|GCF_001664045.1||active
+470096|Pseudovirgaria hyperparasitica|GCF_010093815.1||active
+483514|Schizosaccharomyces octosporus yFS286|GCF_000150505.1||active
+486041|Laccaria bicolor S238N-H82|GCF_000143565.1||active
+498019|[Candida] auris|GCF_002775015.1||active
+498257|Verticillium dahliae VdLs.17|GCF_000150675.1||active
+500485|Penicillium rubens Wisconsin 54-1255|GCF_000226395.1||active
+502779|Paracoccidioides lutzii Pb01|GCF_000150705.2||active
+502780|Paracoccidioides brasiliensis Pb18|GCF_000150735.1||active
+510516|Aspergillus oryzae RIB40|GCF_000184455.2||active
+510951|Neurospora tetrasperma FGSC 2508|GCF_000213175.1||active
+515849|Podospora anserina S mat+|GCF_000226545.1||active
+526221|Verticillium alfalfae VaMs.102|GCF_000150825.1||active
+535722|Nannizzia gypsea CBS 118893|GCF_000150975.2||active
+554155|Microsporum canis CBS 113480|GCF_000151145.1||active
+559292|Saccharomyces cerevisiae S288C|GCF_000146045.2||active
+559295|Lachancea thermotolerans CBS 6340|GCF_000142805.1||active
+559298|Blastomyces gilchristii SLH14081|GCF_000003855.2||active
+559305|Trichophyton rubrum CBS 118892|GCF_000151425.1||active
+560253|Letharia lupina|GCF_014066315.1|WasteWater1|active
+563466|Scedosporium apiospermum|GCF_000732125.1||active
+569365|Cladophialophora immunda|GCF_000835495.1||active
+573729|Thermothelomyces thermophilus ATCC 42464|GCF_000226095.1||active
+573826|Candida dubliniensis CD36|GCF_000026945.1||active
+574789|Mytilinidion resinicola|GCF_010093595.1||active
+578455|Thermothielavioides terrestris NRRL 8126|GCF_000226115.1||active
+578456|Tremella mesenterica DSM 1558|GCF_000271645.1||active
+578457|Serpula lacrymans var. lacrymans S7.9|GCF_000218685.1||active
+578458|Schizophyllum commune H4-8|GCF_000143185.1||active
+578459|Rhodotorula graminis WP1|GCF_001329695.1||active
+590646|Yamadazyma tenuis ATCC 10573|GCF_000223465.1||active
+597362|Agaricus bisporus var. burnettii JB137-S8|GCF_000300555.1||active
+599839|Fibroporia radiculosa|GCF_000313525.1||active
+619300|Spathaspora passalidarum NRRL Y-27907|GCF_000223485.1||active
+644223|Komagataella phaffii GS115|GCF_000027005.1||active
+644352|Gaeumannomyces tritici R3-111a-1|GCF_000145635.1||active
+645133|Colletotrichum graminicola M1.001|GCF_000149035.1||active
+645134|Spizellomyces punctatus DAOM BR117|GCF_000182565.1||active
+650164|Phanerochaete carnosa HHB-10118-sp|GCF_000300595.1||active
+653667|Schizosaccharomyces cryophilus OY26|GCF_000004155.1||active
+655819|Beauveria bassiana ARSEF 2860|GCF_000280675.1||active
+655827|Metarhizium acridum CQMa 102|GCF_000187405.1||active
+655844|Metarhizium robertsii ARSEF 23|GCF_000187425.2||active
+655863|Grosmannia clavigera kw1407|GCF_000143105.1||active
+655981|Pseudogymnoascus destructans|GCF_001641265.1||active
+656061|Tuber melanosporum Mel28|GCF_000151645.1||active
+660029|Fusarium oxysporum NRRL 32931|GCF_000271745.1||active
+660122|Fusarium vanettenii 77-13-4|GCF_000151355.1|77-13-4|active
+660469|Cryphonectria parasitica EP155|GCF_011745365.1||active
+663202|Trichophyton verrucosum HKI 0517|GCF_000151505.1||active
+663331|Trichophyton benhamiae CBS 112371|GCF_000151125.1||active
+665024|Bipolaris maydis ATCC 48331|GCF_000354255.1||active
+665079|Sclerotinia sclerotiorum 1980 UF-70|GCF_000146945.2||active
+665912|Bipolaris sorokiniana ND90Pr|GCF_000338995.1||active
+670483|Gloeophyllum trabeum ATCC 11539|GCF_000344685.1||active
+670580|Postia placenta MAD-698-R-SB12|GCF_002117355.1||active
+671144|Wallemia mellicola CBS 633.66|GCF_000263375.1||active
+671987|Exserohilum turcica Et28A|GCF_000359705.1||active
+673940|Lindgomyces ingoldianus|GCF_010093535.1||active
+683960|Wickerhamomyces anomalus NRRL Y-366-8|GCF_001661255.1||active
+684364|Batrachochytrium dendrobatidis JAM81|GCF_000203795.1||active
+690256|Colletotrichum fructicola|GCF_009771025.1||active
+690259|Colletotrichum siamense|GCF_013390195.1||active
+690307|Aspergillus aculeatus ATCC 16872|GCF_001890905.1||active
+692275|Sphaerulina musiva SO2202|GCF_000320565.1||active
+694068|Fomitiporia mediterranea MF3/22|GCF_000271605.1||active
+698492|Saitoella complicata NRRL Y-17804|GCF_001661265.1||active
+717646|Baudoinia panamericana UAMH 10762|GCF_000338955.1||active
+717944|Trametes versicolor FP-101664 SS1|GCF_000271585.1||active
+721885|Stereum hirsutum FP-91666 SS1|GCF_000264905.1||active
+732165|Dichomitus squalens LYAD-421 SS1|GCF_000275845.1||active
+741275|Punctularia strigosozonata HHB-11173 SS5|GCF_000264995.1||active
+741705|Coniophora puteana RWD-64-598 SS2|GCF_000271625.1||active
+747089|Rhizophagus irregularis DAOM 181602=DAOM 197198|GCF_000439145.1||active
+747525|Heterobasidion irregulare TC 32-1|GCF_000320585.1||active
+747676|Melampsora larici-populina 98AG31|GCF_000204055.1||active
+756982|Orbilia oligospora ATCC 24927|GCF_000225545.1||active
+759272|Chaetomium thermophilum var. thermophilum DSM 1495|GCF_000221225.1||active
+759273|Colletotrichum higginsianum IMI 349063|GCF_001672515.1||active
+763406|Pichia membranifaciens NRRL Y-2026|GCF_001661235.1||active
+763407|Phycomyces blakesleeanus NRRL 1555(-)|GCF_001638985.1||active
+764103|Mixia osmundae IAM 14324|GCF_000708205.1||active
+771870|Sordaria macrospora k-hell|GCF_000182805.2||active
+796027|Sugiyamaella lignohabitans|GCF_001640025.1||active
+856822|Fonsecaea nubica|GCF_001646965.1||active
+857342|Amorphotheca resinae ATCC 22711|GCF_003019875.1||active
+858893|Exophiala dermatitidis NIH/UT8656|GCF_000230625.1||active
+869754|Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993|GCF_001664035.1||active
+871575|Ogataea parapolymorpha DL-1|GCF_000187245.1||active
+876142|Encephalitozoon intestinalis ATCC 50506|GCF_000146465.1||active
+879819|Cutaneotrichosporon oleaginosum|GCF_001027345.1||active
+881290|Nematocida parisii ERTm1|GCF_000250985.1||active
+907965|Encephalitozoon hellem ATCC 50504|GCF_000277815.2||active
+930089|Bipolaris zeicola 26-R-13|GCF_000523435.1||active
+930090|Bipolaris oryzae ATCC 44560|GCF_000523455.1||active
+930091|Bipolaris victoriae FI3|GCF_000527765.1||active
+931890|Eremothecium cymbalariae DBVPG#7215|GCF_000235365.1||active
+936046|Agaricus bisporus var. bisporus H97|GCF_000300575.1||active
+948595|Vavraia culicis subsp. floridensis|GCF_000192795.1||active
+983644|Cordyceps militaris CM01|GCF_000225605.1||active
+983964|Trichoderma harzianum CBS 226.95|GCF_003025095.1||active
+983966|Cyberlindnera jadinii NRRL Y-1542|GCF_001661405.1||active
+984485|Hyphopichia burtonii NRRL Y-1933|GCF_001661395.1||active
+984486|Babjeviella inositovora NRRL Y-12698|GCF_001661335.1||active
+984487|Suhomyces tanzawaensis NRRL Y-17324|GCF_001661415.1||active
+985895|Leptosphaeria maculans JN3|GCF_000230375.1||active
+993615|Vittaforma corneae ATCC 50505|GCF_000231115.1||active
+1003335|Kluyveromyces marxianus DMKU3-1042|GCF_001417885.1||active
+1028729|Fusarium pseudograminearum CS3096|GCF_000303195.2||active
+1036611|Aspergillus versicolor CBS 583.65|GCF_001890125.1||active
+1036612|Aspergillus sydowii CBS 593.65|GCF_001890705.1||active
+1037660|Tilletiaria anomala UBC 951|GCF_000711695.1||active
+1041607|Wickerhamomyces ciferrii|GCF_000313485.1||active
+1042311|Trichoderma asperellum CBS 433.97|GCF_003025105.1||active
+1043002|Aureobasidium pullulans EXF-150|GCF_000721785.1||active
+1043003|Aureobasidium melanogenum CBS 110374|GCF_000721775.1||active
+1043004|Aureobasidium namibiae CBS 147.97|GCF_000721765.1||active
+1043005|Aureobasidium subglaciale EXF-2481|GCF_000721755.1||active
+1051616|Verticillium nonalfalfae|GCF_003724135.2||active
+1064592|Naumovozyma castellii CBS 4309|GCF_000237345.1||active
+1069680|Pneumocystis murina B123|GCF_000349005.2||active
+1071378|Naumovozyma dairenensis CBS 421|GCF_000227115.2||active
+1071380|Tetrapisispora blattae CBS 6284|GCF_000315915.1||active
+1071381|Tetrapisispora phaffii CBS 4417|GCF_000236905.1||active
+1071382|Kazachstania africana CBS 2517|GCF_000304475.1||active
+1071383|Kazachstania naganishii CBS 8797|GCF_000348985.1||active
+1072389|Marssonina brunnea f. sp. 'multigermtubi' MB_m1|GCF_000298775.1||active
+1073089|Aspergillus wentii DTO 134E9|GCF_001890725.1||active
+1073090|Penicilliopsis zonata CBS 506.65|GCF_001890105.1||active
+1080233|Zasmidium cellare ATCC 36951|GCF_010093935.1||active
+1080349|Saccharomyces eubayanus|GCF_001298625.1||active
+1081103|Metarhizium album ARSEF 1941|GCF_000804445.1||active
+1081104|Cordyceps fumosorosea ARSEF 2679|GCF_001636725.1||active
+1089451|Fusarium odoratissimum NRRL 54006|GCF_000260195.1||active
+1093900|Phialemoniopsis curvata|GCF_004353045.1||active
+1094350|Geosmithia morbida|GCF_012550715.1|1262|active
+1095194|Colletotrichum karsti|GCF_011947395.1||active
+1095630|Hyaloscypha bicolor E|GCF_002865645.1||active
+1116229|Glarea lozoyensis ATCC 20868|GCF_000409485.1||active
+1130832|Rhodotorula toruloides NP11|GCF_000320785.1||active
+1136231|Candida orthopsilosis Co 90-125|GCF_000315875.1||active
+1141098|Pseudomassariella vexata|GCF_002105095.1||active
+1150837|Didymella exigua CBS 183.55|GCF_010094145.1||active
+1160497|Aspergillus glaucus CBS 516.65|GCF_001890805.1||active
+1168221|Coniosporium apollinis CBS 100218|GCF_000281105.1||active
+1168544|Cucurbitaria berberidis CBS 394.84|GCF_010015615.1||active
+1170230|Penicillium digitatum Pd1|GCF_000315645.1||active
+1176127|Aplosporella prunicola CBS 121167|GCF_010093885.1||active
+1178016|Encephalitozoon romaleae SJ-2008|GCF_000280035.1||active
+1182541|Capronia coronata CBS 617.96|GCF_000585585.1||active
+1182542|Capronia epimyces CBS 606.96|GCF_000585565.1||active
+1182543|Cladophialophora psammophila CBS 110553|GCF_000585535.1||active
+1182544|Cladophialophora yegresii CBS 114405|GCF_000585515.1||active
+1182545|Exophiala aquamarina CBS 119918|GCF_000709125.1||active
+1186058|Trichosporon asahii var. asahii CBS 2479|GCF_000293215.1||active
+1187904|Alternaria burnsii|GCF_013036055.1||active
+1196081|Talaromyces amestolkiae|GCF_001896365.1||active
+1209926|Colletotrichum orchidophilum|GCF_001831195.1||active
+1209932|Colletotrichum scovillei|GCF_011075155.1||active
+1215731|Colletotrichum aenigma|GCF_013390185.1||active
+1220188|Aspergillus tanneri|GCF_003426965.1||active
+1220924|Cyphellophora europaea CBS 101466|GCF_000365145.1||active
+1227346|Fusarium proliferatum ET1|GCF_900067095.1||active
+1229662|Pestalotiopsis fici W106-1|GCF_000516985.1||active
+1230383|Malassezia sympodialis ATCC 42132|GCF_000349305.1||active
+1231522|[Candida] duobushaemulonis|GCF_002926085.2||active
+1245769|Lachancea lanzarotensis|GCF_000938715.1||active
+1263415|Endocarpon pusillum Z07020|GCF_000464535.1||active
+1276141|Metarhizium brunneum ARSEF 3297|GCF_000814965.1||active
+1277687|Anthracocystis flocculosa PF-1|GCF_000417875.1||active
+1279043|Cladophialophora carrionii CBS 160.54|GCF_000365165.1||active
+1279085|Fusarium fujikuroi IMI 58289|GCF_900079805.1||active
+1280837|Meira miltonrushii|GCF_003144205.1||active
+1286976|Phaeoacremonium minimum UCRPA7|GCF_000392275.1||active
+1295528|Cryptococcus wingfieldii CBS 7118|GCF_001720155.1||active
+1295533|Cryptococcus amylolentus CBS 6039|GCF_001720205.1||active
+1296096|Kwoniella pini CBS 10737|GCF_000512605.1||active
+1296100|Kwoniella bestiolae CBS 10118|GCF_000512585.1||active
+1296121|Kwoniella dejecticola CBS 10117|GCF_000512565.1||active
+1296122|Kwoniella mangroviensis CBS 8507|GCF_000507465.1||active
+1299270|Wallemia ichthyophaga EXF-994|GCF_000400465.1||active
+1305764|Pseudozyma hubeiensis SY62|GCF_000403515.1||active
+1314773|Sodiomyces alkalinus F11|GCF_003711515.1||active
+1314785|Laetiporus sulphureus 93-53|GCF_001632365.1||active
+1314786|Dissoconium aciculare CBS 342.82|GCF_010015565.1||active
+1316788|Lachnellula hyalina|GCF_007821495.1||active
+1328760|Xylona heveae TC161|GCF_001619985.1||active
+1340429|Rhizopus microsporus ATCC 52813|GCF_002708625.1||active
+1341132|Aspergillus welwitschiae|GCF_003344945.1||active
+1344418|Ascoidea rubescens DSM 1968|GCF_001661345.1||active
+1354746|Ordospora colligata OC4|GCF_000803265.1||active
+1365824|Kalmanozyma brasiliensis GHG001|GCF_000497045.1||active
+1367422|Fonsecaea erecta|GCF_001651985.1||active
+1380566|Pochonia chlamydosporia 170|GCF_001653235.2|170|active
+1382522|Kuraishia capsulata CBS 1993|GCF_000576695.1||active
+1388766|Aspergillus ruber CBS 135680|GCF_000600275.1||active
+1392243|Eremomyces bilateralis CBS 781.70|GCF_010015585.1||active
+1392245|Dothidotthia symphoricarpi CBS 119687|GCF_010015815.1||active
+1392248|Aspergillus campestris IBT 28561|GCF_002847485.1||active
+1392250|Aspergillus steynii IBT 23096|GCF_002849105.1||active
+1392255|Aspergillus novofumigatus IBT 16806|GCF_002847465.1||active
+1392256|Aspergillus ochraceoroseus IBT 24754|GCF_002846915.1||active
+1397361|Sporothrix schenckii 1099-18|GCF_000961545.1||active
+1398154|Sporothrix brasiliensis 5110|GCF_000820605.1||active
+1408163|Rasamsonia emersonii CBS 393.64|GCF_000968595.1||active
+1408657|Pneumocystis jirovecii RU7|GCF_001477535.1||active
+1408658|Pneumocystis carinii B80|GCF_001477545.1||active
+1441469|Talaromyces atroroseus|GCF_001907595.1||active
+1442368|Fonsecaea pedrosoi CBS 271.37|GCF_000835455.1||active
+1442369|Rhinocladiella mackenziei CBS 650.93|GCF_000835555.1||active
+1442370|Cladophialophora bantiana CBS 173.52|GCF_000835475.1||active
+1442371|Fonsecaea multimorphosa CBS 102226|GCF_000836435.1||active
+1448310|Aspergillus neoniger CBS 115656|GCF_003184625.1||active
+1448311|Aspergillus vadensis CBS 113365|GCF_003184925.1||active
+1448312|Aspergillus japonicus CBS 114.51|GCF_003184785.1||active
+1448313|Aspergillus piperis CBS 112811|GCF_003184755.1||active
+1448314|Aspergillus eucalypticola CBS 122712|GCF_003184535.1||active
+1448315|Aspergillus uvarum CBS 121591|GCF_003184745.1||active
+1448316|Aspergillus ibericus CBS 121593|GCF_003184845.1||active
+1448317|Aspergillus costaricaensis CBS 115574|GCF_003184835.1||active
+1448319|Aspergillus fijiensis CBS 313.89|GCF_003184825.1||active
+1448321|Aspergillus heteromorphus CBS 117.55|GCF_003184545.1||active
+1448322|Aspergillus aculeatinus CBS 121060|GCF_003184765.1||active
+1450172|Aaosphaeria arxii CBS 175.79|GCF_010015735.1||active
+1450533|Aspergillus niger CBS 101883|GCF_003184595.1||active
+1450534|Aspergillus brunneoviolaceus CBS 621.78|GCF_003184695.1||active
+1450535|Aspergillus sclerotioniger CBS 115572|GCF_003184525.1||active
+1450537|Aspergillus homomorphus CBS 101889|GCF_003184865.1||active
+1450539|Aspergillus saccharolyticus JOP 1030-1|GCF_003184585.1||active
+1460663|Paraphaeosphaeria sporulosa|GCF_001642045.1||active
+1463999|Botrytis sinoallii|GCF_014898435.1||active
+1485682|Mitosporidium daphniae|GCF_000760515.2||active
+1506151|Aspergillus pseudonomiae|GCF_009193645.1||active
+1509407|Aspergillus nomiae NRRL 13137|GCF_001204775.2||active
+1522189|Ceraceosorus guamensis|GCF_003144195.1||active
+1567544|Fusarium tjaetaba|GCF_013396195.1||active
+1569628|Jaminaea rosea|GCF_003144245.1||active
+1578925|Pyricularia pennisetigena|GCF_004337985.1||active
+1664694|Phialophora attinorum|GCF_001299255.1||active
+1684307|Pseudomicrostroma glucosiphilum|GCF_003144135.1||active
+1734106|Kwoniella shandongensis|GCF_008629635.1||active
+1750568|Cantharellus anzutake|GCF_015039405.1||active
+1806994|Synchytrium microbalum|GCF_006535985.1||active
+1810919|Aspergillus mulundensis|GCF_003369625.1||active
+1835702|Penicillium arizonense|GCF_001773325.1||active
+1858805|Dacryopinax primogenitus|GCF_000292625.1||active
+1964551|Botrytis fragariae|GCF_013461495.1||active
+2126181|Mycena indigotica|GCF_014461135.1||active
+2478750|Botrytis deweyae|GCF_014898535.1||active
+2606893|Saprochaete ingens|GCF_902498895.1||active
+2656787|Venustampulla echinocandica|GCF_003357145.1||active
+2754530|Protomyces lactucae-debilis|GCF_002105105.1||active
